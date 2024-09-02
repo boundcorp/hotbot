@@ -1,0 +1,47 @@
+services:
+  ############################################################
+  # Django Services
+  ############################################################
+  .common-django-settings: &common-django-settings
+    extends:
+      service: hotbot-django-dev
+      file: ../common/compose.yml
+    volumes:
+      - ../../:/app
+    links:
+      - psql
+    user: "${UID_GID}"
+    env_file:
+      - ../common/.env
+      - ../dev/.env
+
+  django_shell: # This is a one-shot command runner service, for manage.py or bash, it dies immediately
+    <<: *common-django-settings
+    environment:
+      - SERVICE=django_shell
+    command: "bash"
+    entrypoint: []
+
+  backend:
+    <<: *common-django-settings
+    ports:
+      - "8000:8000"
+    entrypoint: ["/app/infra/dev/entrypoint.sh"]
+    command: ["/app/infra/dev/start-runserver.sh"]
+    environment:
+      - SERVICE=backend
+
+  ############################################################
+  # 3rd Party Services
+  ############################################################
+  psql:
+    image: sameersbn/postgresql:14
+    #ports: ['5432:5432'] # uncomment this to connect from a local desktop sql client
+    expose: ["5432"] 
+
+    environment:
+      DB_NAME: hotbot
+      DB_PASS: hotbot
+      DB_USER: hotbot
+    volumes:
+      - /data/hotbot/postgresql:/var/lib/postgresql

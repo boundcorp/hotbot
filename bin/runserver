@@ -1,0 +1,4 @@
+#!/bin/bash
+bin/dc up -d psql ingress
+bin/browser
+bin/dcleanup backend frontend

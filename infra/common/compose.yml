@@ -1,0 +1,13 @@
+services:
+  hotbot-django-dev:
+    build:
+      context: ../../
+      dockerfile: Dockerfile
+      target: dev
+    image: gitlab.com/boundcorp/hotbot/dev:latest
+  hotbot-django:
+    build:
+      context: ../../
+      dockerfile: Dockerfile
+      target: release-backend
+    image: gitlab.com/boundcorp/hotbot/release-backend:latest

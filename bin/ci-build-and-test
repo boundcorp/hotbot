@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+set -ex
+
+export CI_COMMIT_SHA=$(date | md5sum | awk '{print $1}' )
+export ROLE=test
+
+bin/build $CI_COMMIT_SHA release-backend
+bin/build $CI_COMMIT_SHA release-frontend
+#bin/build $CI_COMMIT_SHA dev
+
+bin/dc down --remove-orphans
+bin/dj bash
