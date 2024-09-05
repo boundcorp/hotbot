@@ -1,5 +1,6 @@
 import traceback
 from django.db import models
+from hotbot.apps.farcaster.tags import ContentTags
 from hotbot.utils.models import TimestampMixin, UUIDMixin
 from .account import Account
 from .channel import Channel
@@ -11,13 +12,13 @@ class Cast(TimestampMixin, UUIDMixin, models.Model):
     parent_url = models.URLField(null=True, blank=True)
     root_parent_url = models.URLField(null=True, blank=True)
     parent_author = models.JSONField(null=True, blank=True)
-    author = models.ForeignKey(Account, on_delete=models.CASCADE, null=True, blank=True)
+    author = models.ForeignKey(Account, on_delete=models.CASCADE, null=True, blank=True, related_name='casts')
     text = models.TextField()
     timestamp = models.DateTimeField()
     embeds = models.JSONField()
     reactions = models.JSONField()
     replies = models.JSONField()
-    channel = models.ForeignKey(Channel, on_delete=models.CASCADE, null=True, blank=True)
+    channel = models.ForeignKey(Channel, on_delete=models.CASCADE, null=True, blank=True, related_name='casts')
     original_json = models.JSONField(null=True, blank=True)
     conversation = models.JSONField(null=True, blank=True)
 
@@ -63,3 +64,19 @@ class Cast(TimestampMixin, UUIDMixin, models.Model):
         self.conversation = conversation
         self.save()
         return conversation
+
+    def add_tags(self, tags):
+        for tag in tags:
+            CastTag.objects.update_or_create(cast=self, tag=tag)
+
+    def short_summary(self):
+        return f"=> Cast {self.hash} by {self.author.username} (ID {self.author.fid}, AKA {self.author.display_name}) on {self.timestamp}: {self.text[:300]}"
+
+class CastTag(TimestampMixin, UUIDMixin, models.Model):
+    cast = models.ForeignKey(Cast, on_delete=models.CASCADE, related_name='cast_tags')
+    tag = models.CharField(max_length=255, choices=ContentTags.choices)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        app_label = 'farcaster'

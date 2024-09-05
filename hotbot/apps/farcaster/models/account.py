@@ -1,6 +1,15 @@
 import traceback
 from django.db import models
+from hotbot.apps.farcaster.tags import ContentTags
 from hotbot.utils.models import TimestampMixin, UUIDMixin
+
+class AccountQuerySet(models.QuerySet):
+    def active(self):
+        return self.filter(active_status='active')
+
+class AccountManager(models.Manager):
+    def get_queryset(self):
+        return AccountQuerySet(self.model, using=self._db)
 
 class Account(TimestampMixin, UUIDMixin, models.Model):
     fid = models.IntegerField(unique=True)
@@ -17,6 +26,8 @@ class Account(TimestampMixin, UUIDMixin, models.Model):
     active_status = models.CharField(max_length=50, null=True, blank=True)
     power_badge = models.BooleanField(null=True, blank=True)
     farcaster_created_at = models.DateTimeField(null=True, blank=True)
+
+    objects = AccountManager()
 
     class Meta:
         app_label = 'farcaster'
@@ -57,3 +68,16 @@ class Account(TimestampMixin, UUIDMixin, models.Model):
 
     def __str__(self):
         return f"{self.display_name} ({self.username} #{self.fid})"
+    
+    def add_tags(self, tags):
+        for tag in tags:
+            AccountTag.objects.update_or_create(account=self, tag=tag)
+
+class AccountTag(TimestampMixin, UUIDMixin, models.Model):
+    account = models.ForeignKey(Account, on_delete=models.CASCADE, related_name='account_tags')
+    tag = models.CharField(max_length=255, choices=ContentTags.choices)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        app_label = 'farcaster'

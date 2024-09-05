@@ -32,6 +32,7 @@ factory-boy = "*"
 ruff = "*"
 pytest = "*"
 pytest-django = "*"  # Added pytest-django dependency
+openai = "*"
 
 [build-system]
 requires = ["poetry-core"]
