@@ -27,6 +27,8 @@ class Account(TimestampMixin, UUIDMixin, models.Model):
     power_badge = models.BooleanField(null=True, blank=True)
     farcaster_created_at = models.DateTimeField(null=True, blank=True)
 
+    analysis_result = models.CharField(max_length=2048, null=True, blank=True)
+
     objects = AccountManager()
 
     class Meta:
