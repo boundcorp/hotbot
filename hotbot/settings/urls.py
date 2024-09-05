@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import traceback
 from django.conf import settings
 from django.conf.urls import include
 from django.conf.urls.static import static
@@ -32,8 +33,12 @@ def webhook_receiver(request):
         
         with open(file_path, 'a') as f:
             json.dump(body_data, f)
-            print(json.dumps(body_data, indent=4))
             f.write('\n')
+            try:
+                from hotbot.apps.farcaster.models import Cast
+                Cast.create_from_json(body_data['data'])
+            except Exception as e:
+                traceback.print_exc()
         
         return JsonResponse({'status': 'success'}, status=200)
     else:
