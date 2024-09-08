@@ -25,6 +25,11 @@ class CastManager(models.Manager):
     def get_queryset(self):
         return CastQuerySet(self.model, using=self._db)
 
+class ModerationStatus(models.TextChoices):
+    EXCLUDED = 'excluded', 'Excluded'
+    NO_ACTION = 'no_action', 'No Action'
+    CURATED = 'curated', 'Curated'
+
 class Cast(TimestampMixin, UUIDMixin, models.Model):
     hash = models.CharField(max_length=255, unique=True)
     thread_hash = models.CharField(max_length=255)
@@ -46,6 +51,7 @@ class Cast(TimestampMixin, UUIDMixin, models.Model):
     moderation_analysis = models.JSONField(null=True, blank=True)
     moderation_duration = models.FloatField(null=True, blank=True)
     moderation_log = models.JSONField(default=list, blank=True)
+    moderation_status = models.CharField(max_length=255, choices=ModerationStatus.choices, null=True, blank=True)
 
     objects = CastManager()
 
@@ -197,6 +203,7 @@ class Cast(TimestampMixin, UUIDMixin, models.Model):
         self.moderation_analysis = analysis.model_dump()
         self.cast_tags.all().delete()
         self.add_tags(analysis.tags)
+        self.moderation_status = analysis.should_exclude and ModerationStatus.EXCLUDED or ModerationStatus.NO_ACTION
         self.save()
         if verbose:
             print()

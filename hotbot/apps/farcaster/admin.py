@@ -10,7 +10,13 @@ class AccountAdmin(admin.ModelAdmin):
     list_display = ['fid', 'username', 'display_name', 'follower_count', 'following_count', 'active_status']
     search_fields = ['fid', 'username', 'display_name', 'custody_address', 'primary_address']
     list_filter = ['active_status', 'power_badge']
-    readonly_fields = ['fid', ]
+    readonly_fields = [field.name for field in models.Account._meta.fields]
+
+    def has_add_permission(self, request):
+        return False
+
+    def has_change_permission(self, request, obj=None):
+        return False
 
 class IsReplyFilter(admin.SimpleListFilter):
     title = 'Reply Status'
@@ -31,10 +37,16 @@ class IsReplyFilter(admin.SimpleListFilter):
 
 @register(models.Cast)
 class CastAdmin(admin.ModelAdmin):
-    list_display = ['timestamp', 'link', 'parent', 'author', 'channel', 'tags', 'cast', 'moderation_duration', 'log']
+    list_display = ['timestamp', 'link', 'parent', 'author', 'channel', 'tags', 'cast', 'moderation_duration', 'moderation_status']
     search_fields = ['hash', 'text', 'author__username']
-    list_filter = ['timestamp', 'channel', IsReplyFilter]
-    readonly_fields = ['hash']
+    list_filter = ['timestamp', 'channel', IsReplyFilter, 'moderation_status']
+    readonly_fields = [field.name for field in models.Cast._meta.fields]
+
+    def has_add_permission(self, request):
+        return False
+
+    def has_change_permission(self, request, obj=None):
+        return False
 
     def cast(self, obj):
         summary = obj.short_text_summary(max_length=300)
@@ -66,4 +78,7 @@ class CastAdmin(admin.ModelAdmin):
 class ChannelAdmin(admin.ModelAdmin):
     list_display = ['name']
     search_fields = ['name']
-    readonly_fields = []
+    readonly_fields = ['fid', 'name']
+
+    def has_add_permission(self, request):
+        return False

@@ -16,7 +16,7 @@ django = "^5.0.0"
 django-environ = "*"
 django-cors-headers = "*"
 django-rest-framework = "*"
-django-mountaineer = { git = "https://github.com/boundcorp/django-mountaineer.git", tag = "v1.0.3" }
+django-mountaineer = { git = "https://github.com/boundcorp/django-mountaineer.git", tag = "v1.0.4" }
 requests = "*"
 django-extensions = "*"
 django-filter = "*"

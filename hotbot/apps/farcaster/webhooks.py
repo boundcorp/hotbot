@@ -24,7 +24,7 @@ def neynar_webhook_receiver(request):
         channel = body_data['data']['channel']['id'].lower()
         file_path = f'./fixtures/casts/{channel}-{date_str}.json'
         kind = body_data['data'].get('parent_hash', None) and 'reply' or 'cast'
-        logger.info(f"received {kind} in {channel} by {body_data['data']['author']['username']}")
+        logger.debug(f"received {kind} in {channel} by {body_data['data']['author']['username']}")
         
         os.makedirs(os.path.dirname(file_path), exist_ok=True)
         
@@ -33,9 +33,7 @@ def neynar_webhook_receiver(request):
             f.write('\n')
             try:
                 from hotbot.apps.farcaster.models import Cast
-                cast = Cast.create_from_json(body_data['data'])
-                if not cast.parent_hash:
-                    cast.automod_classify(verbose=True)
+                Cast.create_from_json(body_data['data'])
             except Exception as e:
                 traceback.print_exc()
                 logger.error(f"error creating cast in {channel}: {e}")
@@ -60,12 +58,21 @@ def automod_webhook_curate(request, channel_id):
         body_unicode = request.body.decode('utf-8')
         body_data = json.loads(body_unicode)
         channel = Channel.objects.get(fid=channel_id.lower())
-        logger.info(f"checking curate for {channel_id} by {body_data['user']['username']}")
+        #logger.info(f"checking curate for {channel_id} by {body_data['user']['username']}")
 
-        analysis = automod_classify(body_data, channel)
+        #analysis = automod_classify(body_data, channel)
         
-        return JsonResponse({'message': 'ok'}, status=400)
+        return dont_trigger_rule('ignored')
 
+def trigger_rule(message: str):
+    response = JsonResponse({'message': message[:75]}, status=200)
+    print(response)
+    return response
+
+def dont_trigger_rule(message: str):
+    response = JsonResponse({'message': message[:75]}, status=400)
+    print(response)
+    return response
 
 @csrf_exempt
 def automod_webhook_exclude(request, channel_id):
@@ -73,11 +80,16 @@ def automod_webhook_exclude(request, channel_id):
         body_unicode = request.body.decode('utf-8')
         body_data = json.loads(body_unicode)
         channel = Channel.objects.get(fid=channel_id.lower())
-        logger.info(f"checking exclusion for {channel_id} by {body_data['user']['username']}")
 
-        analysis = automod_classify(body_data, channel)
-
-        if channel.moderation_enabled and analysis and analysis.should_exclude:
-            return JsonResponse({'message': analysis.explanation}, status=200)
+        if channel.moderation_enabled:
+            logger.info(f"checking exclusion for {channel_id} by {body_data['user']['username']}")
+            result = automod_classify(body_data, channel)
+            if result:
+                if result.should_exclude:
+                    logger.info(f"excluding {channel_id} by {body_data['user']['username']}")
+                    return trigger_rule(result.analysis)
+                else:
+                    logger.info(f"no action for {channel_id} by {body_data['user']['username']}")
+                    return dont_trigger_rule(result.analysis)
         
-        return JsonResponse({'message': 'ok'}, status=400)
+        return dont_trigger_rule('ignored')

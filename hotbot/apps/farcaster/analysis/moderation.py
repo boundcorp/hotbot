@@ -7,9 +7,9 @@ from django.db.models import Count
 
 
 class ModerationAnalysis(GenerativeModel):
-    analysis: str = Field(description="A summary of the analysis, up to 100 characters")
+    analysis: str = Field(description="A summary of the analysis, up to 75 characters")
     tags: list[str] = Field(description="A list of tags to apply to the cast, as many as are relevant; if the cast has no other tags, it is probably original content")
-    should_exclude: bool = Field(description="Whether the cast should be excluded from the main feed (denied)")
+    should_exclude: bool = Field(description="The final judgement: should the cast be excluded from the main feed (denied) or not (allowed)")
 
     @classmethod
     def build_system_prompt(cls, channel: Channel):
@@ -23,8 +23,8 @@ class ModerationAnalysis(GenerativeModel):
         For example, if the topic is Politics and the cast is about a political issue or user's views, this is probably on-topic, unless specified by the rules.
         If you aren't sure about this cast, consider their track record. Users who frequently post original content are more likely to post original content.
         Also consider the user's following/follower count - real users often have >50 followers. Users who follow many more accounts than they have followers are likely bots and not posting original content.
-        Do not exclude content just for being off-topic, unless the rules say to exclude off-topic content.
-        Unless otherwise specified in the rules, exclude anything that is spam, hate speech, or sexual.
+        Unless otherwise specified in the rules: DO exclude spam, hate speech, sexual; DO NOT exclude off-topic.
+        Channel rules supersede all other instructions, always listen to the rules.
         ---
         Channel Description:
         {channel.description}

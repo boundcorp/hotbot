@@ -15,7 +15,7 @@ export const EnumAccountTypes: EnumTextChoices =  {
 
 export const EnumContentTags: EnumTextChoices =  {
   'automated': {
-    label: "Automated",
+    label: "Automated, a message that is clearly automated, such as a bot or AI",
     value: "automated"
   },
   'user_giving_tips_with_content': {
@@ -35,8 +35,12 @@ export const EnumContentTags: EnumTextChoices =  {
     value: "original_content"
   },
   'spam': {
-    label: "Spam",
+    label: "Spam, garbage, not a real message",
     value: "spam"
+  },
+  'promotional': {
+    label: "Promotional, a message that is clearly a promotion for a product or service",
+    value: "promotional"
   },
   'off_topic': {
     label: "Off Topic - completely unrelated to channel topic, very low likelihood of being relevant discussion. If unsure, dont tag as off-topic.",
@@ -49,5 +53,20 @@ export const EnumContentTags: EnumTextChoices =  {
   'sexually_explicit': {
     label: "Sexually Explicit",
     value: "sexually_explicit"
+  }
+}
+
+export const EnumModerationStatus: EnumTextChoices =  {
+  'excluded': {
+    label: "Excluded",
+    value: "excluded"
+  },
+  'no_action': {
+    label: "No Action",
+    value: "no_action"
+  },
+  'curated': {
+    label: "Curated",
+    value: "curated"
   }
 }
