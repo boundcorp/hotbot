@@ -52,7 +52,7 @@ class NeynarClient:
 
     def get_cast_conversation(self, cast_hash_or_url):
         url = f"{self.base_url}/cast/conversation?identifier={cast_hash_or_url}&type=hash&reply_depth=3&include_chronological_parent_casts=true&limit=20"
-        return self._get_paginated_all_results(url, self.base_headers, result_key='casts')
+        return self._get_paginated_page(url, self.base_headers)
 
 client = NeynarClient()
 

@@ -1,0 +1,2155 @@
+------
+=> Cast 0x041b92670c18696996839ff3a19995545f517fad by stellabelle (ID 273147, AKA stellabelle🎩) on 2024-09-07 20:00:39+00:00: 
+
+Embeds: {
+  "0x57e44bca3eb62b73ae0b181685ee2aa87307b3c0": "=> Cast 0x57e44bca3eb62b73ae0b181685ee2aa87307b3c0 by stellabelle (ID 273147, AKA stellabelle\ud83c\udfa9) on 2024-09-07 19:59:35+00:00: Goodbye everyone. I can\u2019t support a platform whose cofounder loves Yarvin, a fascist who is part of the Dark Enlightenment.  Been nice knowing everyone. The choice has never been clearer.  A. Fascism ...\n\nEmbeds: {\n  \"https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/13403397-5705-4664-3fbe-6c331c3f4a00/original\": \"The image features a woman with long, brown hair and a bright smile, set against a backdrop of stylized, futuristic architecture and whimsical elements. Surrounding her are colorful, animated creatures resembling Pok\\u00e9mon, and there are hints of fantasy figures and nature in the design. The overall feel is vibrant and surreal.\",\n  \"https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/4e0ce9c8-8c8f-4984-5dd5-df12b61bfd00/original\": \"The image depicts a stylized, surreal character resembling a historical figure, characterized by a small mustache and slicked-back hair. The figure has an unusual, elongated tongue extending from their mouth, and they are wearing a dark outfit. The background features futuristic elements, including a structure labeled 'GIGACORP'. The overall style seems digital and artistic.\"\n}"
+}
+{
+  "analysis": "The cast discusses political ideology and platform support.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x32cc5e14a5c9a323e5f3c52f578b0d46c7c2d2b4 by ayojoseph (ID 239396, AKA oxdev.base.eth 🎩🔵Ⓜ️) on 2024-09-07 19:34:57+00:00: The thing about information censorship is there is no upside to it.
+{
+  "analysis": "Cast discusses information censorship, relevant to politics.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x1fc83e9616bfb2d7a064cb95f5c263431ef6aa81 by nomygod.eth (ID 238370, AKA nomygod 🎩 🍖) on 2024-09-07 19:23:15+00:00: checks mail after a couple weeks:  (who are these weak jedi mind tricks even intended for lol they're so bad)
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/8d87ad8e-647a-49c5-04ef-07abf3ab8500/original": "The image displays various political flyers and pamphlets directed at Kamala Harris and Ruben Gallego. The materials critique Harris as 'failed, weak & dangerously liberal' and outline policies she has supported. There are also references to Donald Trump's stance on Social Security and Medicare. The flyers include bullets and lists highlighting their arguments, accompanied by images of the political figures."
+}
+{
+  "analysis": "The cast involves political critique with relevant embeds.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x1d7a30f9798bc28ff7057550995f226aedede827 by ayojoseph (ID 239396, AKA oxdev.base.eth 🎩🔵Ⓜ️) on 2024-09-07 19:01:27+00:00: Trump now leads Harris in Arizona by 22%, Georgia by 18%, Pennsylvania by 8%, and Nevada by 6%, according to Polymarket odds.
+{
+  "analysis": "Relevant political content about polling data.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x93b8fb18ab156bb6fe24c4e97351631f8d633035 by brixbounty (ID 18723, AKA BrixBountyFarm 🎩) on 2024-09-07 18:56:07+00:00: Are we continuing the presentation of a mirage?  My biggest complaint since Kamala was anointed as candidate has been the relative lack of policy specifics.    Today it occurred to me, that possible reason is that if they rolled out specific policy too quickly it would counter the notion that her place on the ticket was an unexpected surprise.  So the Kamala campaign continues to be short on specifics.  I’ve been listening to these two all summer and have come to enjoy their insights into the election.    https://open.spotify.com/episode/6UV2AG4TU3xi2EvoZBhQwZ?si=7K0iDO21TXqNVk7gPGAO0A  Just checked and the Kamala website is  still void of any specific policy viewpoints, beyond what is inferred from her bio https://kamalaharris.com/
+
+Embeds: {
+  "https://kamalaharris.com/": "Kamala Harris for President Together, we can finish the job for the American people. Are you with us? Join our campaign to re-elect Kamala Harris today!",
+  "https://open.spotify.com/episode/6UV2AG4TU3xi2EvoZBhQwZ?si=7K0iDO21TXqNVk7gPGAO0A": "312. Is America Ready for Gun Reform? Episode \u00b7 The Rest Is Politics \u00b7 How has Donald Trump tied him self in knots over abortion? Why is there a growing gender divide in politics? Has Kamala Harris reached the end of her honeymoon period?  Join Katty Kay and Anthony Scaramucci as they answer all these questions and more on The Rest Is Politics US.  The Rest Is Politics is powered by Fuse Energy, a green electricity supplier powering homes across the UK. Use referral code POLITICS after sign up for a chance to win tickets to the TRIP O2 Arena show in October. Learn more at getfuse.com/politics \u26a1  Get our exclusive NordVPN deal here \u27bc nordvpn.com/restispolitics It\u2019s risk-free with Nord\u2019s 30-day money-back guarantee! \u2705  TRIP Plus: Become a member of The Rest Is Politics Plus to support the podcast, receive our exclusive newsletter, enjoy ad-free listening to both TRIP and Leading, benefit from discount book prices on titles mentioned on the pod, join our Discord chatroom, and receive early access to live show tickets and Question Time episodes.  Just head to therestispolitics.com to sign up, or start a free trial today on Apple Podcasts: apple.co/therestispolitics.   TRIP TOUR: To buy tickets for our October Tour, just head to www.therestispolitics.com  Instagram: @RestPoliticsUS Twitter: @RestPoliticsUS Email: TRIPUS@goalhanger.com  Social Producer: Jess Kidson Assistant Producer: India Dunkley Producer: Fiona Douglas Senior Producer: Dom Johnson Head of Content: Tom Whiter Exec Producers: Tony Pastor + Jack Davenport Learn more about your ad choices. Visit podcastchoices.com/adchoices"
+}
+{
+  "analysis": "Cast discusses Kamala Harris's campaign policies.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xf5f7fdbc4370bda11168d5760d2addc7282bc3fc by easternbufficorn (ID 235555, AKA Eastern Bufficorn) on 2024-09-07 18:23:04+00:00: The Dem’s journey to the dark side is complete. Neocons flock together.
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/ede9ccfc-55e1-40ba-3a97-e131f5d66400/original": "The image features a close-up of a man, noted for his grey hair and glasses, seated and looking thoughtfully to the side. Text at the bottom indicates that he is former Vice President Dick Cheney, stating he will vote for Harris this fall, alongside NBC News branding."
+}
+{
+  "analysis": "User's cast is political and related to Democratic Party.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x9c28fe6c0e32698c6d844ab2bd47afd2e394fe81 by swabbie.eth (ID 4612, AKA sean 🎩) on 2024-09-07 18:06:35+00:00: just a reminder that prediction markets do not predict the future, they predict the desired financial positions of an assortment of people https://x.com/Dumpster_DAO/status/1832148090452898235
+
+Embeds: {
+  "0xff75b1355f9b47c0b91066ca0194cac5ccab8f70": "=> Cast 0xff75b1355f9b47c0b91066ca0194cac5ccab8f70 by swabbie.eth (ID 4612, AKA sean \ud83c\udfa9) on 2024-08-22 17:28:59+00:00: you gotta remember that money is a tool, not a goal. there are plenty of reasons for people with other investments to use prediction markets as hedging mechanisms rather than gambling. the odds reflec..."
+}
+{
+  "analysis": "On-topic discussion about prediction markets.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x64088a8aa9461bbbaa4769a37efc36a06ed623c4 by gregory-1967 (ID 456030, AKA Rango 🎩) on 2024-09-07 17:44:52+00:00: Pentagon chief Lloyd said that the conflict in Ukraine will end at the negotiating table, but when exactly — the United States does not judge
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/f7e43f53-7cbe-4906-b1b2-81715d630300/original": "A serious-looking man in a dark suit with a light-colored tie. He stands in front of an American flag, with a solemn expression. In the background, a blurred figure can be seen, hinting at a formal or political setting."
+}
+{
+  "analysis": "On-topic discussion about Ukraine conflict resolution.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x7ec0a7c27a37efb2fe8c26bca202ce12de2fdcbd by niki-finance (ID 430534, AKA Niki 🎩🔮) on 2024-09-07 17:23:05+00:00: Why no sanctions on USA for delivering ammunition to Israel? https://x.com/naziakhan455/status/1832197341203324946?t=TdslhnqgMDFyfTDImkf-tA&s=19
+{
+  "analysis": "On-topic political discussion about US-Israel relations.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x7b6a739e67a6cbcfeb822a6cefeae9ab54d7ca9b by marin (ID 18869, AKA Marin 🎀) on 2024-09-07 17:10:06+00:00: ✅
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/46585de2-87cb-4434-969f-abdd45765100/original": "The image contrasts two views of societal conflict using two stacked boxes. On the left, labeled 'Wrong Enemy,' the top box is purple and labeled 'The Rich,' above a white box labeled 'non-Rich.' On the right, labeled 'Correct Enemy,' the same purple box labeled 'The Rich' is on top of a white box, with a label showing 'People who use government to control you' at the bottom, while the other box shows 'People who allow other people to live in peace.'"
+}
+{
+  "analysis": "The cast is relevant to politics, discussing societal conflict.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xfd23e776b9359a74e051ffeb2410e709f980112d by hamud (ID 212233, AKA HH) on 2024-09-07 16:54:27+00:00: Appalling!
+
+Embeds: {
+  "0x008de12a7012a85cc19c1156ff46c86e693233e4": "=> Cast 0x008de12a7012a85cc19c1156ff46c86e693233e4 by mazmhussain (ID 758919, AKA Murtaza Hussain) on 2024-09-07 16:16:14+00:00: \u201cThe Lancet medical journal recently published an estimate of deaths in Gaza from several respected scientists, who outline their process of estimation (comparison with similar conflicts) and final nu..."
+}
+{
+  "analysis": "Cast discusses Gaza deaths, relevant to politics.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x39ee4230908c2357032fb59ee0780a69315d0267 by casedup (ID 197340, AKA Taye 🎩🔵 👽⛏️) on 2024-09-07 16:32:26+00:00: Turkey's Erdogan calls for Islamic alliance against Israel.
+{
+  "analysis": "On-topic political content about Turkey and Israel.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x19b2d9a9113f4a859c3019dfad43815800238cb6 by joshisdeas (ID 350139, AKA joshisdead.eth) on 2024-09-07 16:18:19+00:00: The only dangerous minority is the rich
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/bcd17d8e-11cb-4c7f-d250-ed1378d28400/original": "The image features a scene from an animated film where a princess in a blue gown stands next to a dressed figure in a black hood and red cape. Overlaying the image is bold text that reads: 'THE ONLY DANGEROUS MINORITY IS THE RICH.' The background suggests a castle interior with other characters in soft focus."
+}
+{
+  "analysis": "Cast discusses a political viewpoint about wealth inequality.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x1670c68c7bf28007e680894d643acc75161935f2 by sxm (ID 754955, AKA Mikke) on 2024-09-07 15:44:13+00:00: This US election can change the paths of the world. Russia and China are advancing on the West.  Our international politic is more than never essencial
+{
+  "analysis": "Cast discusses international politics and US elections.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xf25a74ce322b87ac66afe6ba7b053b90f212b456 by 50cal-eth (ID 20965, AKA Calvin 🎩🧾🐹) on 2024-09-07 15:35:07+00:00: Cenk Uygur gives a great explanation of this on Lex   https://open.spotify.com/episode/3D5rpWTaHctFqsJsWXJSCn?si=Ir3gm8bTSiGFR733tCsLWQ
+
+Embeds: {
+  "0x8813dd09a9a8c8de1cb0f286df8083cec2a7a51a": "=> Cast 0x8813dd09a9a8c8de1cb0f286df8083cec2a7a51a by kdaniels.eth (ID 301340, AKA Kieran Daniels \ud83c\udfa9) on 2024-09-07 14:49:07+00:00: \n\nEmbeds: {\n  \"https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/be12a0ec-8f49-4f0b-3f5f-68d59c52ec00/original\": \"The image contrasts two concepts represented in boxes. On the left, titled 'Wrong Enemy,' a box labeled 'The Rich' is atop a larger box labeled 'non-Rich,' suggesting a misidentified enemy. On the right, titled 'Correct Enemy,' 'The Rich' is shown alongside a box labeled 'Non-Rich,' with arrows pointing to 'People who use government to control you' and 'People who allow other people to live in peace,' indicating an alternative perspective on perceived adversaries.\"\n}",
+  "https://open.spotify.com/episode/3D5rpWTaHctFqsJsWXJSCn?si=Ir3gm8bTSiGFR733tCsLWQ": "#441 \u2013 Cenk Uygur: Trump vs Harris, Progressive Politics, Communism & Capitalism Episode \u00b7 Lex Fridman Podcast \u00b7 Cenk Uygur is a progressive political commentator and host of The Young Turks.Thank you for listening \u2764 Check out our sponsors:\u00a0https://lexfridman.com/sponsors/ep441-sdSee below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc. Transcript:https://lexfridman.com/cenk-uygur-transcript CONTACT LEX:Feedback\u00a0- give feedback to Lex:\u00a0https://lexfridman.com/surveyAMA\u00a0- submit questions, videos or call-in:\u00a0https://lexfridman.com/amaHiring\u00a0- join our team:\u00a0https://lexfridman.com/hiringOther\u00a0- other ways to get in touch:\u00a0https://lexfridman.com/contact EPISODE LINKS:Cenk's X:\u00a0https://x.com/cenkuygurThe Young Turks YouTube:\u00a0https://www.youtube.com/TheYoungTurksThe Young Turks Website:\u00a0https://tyt.com/The Young Turks on X:\u00a0https://x.com/TheYoungTurksJustice Is Coming (Cenk's book):\u00a0https://tyt.com/justice SPONSORS:To support this podcast, check out our sponsors & get discounts:Saily:\u00a0An eSIM for international travel.Go to\u00a0https://saily.com/lexPolicygenius:\u00a0Life insurance.Go to\u00a0https://policygenius.com/lexAG1:\u00a0All-in-one daily nutrition drinks.Go to\u00a0https://drinkag1.com/lexMasterClass:\u00a0Online classes from world-class experts.Go to\u00a0https://masterclass.com/lexpodLMNT:\u00a0Zero-sugar electrolyte drink mix.Go to\u00a0https://drinkLMNT.com/lexNetSuite:\u00a0Business management software.Go to\u00a0http://netsuite.com/lex OUTLINE:(00:00) - Introduction(00:51) - Progressivism(07:00) - Communism(21:48) - Capitalism(27:51) - Corruption(32:37) - Money in politics(49:24) - Fixing politics(1:08:35) - Meritocracy & DEI(1:19:33) - Far-left vs far-right(1:54:07) - Donald Trump(2:14:24) - Joe Biden(2:32:51) - Bernie Sanders(2:46:20) - Kamala Harris(2:53:48) - Harris vs Trump presidential debate(3:07:19) - RFK Jr(3:17:00) - The Young Turks(3:25:13) - Joe Rogan(3:34:53) - Propaganda(3:42:10) - Conspiracy theories(3:49:57) - Israel-Palestine(3:59:44) - Hope PODCAST LINKS:- Podcast Website:\u00a0https://lexfridman.com/podcast- Apple Podcasts:\u00a0https://apple.co/2lwqZIr- Spotify:\u00a0https://spoti.fi/2nEwCF8- RSS:\u00a0https://lexfridman.com/feed/podcast/- Podcast Playlist:\u00a0https://www.youtube.com/playlist?list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4- Clips Channel:\u00a0https://www.youtube.com/lexclips"
+}
+{
+  "analysis": "Cenk Uygur discusses political topics, on-topic for the channel",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x2161bf71381cc56dcba05d410720fd45cc70a9b6 by ayojoseph (ID 239396, AKA oxdev.base.eth 🎩🔵Ⓜ️) on 2024-09-07 15:08:08+00:00: #Latest NateSilver  forecast (chance of winning)  August 23 🟦 Harris: 53.5% 🟥 Trump: 46.1%  September 6 🟥 Trump: 61.5%  🟦 Harris: 38.3% —— Swing States: chance of winning   Pennsylvania - 🔴 Trump 62-38% Michigan - 🔴 Trump 52-48% Wisconsin - 🔴 Trump 52-48% Arizona - 🔴 Trump 75-25% North Carolina - 🔴 Trump 74-26% Georgia - 🔴 Trump 67-33% Nevada - 🔴 Trump 59-41% —— @polymarket odds 🟥 Trump: 53% 🟦 Harris: 45%
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/89a61b84-db9e-4f84-1950-5563a355af00/original": "The image features a graph comparing the chances of two political candidates, Trump and Harris, winning the 2024 presidency. Trump's line (in red) shows an increase to 61.5%, while Harris's line (in blue) decreases to 38.3%. Below the graph, a table provides numerical details: Harris has a 38.3% chance in the Electoral College and a 58.1% popular vote probability, whereas Trump has 61.5% and 41.9%, respectively. Predicted electoral votes for Trump are 277.9 and for Harris 260.1. The question posed is about who is favored to win the presidency."
+}
+{
+  "analysis": "on-topic political forecasts and analysis",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xf7074e435110a0304e4d99c77c815f26aa8c34ba by tokenizedhuman (ID 435850, AKA Tokenized Human) on 2024-09-07 13:15:37+00:00: Neither not natural because it's statistically rare, taking a definition of natural as the opposite, nor diagnosed as such, doesn't confirm this is a mental illness. That's one hell of a leap.   Even attempting to label this as a moral or societal or anything issue is a dangerous approach.   Focus on the real problem rather than attempting to camouflage it with an attack on an already minoritized group.
+
+Embeds: {
+  "0x003dc75fbbbbc3d2375217830c62d3b48c091e65": "=> Cast 0x003dc75fbbbbc3d2375217830c62d3b48c091e65 by mr-silverback (ID 335242, AKA Nicklas) on 2024-09-07 12:42:19+00:00: An abnormally large percentage likely is.  Pre- 2013 they all were diagnosed as having a mental disorder.  But the numbers were a tiny fraction of today.  In 2013 they changed the term gender disorder..."
+}
+{
+  "analysis": "Cast discusses mental health in societal context, relevant to politics.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x2c10bb752c0167e760ecddaf3f1774647093e4eb by casedup (ID 197340, AKA Taye 🎩🔵 👽⛏️) on 2024-09-07 12:52:12+00:00: 
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/ecccb3ac-8b42-4c6a-15d5-56a7daa53800/original": "The image features a man who resembles a political figure wearing a white hat that says 'WHITE DUDES for HARRIS.' He is interacting with another person who is holding a red cap that says 'MAKE AMERICA GREAT AGAIN.' In the foreground, there is a plate of food, with a piece of meat and some vegetables, suggesting a dining context. The overall tone combines elements of parody and commentary on politics."
+}
+{
+  "analysis": "Cast contains political commentary with parody elements.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x67d515640cd0a7884b166df8e30d3622ab1eab1b by dragonus (ID 813751, AKA Dragonus🎭) on 2024-09-07 12:32:21+00:00: Parents who took four 12-week leaves, according to this analysis, would lose 10% of their retirement benefits, for life  https://x.com/hiltzikm/status/1832105244869960027
+{
+  "analysis": "Discusses retirement benefits; relevant to politics.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x231a8d882a6dda1d54324859ab5895281aa4d8e0 by olefirvendor (ID 772191, AKA Jessica Rabbit) on 2024-09-07 12:08:17+00:00: Representatives of the occupation administrations continue to carry out raids on controlled settlements and identify residences that do not have owners and have not been re-registered in accordance with Russian legislation.    The occupiers call such property "ownerless".   About two thousand apartments belonging to Ukrainian citizens, who were forced to leave the occupied territory since the beginning of the first phase of Russian aggression, have been recorded among the real estate.   In addition, "discovered" property on the occupied territory of Ukraine can also be transferred to "federal" or "regional" ownership."   As a result, the occupiers use the looted property to achieve their goals, in particular, to resettle enemy personnel and their families, relatives, etc.
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/30b4eb5b-afd6-438d-fd9d-e7176d6b3400/original": "The image shows a hand holding a set of keys, with red splatters resembling blood around them. The background is neutral-toned, and there is a logo in the top left corner that appears to be in a different language."
+}
+{
+  "analysis": "Relevant political discussion about property rights in occupied Ukraine.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xf107fd01ecbb4f99fcb8e4d0cb1b98238fbb204b by ceogennos (ID 827153, AKA jazzyjazz) on 2024-09-07 11:39:40+00:00: hey fam! 🙌 just wanted to share some exciting news with y’all! we’re finally launching our new nft collection this friday! 🎉🚀 it's been a crazy journey, but we're stoked to give you guys first dibs. these pieces are 🔥🔥🔥 and we can't wait to see them in your wallets. stay tuned for sneak peeks and be ready to grab yours! 
+{
+  "analysis": "This cast is about NFT launch, not politics.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0xcac19595b49351c04bf3c3cfe892a4f8f30cf267 by milkymilker (ID 828339, AKA cryptojunkie) on 2024-09-07 11:38:04+00:00: hey fam! 🌐 just got into this new crypto exchange called CoinX and wow, it's a game changer! 🚀 super easy to use and their fees are practically non-existent. plus, they got some sweet rewards for new users rn 💰 if you’re into crypto or just curious, definitely check it out. let’s get these coins together! 💸💎 
+{
+  "analysis": "The cast is about a crypto exchange, related to politics via policy.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x4379a5b9ca30921bab061d701bcec05c46e80a7e by mdesigner07 (ID 827587, AKA bizzyanalyst) on 2024-09-07 11:36:34+00:00: hey everyone! 🎉 just dropped a new video on my channel where i dive into the best coffee spots in town ☕️✨ if you're a caffeine addict like me, you won't wanna miss this! 😜 check it out and let me know your fave coffee shop in the comments! 
+{
+  "analysis": "Off topic, not related to politics or advocacy.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0xe2bfc3d96439f52b22de5c67e71e48ba79f79fa0 by bennjaah (ID 827562, AKA sparky) on 2024-09-07 11:26:38+00:00: hey fam! 🌟 just dropped a new vid on my channel about my epic road trip across the states 🚗💨. so many unexpected adventures and hilarious moments 😂. you won't believe what happened when we tried to camp in the mountains 🏕️. check it out and let me know what ya think! don’t forget to smash that like button and subscribe if you haven't yet. love y'all! ❤️ 
+{
+  "analysis": "Cast is off-topic, discussing a road trip instead of politics.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0x2236fcf1547c7bc61e0f91d646fa1b8d15c52c5e by wavzy (ID 827105, AKA sparkyboss) on 2024-09-07 11:23:14+00:00: hey everyone! 🚀 just wanted to drop a quick note to let ya'll know about my latest vid on mastering ppc ads! 😎 if you’re tryna up your game and get those clicks, you gotta check it out. i break it down super simple, no fluff. link in bio! 💥 let me know what you think and feel free to ask any questions. let's crush this together! 💪 
+{
+  "analysis": "Off-topic content about PPC ads, not politics.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0x3af3ec34a17b922d1da574ea8b0c2e18b74e39b0 by casedup (ID 197340, AKA Taye 🎩🔵 👽⛏️) on 2024-09-07 11:21:21+00:00: Malcolm X on the white liberal.
+{
+  "analysis": "Content relates to politics and historical figures.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x873f9f8205d7225fad2070668de842acfa4caefd by crumbyizcool (ID 827578, AKA design dudette) on 2024-09-07 10:42:27+00:00: hey everyone! 🌟 just finished an amazing living room makeover for the sweetest couple, jess and mike. they wanted a cozy, boho vibe and i think we nailed it! 😍✨ swipe to see the before & afters. can't get enough of those earthy tones and lush plants. if you're thinking of giving your space a refresh, hit me up! 💬 let's make your dream room come true. 
+{
+  "analysis": "The cast is off-topic for a politics channel.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0x4d89fcf8c45d9c9b35ffe3715164cf6ef7f82bf6 by dylandudx (ID 827112, AKA jazzcat) on 2024-09-07 10:26:51+00:00: hey everyone! 🌟 just wanted to share a little life update – finally started my own little garden in the backyard! 🪴🌼 it's been super relaxing and kinda therapeutic, tbh. anyone got tips for a beginner? also, who knew plants could be such good company? lol. drop your fave gardening hacks or just say hi! 
+{
+  "analysis": "cast is off-topic as it discusses gardening, not politics.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0xb49b7ab783541194c5c731487f3d039c38f02164 by bentbrain (ID 827150, AKA jazzcat) on 2024-09-07 10:13:29+00:00: hey everyone! 🌟 just wanted to share my latest blog post about [topic]. it’s packed with tips, tricks, and a few personal stories. hope u find it helpful! feel free to drop a comment or dm me with any questions. let's learn together! 😊 
+{
+  "analysis": "The cast is off-topic for this political channel.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0xe6e00b750bf166312888dc6977295ee5b3c4eff8 by eylon.eth (ID 4196, AKA Eylon 💨) on 2024-09-07 09:17:35+00:00: This is a wild interview from @naval    https://x.com/kanekoathegreat/status/1832201344167637056?s=46&t=wAlhB64-BEEookob5CK2hg
+{
+  "analysis": "Contains an interview link, relevant for political discussion.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x1d00d9c8add3fda326cd479f28cba8486b3fe1e3 by nftdeshu (ID 812394, AKA NFTdesh) on 2024-09-07 08:08:58+00:00: Thoughts & prayers By John Darkow
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/88bbcc3d-578d-4c3a-9220-d02a1ff6b500/original": "A political cartoon showing a woman at a voting booth, writing in a ballot. She has red hair and is wearing casual clothing, holding a child's hand. A thought bubble above her head reads: \"I've got your 'Thoughts and Prayers' right here!\" The booth has the word 'VOTE' and an American flag design. A young boy stands beside her, looking slightly upset."
+}
+{
+  "analysis": "Political cartoon about voting and 'Thoughts and Prayers'.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x900ec461a19f61967fed3b51769a8ee0f0f97f02 by shadesdogg (ID 804213, AKA lekos) on 2024-09-07 07:56:14+00:00: did you know you can fit up to 13.8 SPX500 in one single SPX6900?
+{
+  "analysis": "Cast is off-topic for the politics channel.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0xabeac2bd0a4af4e6f788a1fc3313531140718bf0 by ayojoseph (ID 239396, AKA oxdev.base.eth 🎩🔵Ⓜ️) on 2024-09-07 07:27:32+00:00: https://x.com/CollinRugg/status/1832113474845172080
+{
+  "analysis": "Cast discusses a political issue with a relevant link.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xb57faf941a3e6949ceb789ef95fa653573e2323a by gopishrya (ID 814335, AKA Gopishreya) on 2024-09-07 06:45:36+00:00: Brhtjtkky fntjtjt fntjtnn fht  trhehg
+{
+  "analysis": "Cast is incoherent and user has a spam record.",
+  "tags": [
+    "spam"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0x16f37ff0fc40a3c78feb1854339b6042c68e387d by olystuart (ID 436728, AKA Stuart) on 2024-09-07 04:15:40+00:00: 
+
+Embeds: {
+  "0x7b1240ced5e266e7c4aa1b396454f81e214dab39": "=> Cast 0x7b1240ced5e266e7c4aa1b396454f81e214dab39 by henriquecartaxo (ID 11620, AKA Henrique Cartaxo (Augurs)) on 2024-09-07 02:12:19+00:00: Best thing I've read in english about the blocking of X in Brazil.  https://www.counterpunch.org/2024/09/04/inside-brazils-x-ban-how-elon-musk-started-and-lost-a-fight-with-brazils-judiciary/\n\nEmbeds: {\n  \"https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/09918903-0b74-4cd5-6cbc-362b37796c00/original\": \"The image contains a block of text discussing Brazil's perspective on free speech. It explains that Brazil considers free speech to be a fundamental right, but not absolute, emphasizing the need for it to coexist with other rights. The text references Brazil's constitution and legal rulings regarding the limitations of free expression in relation to actions such as inciting violence.\"\n}"
+}
+{
+  "analysis": "Cast discusses political views related to Brazil's X ban.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x3a7241c3a2ca47048d94434bd6a67d798474b0f9 by kikoelnathan (ID 508903, AKA Elnathan O.) on 2024-09-07 01:46:16+00:00: Global Crypto ATM Network Shrinks by Over 700 Devices in Two Months  According to Coin ATM Radar, the global crypto ATM network saw a reduction of over 700 devices in July and August, mainly due to law enforcement actions.   The U.S. led the way with 669 devices removed to combat digital asset fraud. In Europe, 59 crypto ATMs were shut down. In August, German police, supported by Deutsche Bundesbank and BaFin, dismantled 13 unlicensed ATMs.   Meanwhile, the Los Angeles Supreme Court introduced a daily withdrawal limit of $1,000 to reduce crypto fraud risks.
+{
+  "analysis": "Relevant to politics via finance regulation on crypto.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x42d14ca0081e500fa18c97ad9c770a21c5ccd319 by casedup (ID 197340, AKA Taye 🎩🔵 👽⛏️) on 2024-09-07 01:18:03+00:00: So much hate in America democrats have to fake it lol  https://houstonlanding.org/fort-bend-da-indicts-county-commissioner-candidate-on-four-counts-of-online-impersonation/
+
+Embeds: {
+  "https://houstonlanding.org/fort-bend-da-indicts-county-commissioner-candidate-on-four-counts-of-online-impersonation/": "Fort Bend DA indicts County Commissioner candidate on four counts of online impersonation Despite calls to drop out of the race and being indicted for online impersonation, Taral Patel continues to run for Fort Bend County Commissioner."
+}
+{
+  "analysis": "Cast discusses political hate and references an indictment.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x5b1097d3b907acf963175d1fbe2d139d292552ba by thoughtcrimeboss (ID 191648, AKA thoughtcrimeboss) on 2024-09-07 01:16:57+00:00: Imagine if Hitler and Stalin came back from the dead and won the Republican and Dem. primaries, and MLK Jr. was running 3rd party. The winner would still be Hitler or Stalin because sheeple would be too worried about wasting a vote to vote for MLK. Vote for Stalin, because he's not Hitler! Don't split the vote! 👎
+{
+  "analysis": "Contains political satire but could be offensive to some.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x6d5a5ba55987dacb0d90326c91992fd3e83c89fe by spitfunkolips (ID 7464, AKA スピットファンク🍓) on 2024-09-07 00:21:37+00:00: 😂💀
+{
+  "analysis": "The cast is off-topic and does not relate to politics.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0xb462cdeef05ffa573638be7e6c8a1a2bd8d1e6f2 by mr-silverback (ID 335242, AKA Nicklas) on 2024-09-06 23:21:49+00:00: Some people around here are so mentally twisted in their political nonsense beliefs they are willing to defend killing children in the name of it.  Yes that demonic pos deserves locked up in a mental asylum
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/f409ca84-3012-4604-914f-e56360828800/original": "The image showcases a social media conversation centered around political opinions regarding LGBTQ issues. User Stuart argues against the idea of placing LGBTQ people in mental asylums, criticizing authoritarian beliefs. The thread includes a response from Nicklas referencing a shooting incident related to trans rights, followed by an exchange of comments expressing differing views. The design features a dark background with various user avatars and post timestamps."
+}
+{
+  "analysis": "The cast contains harmful rhetoric against a group.",
+  "tags": [
+    "hate_speech"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0x1946d9e38e50ce22c968bd8ef80eb57a13105407 by mxmnr (ID 1580, AKA Max Miner) on 2024-09-06 23:07:15+00:00: They used to call him the Darth Vader of the Conservative Party — Democrats thought he was trying to take over the country for the right— now he’s voting for Kamala.   This should be a strong signal to consider for anyone in the center (as I am).  🇺🇸
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/dfa9629f-a987-4a3f-d940-3bd108d90500/original": "The image features two individuals seated on a stage during a discussion. One person is speaking into a microphone while the other listens attentively. The backdrop displays the logo of 'The Texas Tribune.' The text identifies the topic as Former Vice President Dick Cheney's endorsement of Kamala Harris, along with details about his daughter, Liz Cheney."
+}
+{
+  "analysis": "On-topic political discussion, mentions Cheney and Harris.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xcfe298ae2e53a34caac2e8c9bf98b5a2cd60ddee by ayojoseph (ID 239396, AKA oxdev.base.eth 🎩🔵Ⓜ️) on 2024-09-06 22:54:58+00:00: https://x.com/CollinRugg/status/1831872697216987483
+{
+  "analysis": "Cast discusses political content from Twitter link.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x4d02db511ef41fad03782170388bc22a65930af8 by hamud (ID 212233, AKA HH) on 2024-09-06 22:33:07+00:00: Bearish on YCs turn to the military industrial complex. It basically means that they've given up on trying to create 0-to-1 paradigm shifting products and would rather sucks on the pentagon's teat.  https://x.com/ycombinator/status/1832131654447722545?t=PJszKEEX5MHwnMDLGGEOfQ&s=19
+{
+  "analysis": "Cast discusses political and economic implications of military funding.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x6ebf62f0bf84bf4e0afa467d63fc6e55aab4512b by casedup (ID 197340, AKA Taye 🎩🔵 👽⛏️) on 2024-09-06 22:06:22+00:00: 
+{
+  "analysis": "Cast hints at political change, but content is unspecified.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x49d532d9d7d628f95c644106bfb97b656d4ce3d3 by zherring (ID 5062, AKA Zach) on 2024-09-06 21:42:02+00:00: About time.  https://x.com/zherring/status/1211792568096157696
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/00c54b9a-3243-4d0f-5f3e-59d5efbea600/original": "A screenshot of a social media post from the account @unusual_whales. The post discusses President Biden and his aides crafting a proposal for a US sovereign wealth fund to invest in national security interests, citing Bloomberg. The post is dated September 6, 2024, and has over 109.3K views."
+}
+{
+  "analysis": "Relevant discussion about political proposal by Biden.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x6c4971d89dd189ffef7add731c689c9526f47ca8 by basetycon (ID 694817, AKA UI8 Ⓜ️) on 2024-09-06 21:36:38+00:00: MASSIVE CRASH IN STOCK MARKET. MORE THAN $2.2 TRILLION WIPED  OUT IN FIRST WEEK OF SEPTEMBER.  PLS PRAY FOR CRYPTO
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/35d85b04-5548-4724-2db9-edde77886300/original": "A detailed heatmap of the stock market displaying the performance of various sectors and companies. Each box represents a company, with colors indicating performance: red shows declines, and shades vary based on the level of loss. Notable companies like Apple, Microsoft, and Amazon are present, with significant losses across the board, especially in technology and communication services."
+}
+{
+  "analysis": "Relevant to politics and finance, not off-topic.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x48cd5e963a2711ce18ceda71a85946e9255349e3 by mxjxn.eth (ID 4905, AKA Max Jackson) on 2024-09-06 21:04:55+00:00: Black lives matter Trans lives matter Women's lives matter Homeless lives matter Refugees lives matter  Nobody deserves to be denied dignity and basic human rights.
+{
+  "analysis": "Promoting human rights; relevant to politics.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xd2a424b15acf0394c168207a7670fb2d7e4ef843 by smokingfrog.eth (ID 199989, AKA Dani  ⌐◨-◨) on 2024-09-06 20:46:42+00:00: Don’t let uneducated people like this distract you from the real (gun control) issue:  a 13 year old was given an AK-47 as a Christmas present 🇺🇸
+
+Embeds: {
+  "0xcd5103ef25f1ca068e2ff9752f69922f42fad66a": "=> Cast 0xcd5103ef25f1ca068e2ff9752f69922f42fad66a by mr-silverback (ID 335242, AKA Nicklas) on 2024-09-06 17:24:37+00:00: Another Trans Rights Nutjob shoots up a bunch of children in protest https://x.com/MrAndyNgo/status/1832106747928179188"
+}
+{
+  "analysis": "On-topic discussion about gun control issue.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xac0f5f4a75b974ec7a9595b7af2a51f4c2677167 by mr-silverback (ID 335242, AKA Nicklas) on 2024-09-06 20:21:19+00:00: Epic interview.  She finally went unscripted.  Bravo https://x.com/jesslovesmjk/status/1832117585212748130?s=46&t=sXRiUfbXb71IcLhyq0thFg
+{
+  "analysis": "Cast doesn't discuss politics directly.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0xae76fe4e0ab1c224da749b1c1811b2290ed044d5 by casedup (ID 197340, AKA Taye 🎩🔵 👽⛏️) on 2024-09-06 20:06:47+00:00: But they said you need an ID to register to vote…
+{
+  "analysis": "On-topic discussion about voting and ID requirements.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x633e4ba1f1bc65b491cb003c9328c0300415f1f4 by seanwince (ID 8405, AKA Sean Wince 🎩🐹🟢↑) on 2024-09-06 20:03:21+00:00: This is not something the Harris campaign should brag about 🤢 https://www.businessinsider.com/dick-cheney-vote-kamala-harris-liz-2024-9?utm_source=copy-link&utm_medium=referral&utm_content=topbar
+
+Embeds: {
+  "https://www.businessinsider.com/dick-cheney-vote-kamala-harris-liz-2024-9?utm_source=copy-link&utm_medium=referral&utm_content=topbar": "Former VP Dick Cheney will vote for Kamala Harris, Liz Cheney says Cheney also said that she would be supporting Democratic Rep. Colin Allred over Sen. Ted Cruz in Texas."
+}
+{
+  "analysis": "On-topic about Harris campaign and Cheney's vote.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xe57f57f231c4c979ece6d7b9195175eae8ec3d33 by icetoad (ID 190218, AKA Icetoad 🎩Ⓜ️🍕🎶 ) on 2024-09-06 19:12:25+00:00: 
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/9037c487-7007-4b78-3704-52003cd0a200/original": "The image shows a messy room with a young man sitting relaxed on a couch, holding a game controller. The living area is cluttered with discarded food containers, drinks, and trash on the floor and table. A TV is visible in the background, displaying a game scene."
+}
+{
+  "analysis": "This cast is off-topic; it focuses on a personal space, not politics.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0x824930733aff2af3417b42903d6d4d720dafc892 by javabu.eth (ID 13893, AKA Jared 🎩) on 2024-09-06 18:55:55+00:00: 
+
+Embeds: {
+  "0x99c1e36800e02e8a2f7e926c47981565618fee2f": "=> Cast 0x99c1e36800e02e8a2f7e926c47981565618fee2f by farcasteradmin.eth (ID 1356, AKA borodutch @ lunchbreak.com) on 2024-09-06 13:30:56+00:00: telegram just removed the part about chats being private and not given away to governments from their faq\n\nEmbeds: {\n  \"https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/e132397d-e34b-4af0-a5ef-4f0f00a7f500/original\": \"The image shows two side-by-side screenshots with the title 'Before' on the left and 'After' on the right. Both sections address a user's question about reporting illegal content on Telegram. The 'Before' section states that Telegram chats are private and does not process related requests. The 'After' section provides detailed instructions on how to report illegal content, mentioning specific actions on various Telegram apps and including a takedown email address.\"\n}"
+}
+{
+  "analysis": "Content discusses Telegram's privacy changes, relevant to politics.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x0dc19c3ea0dec87e1d4d1ff0f8e5fe70d74092db by javabu.eth (ID 13893, AKA Jared 🎩) on 2024-09-06 18:39:24+00:00: 
+
+Embeds: {
+  "0xc106a0999b3f59068bab47ddc9c30a06fd544848": "=> Cast 0xc106a0999b3f59068bab47ddc9c30a06fd544848 by laurashin (ID 7535, AKA Laura Shin) on 2024-09-06 11:57:45+00:00: There are a plethora of reasons why Donald Trump\u2019s new DeFi project might be susceptible to being hacked.   https://unchainedcrypto.com/trumps-new-defi-project-could-be-a-magnet-for-hackers/"
+}
+{
+  "analysis": "Tweet discusses Trump and DeFi, relevant to politics.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x78186cf1050741b0392d9ad305c2135bf1cff0f6 by olystuart (ID 436728, AKA Stuart) on 2024-09-06 18:18:45+00:00: Some people here apparently think LGBTQ people should be rounded up and thrown in mental asylums. This kind of authoritarian fascism must be defeated by humanity. We are everywhere and we are strong, and we won't be put in concentration camps. Not to mention how disgusting it is to use a tragedy to rile up transphobic fear and hatred.
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/6f6f3332-4019-4471-f396-328e54cc1500/original": "A series of tweets discussing a controversial topic. The main tweet expresses a negative opinion regarding a shooting incident related to trans rights. It is followed by a response questioning support for LGBTQ+ topics, and a reply stating an opposition to mental illness and a provocative statement about asylum."
+}
+{
+  "analysis": "Contains hate speech against LGBTQ groups.",
+  "tags": [
+    "hate_speech"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0x9aada0d48937f5e483ead5f6fe1bd0a3b071ca9f by javabu.eth (ID 13893, AKA Jared 🎩) on 2024-09-06 18:17:56+00:00: Gov. Gavin Newsom vetoed a bill on Friday that would have made some undocumented immigrants eligible for up to $150,000 in state-backed home loans, rejecting a proposal that ignited criticism from the right as immigration has become a major tension point in the election.  The Democratic governor’s veto comes a day after former President Donald Trump said he would ban undocumented immigrants from receiving home mortgages if he returns to the White House. Karoline Leavitt, a Trump campaign spokesperson, described the California bill last month as “fundamentally unfair but typical Democrat policy.”  https://www.politico.com/news/2024/09/06/newsom-california-undocumented-immigrants-homes-00177748
+{
+  "analysis": "On-topic political news regarding immigration and housing policy.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x358d3a6604aaea80beb69cf0e5dbd23e3deb4fa7 by purp (ID 14364, AKA Purp🇵🇸) on 2024-09-06 18:16:23+00:00: This might actually literally be the worst thing he could of said in Arizona lmfao   https://www.politico.com/news/2024/09/05/vance-mccain-arizona-harris-00177643
+{
+  "analysis": "On-topic comment about a political statement in Arizona.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x57bcb5082a9746135e704ba45eb2cb6fd5ea19eb by kikoelnathan (ID 508903, AKA Elnathan O.) on 2024-09-06 18:15:27+00:00: The crypto market is facing tough times again: investors are selling, and prices are falling.   🗣Bitcoin couldn’t break above $60,000, losing 4.14% over the week, with major players withdrawing money from ETFs.  🗣The situation with Ethereum isn’t any better — down 5.3%, with low activity and fund outflows, and competition from more efficient blockchains.  🗣Even Avalanche is losing ground — down 8.38% for the week.   Overall conclusion: nothing positive so far, the market is in the red
+{
+  "analysis": "Casts about crypto policy are relevant to politics.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x1bbf0dd4189c510e26becaad6d496790f711608b by javabu.eth (ID 13893, AKA Jared 🎩) on 2024-09-06 18:12:24+00:00: Join the /politics crew to discuss the Trump/Kamala Debate.   https://alpha.tavern.fm/taverns/RxxtGi0mV4Ud4fnGJafn
+
+Embeds: {
+  "https://alpha.tavern.fm/taverns/RxxtGi0mV4Ud4fnGJafn": "Kamala/Trump Debate Tavern | Tavern Join the /politics crew to discuss the Trump/Kamala Debate."
+}
+{
+  "analysis": "On-topic discussion invitation regarding a political debate.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x73740cd98de74b03a84200ba3a174e8a06a571be by chainfirefiy (ID 321721, AKA chainfirefiy $2eerr $13) on 2024-09-06 18:11:14+00:00: Vcbn
+{
+  "analysis": "Cast is a single word and unclear; seems off-topic.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0x79c8f44851c970e95050c27a880d9de533ce97d3 by javabu.eth (ID 13893, AKA Jared 🎩) on 2024-09-06 18:06:25+00:00: Donald Trump’s sentencing for his criminal conviction in Manhattan will be delayed until after Election Day, a judge ruled Friday, handing the former president a significant victory that will leave voters in the dark about his possible punishment, including a potential prison sentence, as they head to the polls.  https://www.politico.com/news/2024/09/06/trump-trial-sentencing-hush-money-00177749
+{
+  "analysis": "On-topic political content regarding Trump.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xec6e69b382af55e80a08767f59c9a4be1cdb31b7 by tushar12 (ID 308284, AKA Tushar12 🎩Ⓜ️  ) on 2024-09-06 18:05:16+00:00: Politics is a game, smart people play it and fools play it all day long.
+{
+  "analysis": "On-topic political commentary by an engaged user.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x838f01b406166fb7eec5333f3295ce7db7d14e51 by augustuscaesar (ID 8763, AKA Augustvscaesar.eth) on 2024-09-06 18:02:11+00:00: Crazy question. How do people feel about the death penalty especially in the context of these school shootings?
+{
+  "analysis": "On-topic discussion about the death penalty and school shootings.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x30b336aa2866ba8c877104274c443a46a3c9489b by bfg (ID 11244, AKA BFG 🎩↑🌱) on 2024-09-06 17:25:46+00:00: Is anyone following Trump's alt-media strategy - as many call it? - podcasts/streamers/X, etc. I'm just a curious observer, and would love to hear any opinions of the actual voters here 🤓  Bloomberg Businessweek prompted my question with a piece that ended with:   "It’s possible that Trump’s “alt-media strategy” will look, in retrospect, like the watershed moment when podcasts, streamers and other influencers claimed supremacy over cable news talkers, at least among conservative audiences, and got bookings that are the envy of every professional broadcasting operation. On the other hand, it seems just as likely to be remembered as a clumsy attempt to influence millions of nonvoters while creating fresh controversies. In other words: It’s the politics equivalent of a pivot to video."
+{
+  "analysis": "The cast discusses Trump's media strategy, which is political.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xcd5103ef25f1ca068e2ff9752f69922f42fad66a by mr-silverback (ID 335242, AKA Nicklas) on 2024-09-06 17:24:37+00:00: Another Trans Rights Nutjob shoots up a bunch of children in protest https://x.com/MrAndyNgo/status/1832106747928179188
+{
+  "analysis": "Contains hate speech and is off-topic.",
+  "tags": [
+    "hate_speech"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0x205cbda24e032b0274eaad1f57ff1b411fa83036 by jawa (ID 5049, AKA Jawa) on 2024-09-06 17:22:23+00:00: Justice delayed is justice denied https://apnews.com/article/be5a6fd3481055187543236c8dd3b045
+
+Embeds: {
+  "https://apnews.com/article/be5a6fd3481055187543236c8dd3b045": "Judge delays Donald Trump\u2019s sentencing in hush money case until after November election Judge Juan M. Merchan, who is also weighing a defense request to overturn the verdict on immunity grounds, delayed Trump\u2019s sentencing until Nov. 26."
+}
+{
+  "analysis": "The cast discusses a political issue related to Donald Trump.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xc212a9affd57e1b22787a5d2907c7e1e588fce5e by niki-finance (ID 430534, AKA Niki 🎩🔮) on 2024-09-06 16:48:02+00:00: Not only America needs Trump, but the whole world needs Trump for peace.
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/d1c1566e-6213-4e60-14f9-5e2143114100/original": "The image is a meme featuring two contrasting sections. On the left, a photo shows several leaders, including Donald Trump, seated at a table with flags and peace agreements, representing the Middle East under Trump. On the right, a darker image depicts a nighttime scene with an ominous glow, illustrating the Middle East under Biden. Above the image are captions that label both sections."
+}
+{
+  "analysis": "Cast discusses political opinion on Trump.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xeaf667eb20f7131cc388ebea69174b8053d5afec by 50cal-eth (ID 20965, AKA Calvin 🎩🧾🐹) on 2024-09-06 16:17:01+00:00: Truth hurts
+
+Embeds: {
+  "0x7f0ca2a5a25117819b387bb3ffbf957d734d8d51": "=> Cast 0x7f0ca2a5a25117819b387bb3ffbf957d734d8d51 by maretus.eth (ID 403619, AKA Maretus) on 2024-09-06 09:10:14+00:00: Time for a modern remake."
+}
+{
+  "analysis": "Cast lacks political content.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0x614939b05607e4ec2afacf8169183a8f24ab46a6 by javabu.eth (ID 13893, AKA Jared 🎩) on 2024-09-06 15:55:08+00:00: I thought the IRS agents were coming after the poor.   "The Internal Revenue Service said Friday that it has collected nearly $1.3 billion in overdue taxes from wealthy households since last fall, thanks to a ramp-up of enforcement efforts funded by the Democrat-backed Inflation Reduction Act that passed Congress two years ago."  https://amp.cnn.com/cnn/2024/09/06/politics/irs-inflation-reduction-act-wealthy-taxpayers
+
+Embeds: {
+  "https://amp.cnn.com/cnn/2024/09/06/politics/irs-inflation-reduction-act-wealthy-taxpayers": "IRS has collected $1.3 billion from wealthy taxpayers by ramping up enforcement | CNN Politics The Internal Revenue Service said Friday that it has collected nearly $1.3 billion in overdue taxes from wealthy households since last fall \u2013 thanks to a ramp up of\u00a0enforcement efforts\u00a0funded by the Democrat-backed Inflation Reduction Act that passed Congress two years ago."
+}
+{
+  "analysis": "Relevant political commentary with supporting source.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x1e7b96fa740551a1549e9bca2d79ab3e2ff60a14 by javabu.eth (ID 13893, AKA Jared 🎩) on 2024-09-06 15:53:40+00:00: Trump on child care.
+{
+  "analysis": "Relevant political content about child care.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x40a2a13c06467f6f6c85b7bec5446ad7207bbb2a by javabu.eth (ID 13893, AKA Jared 🎩) on 2024-09-06 15:52:04+00:00: “The best way to support the continued strength, security, and reliability of our democracy and economy” is by electing Harris president, the writers say. They also argue that Harris would “continue to advance fair and predictable policies that support the rule of law, stability, and a sound business environment” if she were president.   https://www.cnbc.com/2024/09/06/harris-endorsed-trump-murdoch-yelp-snap-ripple.html
+
+Embeds: {
+  "https://www.cnbc.com/2024/09/06/harris-endorsed-trump-murdoch-yelp-snap-ripple.html": "Eighty-eight corporate leaders endorse Harris in new letter, including CEOs of Yelp, Box  The letter is meant as a political show of force for Kamala Harris in a tight race with Donald Trump. The first presidential debate is less than a week away."
+}
+{
+  "analysis": "Cast discusses Kamala Harris and her impact on democracy and economy.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xa51b9b11609cd89fe588200eacddf1a773789861 by ayojoseph (ID 239396, AKA oxdev.base.eth 🎩🔵Ⓜ️) on 2024-09-06 15:19:31+00:00: 🇺🇸 Ripple Co-Founder & Executive Chairman Chris Larsen endorses Kamala Harris for President.
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/151cce73-f30c-4671-be40-cede207fc400/original": "A professionally dressed man with short, light-colored hair is standing outdoors. He is wearing a dark blazer over a light checkered shirt. The background is slightly blurred, suggesting an urban setting with soft colors.",
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/e01f6cc2-9771-46da-e86e-f4359c5d1000/original": "A professional headshot of a woman smiling warmly, dressed in a dark blazer with a pearl necklace. Behind her is a blurred background featuring an American flag and a California state flag."
+}
+{
+  "analysis": "On-topic as it discusses political endorsement.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x756f0f4edaa96c1bca838d3ecad03d31622ec887 by ayojoseph (ID 239396, AKA oxdev.base.eth 🎩🔵Ⓜ️) on 2024-09-06 15:17:19+00:00: 🇺🇸 Ripple Co-Founder & Executive Chairman Chris Larsen endorses Kamala Harris for President.
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/151cce73-f30c-4671-be40-cede207fc400/original": "A close-up portrait of a middle-aged man with short gray hair and a light complexion. He is wearing a dark blazer over a checkered shirt. The background is slightly blurred but suggests an outdoor urban setting.",
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/e01f6cc2-9771-46da-e86e-f4359c5d1000/original": "A professional portrait of a woman smiling, wearing a dark blazer and a pearl necklace. In the background, there is an American flag, suggesting she holds a political office. The image conveys a sense of professionalism and approachability."
+}
+{
+  "analysis": "Cast discusses a political endorsement, on-topic.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xfa7b7553ede22bfefe91fcc42c4b94d357c0dbb8 by nftdeshu (ID 812394, AKA NFTdesh) on 2024-09-06 15:03:34+00:00: Commie! 🤣 🤣 🤣  By Bill Day
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/743c221e-51b5-43ac-d189-2234bfbc1b00/original": "A four-panel cartoon discussing gun violence. The first panel shows two people discussing the tragic deaths of children and teachers. The second panel emphasizes it was an assault rifle, met with standard responses like 'thoughts and prayers.' The third panel argues for banning guns, questioning how many more must die. The fourth panel reacts negatively to the suggestion to ban guns, calling the speaker a 'commie.'"
+}
+{
+  "analysis": "Cast contains political commentary on gun violence.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xca59cfb3ce49a51962fb8f1c56d0a7260a74bc9e by olefirvendor (ID 772191, AKA Jessica Rabbit) on 2024-09-06 14:45:59+00:00: 🥺Pregnant women, children and doctors who today in Kherson, Ukraine were forced to hide in a bomb shelter due to shelling   After the first explosion, the medical staff quickly evacuated patients to the shelter and constantly supported them
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/2a8cb01c-5353-4fc5-b182-ba62460e4d00/original": "A somber scene in a dimly lit hallway. A young boy with short brown hair and a gray hoodie with a backpack sits on the floor, looking directly at the camera with a serious expression. In the background, medical staff in white and blue uniforms attend to patients, mostly blurred. Women and children are seen, some are sitting or standing, indicating an atmosphere of distress and urgency."
+}
+{
+  "analysis": "The cast discusses a serious humanitarian issue related to war.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xe2d8bfce0d7012d19dd400ce74197244e2f1501a by gregory-1967 (ID 456030, AKA Rango 🎩) on 2024-09-06 14:40:32+00:00: ⚡️ The U.S. Administration has informed the Israeli leadership that American aircraft carriers will not be able to always be in the region to monitor Iran's actions  This was reported by Israeli TV Channel 13.
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/9ab6970f-9065-43b8-1943-85dc506beb00/original": "An aerial view of an aircraft carrier positioned on the ocean. The ship has multiple fighter jets neatly arranged on its deck, with some ready for takeoff. The surrounding waters are deep blue, providing a stark contrast to the massive gray structure of the carrier."
+}
+{
+  "analysis": "Cast discusses U.S. military stance regarding Israel and Iran, on-topic.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x047121cba126359a3dc119854a27abc7752e6d0a by casedup (ID 197340, AKA Taye 🎩🔵 👽⛏️) on 2024-09-06 13:46:49+00:00: 🤡
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/c67c3edb-9478-40af-5dc1-b4efc9559f00/original": "The image shows a tweet from The Associated Press mentioning JD Vance discussing school shootings. He is shown speaking passionately at a rally, with supporters in the background, some wearing Trump-related attire. The tweet indicates high engagement, with 2.5 million views, but notes that the post has been deleted."
+}
+{
+  "analysis": "The cast is related to a political topic with relevant embed.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xdfe21c4983fe4ebe672a02f68a518c0664cdf978 by dialethia.eth (ID 264222, AKA dialethia 🍖🎩) on 2024-09-06 13:37:19+00:00: Autocracy in America A new podcast from the Atlantic and a worthwhile listen.  https://podcasts.apple.com/us/podcast/autocracy-in-america/id1763234285  We certainly have bad faith actors and/or people lost in the swamps of delusion posting here.
+
+Embeds: {
+  "https://podcasts.apple.com/us/podcast/autocracy-in-america/id1763234285": "Autocracy in America Listen to Atlantic Audio's Autocracy in America podcast on Apple Podcasts."
+}
+{
+  "analysis": "The cast discusses a political podcast, relevant to the channel.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xf0ddaaab110faf7bd0a41ad789d0e6a1771af215 by mr-silverback (ID 335242, AKA Nicklas) on 2024-09-06 12:53:02+00:00: Time left Elon off the 100 AI list. Can someone tell me why Scarlet Johansson is on here?
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/8fa4c2f7-2051-4aad-2d7c-e02e10799a00/original": "A magazine cover featuring a collage of diverse people in a stylized black-and-white format with red and black pixelated patterns. The title reads \"TIME 100 AI\" with the subtitle \"The 100 Most Influential People in Artificial Intelligence\". Various notable figures appear in the image, highlighting their significance in the field of AI."
+}
+{
+  "analysis": "Discussion about AI and a notable figure; relevant to politics.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x9dca66161f8683e572405e9c0c851d826c88ab7b by ryanfmason (ID 319431, AKA Ryan) on 2024-09-06 12:38:33+00:00: Every other week JD Vance does an interview where he’ll do something like look outside and go “fuck there’s some dumbass bird shitting on my car”   It’s not really anything super bad or offensive it’s just clearly against PR training & its weird how out of place it seems for how current politicians act
+{
+  "analysis": "Casts about politicians' behavior are relevant to politics.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xb6e32c9149047a95bb42a5f6d448b7be1f64b77b by ryanfmason (ID 319431, AKA Ryan) on 2024-09-06 12:37:56+00:00: Every other week JD Vance does and interview where he’ll do something like look outside and go “fuck there’s a dumbass bird shitting on my car”   It’s not really anything super bad or offensive it’s just clearly against PR training & its weird how out of place it seems for how current politicians act
+{
+  "analysis": "User discusses a political figure's behavior, on-topic.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x1ddc8c8115f7a77f0871009bbd25de41609f8e03 by hananindra (ID 473590, AKA indraa🫶📸) on 2024-09-06 12:07:47+00:00: Friendship can save the World❤️  "If he is not your brother in religion (does not share the faith), then he is your brother in humanity." -Ali bin Abi Talib.
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/eab60308-5f43-44f6-53bd-8dae1582aa00/original": "A joyful interaction between two figures, one wearing a white papal robe and skullcap (Pope Francis) and the other in a traditional white and gold attire with a white turban. The latter is gently kissing Pope Francis on the forehead while holding hands, showcasing a moment of warmth and mutual respect. The background is filled with people in formal attire."
+}
+{
+  "analysis": "Cast is off-topic, discussing friendship rather than politics.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0xc1b598e0ac642b1ee6f36e9876d6f9de04cdf145 by rezaisgoat.eth (ID 417554, AKA onten.eth | Ⓜ️🍖🎩) on 2024-09-06 11:55:02+00:00: Here's an example of what Stockholm Syndrome does to the victim:
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/3459cfa8-496f-450b-14d2-7aaae1627d00/original": "The text discusses a judgment from Judge Analisa Torres regarding Ripple, ordering the company to pay $125 million in penalties and comply with US securities laws. It mentions the SEC's initial demand of $2 billion and threat of injunction against XRP sales.",
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/d1e17e7d-3dbf-4ca5-ca65-a744d83a3900/original": "The image shows two portraits side by side. On the left is a man with short, light gray hair, wearing a blue plaid blazer. On the right is a woman with long, dark brown hair, wearing a navy blazer with a pearl necklace and smiling confidently. The background for both portraits is blurred."
+}
+{
+  "analysis": "Discusses SEC ruling on Ripple, tied to crypto policy.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xe05ebf36c56550688ad252daf83fa082f6a77c9f by purp (ID 14364, AKA Purp🇵🇸) on 2024-09-06 11:47:02+00:00: Well funded campaigns that are winning are absolutely not doing this  https://www.theguardian.com/us-news/article/2024/sep/05/trump-swing-state-harris
+
+Embeds: {
+  "https://www.theguardian.com/us-news/article/2024/sep/05/trump-swing-state-harris": "Trump campaign pulls away from three target states after Harris surge Ex-president diverts resources from states he boasted about winning while Biden was Democratic candidate"
+}
+{
+  "analysis": "On-topic political discussion with relevant link.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x86f78932019a4040cbb322083cdb6a82ce571731 by purp (ID 14364, AKA Purp🇵🇸) on 2024-09-06 11:03:12+00:00: Lmfao o no to bad there's nooooo way to stop it   Lmfao he might as well quoted the onions school shooting article they put out after every one
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/e3c61450-91dc-436b-e65f-214eaf098300/original": "The image shows a politician speaking passionately at a podium. He is wearing a dark suit with a red tie and gesturing with his left hand. In the background, supporters are holding signs, some of which say 'TRUMP.' The atmosphere appears energetic, with people engaged in the speech."
+}
+{
+  "analysis": "Cast contains humor and references to politics.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x9bd0d820777ce1d6203183a4caaac6ecc0d7a3da by mr-silverback (ID 335242, AKA Nicklas) on 2024-09-06 10:02:57+00:00: This isn’t cool at all.  I’m sorry she sucks https://x.com/mrcolionnoir/status/1831798227525628331?s=46&t=sXRiUfbXb71IcLhyq0thFg
+{
+  "analysis": "Contains negative comment about an individual, not clearly political.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0x336a0011404008072075cb4c26e6d75a35d443b2 by crumbyizcool (ID 827578, AKA design dudette) on 2024-09-06 09:50:10+00:00: just finished designing this cozy little reading nook for my friend, jess! 😍📚✨ honestly, it turned out better than i imagined. think lots of fluffy pillows, warm lighting, and a hint of boho vibes. perfect for curling up with a good book or just daydreaming. check out the pics and let me know what you think! 
+{
+  "analysis": "Cast is about design, not politics.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0x0e1921887127959e1ef2ceb32d212bf88d0356d7 by jestor (ID 842356, AKA the_legend_123) on 2024-09-06 09:43:20+00:00: just got back from the morning run and WOW, what a view! 🌅🏃‍♂️ nothing beats the sunrise over the hills. feeling pumped and ready to crush the day! 💪 also, shoutout to my running buddy, jake, for pushing me to go that extra mile. y'all have a great day! 
+{
+  "analysis": "Cast is off-topic, discussing a morning run and view.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0x8da3a0f1e6d0056c40727b0723654ced687321b8 by pxndxful123 (ID 842341, AKA chill_vibes) on 2024-09-06 09:42:20+00:00: hey everyone! 🌟 just wanted to share my latest dance video - had a blast filming it at the park with my bff sarah. 💃✨ been working on this routine for weeks, and i think it's finally coming together! check it out and lemme know what u think. constructive feedback is always welcome 🙏💖 also, drop ur fave song suggestions in the comments - always looking for new tunes to groove to. see ya on the dance floor! 🎶💥 
+{
+  "analysis": "Cast is off-topic for the channel, focusing on dance and personal content.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0x63ae4ee44132bb20cd5c4e9b00062dbc0f27e220 by bennjaah (ID 827562, AKA sparky) on 2024-09-06 09:38:43+00:00: hey everyone! just wanted to share some exciting news 🎉 after months of hard work, we finally launched our new project! it’s all about making eco-friendly living super easy and fun. 🌱💚 check it out and let us know what you think! any feedback is welcome. thx for all the support, y’all rock! 🙌 
+{
+  "analysis": "Cast is unrelated to politics and excludes off-topic.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0x9a6c477d50a7178e23049fce687df99e6cba7fd6 by ayojoseph (ID 239396, AKA oxdev.base.eth 🎩🔵Ⓜ️) on 2024-09-06 09:24:56+00:00: https://www.theverge.com/2024/9/5/24237174/telegram-ceo-pavel-durov-statement-following-arrest
+
+Embeds: {
+  "https://www.theverge.com/2024/9/5/24237174/telegram-ceo-pavel-durov-statement-following-arrest": "Telegram CEO breaks silence after arrest He says Telegram will step up moderation."
+}
+{
+  "analysis": "Relevant to politics and recent events.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xd0894c31133384d22378d4ced6f847389c46842c by bentbrain (ID 827150, AKA jazzcat) on 2024-09-06 08:55:49+00:00: hey fam! 🎉 just wanted to share some exciting news with y'all. we've got a brand new blog post up on our site that's all about leveling up your home office game! 🖥️✨ think cool gadgets, cozy vibes, and tips to stay productive. check it out and let us know what you think! link in bio 💻 
+{
+  "analysis": "The cast is off-topic, discussing home office tips unrelated to politics.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0x0d030010598eb10ac4bca72a847271a9c8713ea8 by kikoelnathan (ID 508903, AKA Elnathan O.) on 2024-09-06 08:51:25+00:00: According to media reports, Durov has been banned from leaving France until March 2025 - the Telegram co-founder has also been allowed to pay the fine in installments of €1 million each month
+{
+  "analysis": "Relevant political news about Durov and Telegram.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x786b35791ce611db89ecd43e420f93dbd1b32047 by ayojoseph (ID 239396, AKA oxdev.base.eth 🎩🔵Ⓜ️) on 2024-09-06 08:36:25+00:00: Elon Musk to Lead Trump's Department of Government Efficiency (DOGE)  https://watcher.guru/news/doge-elon-musk-to-lead-trumps-government-efficiency-commission
+
+Embeds: {
+  "https://watcher.guru/news/doge-elon-musk-to-lead-trumps-government-efficiency-commission": "DOGE: Elon Musk to Lead Trump's Government Efficiency Commission Elon Musk has been tasked with leading Donald Trump's D.O.G.E Commission: the Department of Government Efficiency"
+}
+{
+  "analysis": "Relevant to politics; discusses a political figure and commission.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xf7ec83ea2d872694b52a174cbf57c00920cc1dbb by gregory-1967 (ID 456030, AKA Rango 🎩) on 2024-09-06 08:36:12+00:00: ⚡️U.S. sanctions are causing the dollar's role in the world to weaken — Trump
+{
+  "analysis": "Political comment on U.S. sanctions and the dollar.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x2ee3a161bd25089ac83cba8d8aab3cd3cb9e8d70 by eylon.eth (ID 4196, AKA Eylon 💨) on 2024-09-06 07:26:21+00:00: Brilliant article by Kisin, here a few notes  The pendulum of wokeness swung so far left, the right version of it is just as retarded.   Just as the woke left tried to rewrite history and truth to fit their narrative. The right is now countering with it's own form of wokeness with historical revisionism and victimhood complex.   A recent Tucker Carlson -- the self appointed guardian of conservative values -- interview embraces a historian who thinks Hitler strolling through Paris is preferable to drag queens, and that Churchill was the "chief villain of WW2" ignoring an infinite amount of facts to somehow come up to that conclusion.   The right, in its eagerness to counter left-wing stupid narratives, has decided to fight fire with gasoline-soaked strawmen.  The woke right playbook is near...
+{
+  "analysis": "Off-topic discussion about political narratives and figures.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x95f23288ca1f3243f9910124f1115d325867dd8a by watchcoin (ID 250575, AKA Wojak's Caster 🟣Ⓜ️) on 2024-09-06 07:23:47+00:00: Trump vows to make US 'world capital of crypto,' taps Musk for new task force
+
+Embeds: {
+  "https://paragraph.xyz/@mintdaily/trump-vows-to-make-us-world-capital-of-crypto,-taps-musk-for-new-task-force?referrer=0xc8ABF679e14add9A6d6b6881cBDb4bCa748Cd2D0": "Trump vows to make US 'world capital of crypto,' taps Musk for new task force Trump vows to make US 'world capital of crypto,' taps Musk for new task force"
+}
+{
+  "analysis": "Cast discusses crypto policy related to Trump.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x4ea8bde4fa94e306e934a5bcca4f34f901bc08d9 by nftdeshu (ID 812394, AKA NFTdesh) on 2024-09-06 06:05:03+00:00: And the Russian angle.  By Dave Wnamond
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/1e457450-73e9-42cc-7f5d-81997a93c800/original": "A political cartoon depicting an elephant, symbolizing the GOP, retreating in fear as a bear representing Putin emerges from the shadows. The text reads \"GOT OWND BY PUTIN\" and is followed by a speech bubble saying \"HEH HEH! DON'T GO RUSSIAN TO CONCLUSIONS!\". The cartoon uses humor to comment on the influence of Russia on the GOP."
+}
+{
+  "analysis": "Cast is relevant to politics with humor.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x0ab40c00c78176833a185da3f8e617edc9e7d7f1 by gopishrya (ID 814335, AKA Gopishreya) on 2024-09-06 05:35:46+00:00: Fjsfjzgxdghdj fhstsjkgd gehfk
+{
+  "analysis": "Cast is spam and completely off-topic.",
+  "tags": [
+    "spam"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0xe3dcd21e20390c890b0b349260c27f343eec1ed9 by nora777 (ID 785320, AKA ͎N͎͎o͎͎r͎a͎ 🥕🎩) on 2024-09-06 05:34:51+00:00: It's no longer Republicans vs. Democrats. It's America vs. Communism.  That's a battle America must win.
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/bc734393-ecd5-412f-4e0e-bd6602b04500/original": "A flag flying against a stormy sky, featuring bold text that reads 'TRUMP or COMMUNISM.' The flag has a blue background with red borders, and the words are in white. There are lightning bolts visible in the dark clouds."
+}
+{
+  "analysis": "Political commentary on America vs. Communism.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xfe0535030d8ebf450cc0ff199756da666b5b6f82 by soyuntito (ID 343849, AKA TITO ) on 2024-09-06 05:32:51+00:00: Please choose rich, choose our bags to go up, choose sanity, choose Trump!
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/21a86b1c-0f9c-410f-a66b-f30fe190ed00/original": "The image depicts a cartoon-style crossroads with a young boy standing at the center. To the left, there is a bright landscape with a castle and a flag showing the United States, accompanied by a figure resembling Donald Trump. To the right is a dark, stormy landscape with a castle and a flag bearing the communist symbol, alongside a figure resembling Kamala Harris. The scene reflects a metaphorical choice between two political paths."
+}
+{
+  "analysis": "Cast discusses political choice and uses political imagery.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x520e945781c0b6dbf6d1735007cca43dea32a245 by homer27 (ID 315983, AKA Homer d Crypto Explorer 🎩) on 2024-09-06 05:32:44+00:00: Promising to fix everything is a sign that she will fix nothing because no one can fix everything
+
+Embeds: {
+  "0xc64c74c001bac1c335afebd66259560a8f488907": "=> Cast 0xc64c74c001bac1c335afebd66259560a8f488907 by iashish.eth (ID 305843, AKA Ashish) on 2024-09-06 05:26:49+00:00: Gm /memes fam happy Friday\n\nEmbeds: {\n  \"https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/eea5fbdd-72a8-4d10-b433-d16ee3204500/original\": \"A woman smiling and speaking into a microphone. She is wearing a dark blazer and a necklace. The image is captioned with a humorous quote: 'I Will Fix Things If You Vote Me Into Office,' Says Woman Currently In Office.\"\n}"
+}
+{
+  "analysis": "On topic about political promises and implications.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x326b32e59b2291d02f1987c227bc674308780491 by hnnhstphnz (ID 18506, AKA Hannah ) on 2024-09-06 03:50:07+00:00: I have a habit of being a bit of a menace, but this election means I really need to be loud   So, I sent this email to ~40 of my extended family (bcc, duh) who are a very diverse mix of MAGA - Reagan republicans and then democrats, where I try to plead with them   I’ve had interesting responses, mostly from my aunts and women cousins thanking me for saying the things so many of us are thinking, to my moms first cousin (a dude) telling me that I shouldn’t ask for a dialogue if I end with being loud and proud for being a democrat. What a weirdo!   I feel INCREDIBLY strongly about this upcoming election, and it’s so important to have these conversations with people you know and not just blast into the echo chamber - so sharing my email for inspo 🫶
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/984c18a7-3402-4595-635b-65cb92506600/original": "A typed letter addressed to 'Dear Family,' discussing the importance of the 2024 election, encouraging dialogue across differing opinions, and urging family members to reconsider their support for Trump. The letter touches on topics such as climate change and media's portrayal of societal issues, highlighting generational perspectives on these topics.",
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/6d4c1175-7a5f-448b-1508-c17ec76f7600/original": "A text message discussing political views, particularly critiquing a common belief that Republicans support economic growth. The message highlights data from a presentation that claims the economy suffers under Republican leadership and improves under Democratic leadership."
+}
+{
+  "analysis": "Casts focus on political engagement and opinions.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x887c185ac55b4150f19e9f8f4f666aa50bd59bb5 by casedup (ID 197340, AKA Taye 🎩🔵 👽⛏️) on 2024-09-06 03:15:41+00:00: 
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/9b3f6bdd-be7e-4dc7-6f70-fcc58e61ea00/original": "The image is a meme consisting of two panels featuring a woman with long hair in a brown blazer. The first panel shows her with eyes closed, captioned 'REQUIRE ID TO VOTE'. The second panel shows her with exaggerated wide eyes, captioned 'REQUIRE ID TO ATTEND THE RALLY'. Both captions address the topic of ID requirements in different contexts."
+}
+{
+  "analysis": "Cast discusses voting ID requirements related to politics.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xc4305afd6d7cc69b9c6315c248243b6c3348e204 by asenderling.eth (ID 204173, AKA Alex) on 2024-09-06 03:10:43+00:00: There are some phrases that when uttered, I can immediately discount someone's knowledge or understanding on a topic. When it comes to politics, "Russiagate" is one such phrase. It immediately signals the utterer is either 1) a useful idiot or 2) bad faith. 75% of the time, they have no idea who Paul Manafort is 🙃
+{
+  "analysis": "Relevant political commentary about trustworthiness in discourse.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x6b8676f0adec8e774caeeb12c2f8178bb929ec5b by conspirator (ID 414868, AKA Psyop Cypher) on 2024-09-06 02:15:33+00:00: Government's view of the economy could be summed up in a few short phrases: If it moves, tax it. If it keeps moving, regulate it. And if it stops moving, subsidize it.  ~Ronald Reagan
+{
+  "analysis": "The cast is a political quote related to government and economy.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xf8b3224fb4e830793d06b77609c3b137c7db238d by casedup (ID 197340, AKA Taye 🎩🔵 👽⛏️) on 2024-09-06 02:13:46+00:00: 
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/ea62dd94-078a-493b-3489-aa20140e9400/original": "The image features a humorous edit based on a popular meme template. On the top half, a character resembling Wolverine from comic books, is seen lying on a bed, looking at a framed picture. The bottom half shows the picture, which displays a horse standing in a grassy area. The character's face has been replaced with that of an elderly man with glasses."
+}
+{
+  "analysis": "The cast is off-topic, humor unrelated to politics.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0xd7f72129294187eb393eae49b71a72146697c20b by casedup (ID 197340, AKA Taye 🎩🔵 👽⛏️) on 2024-09-06 02:03:30+00:00: 
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/339f0567-dfb4-4b65-012c-baa466d62c00/original": "The image features two shirtless men on horseback in a natural setting. One man has a recognizable head superimposed on the second man, creating a humorous effect. There is a caption below that says, 'WHITE DUDES FOR HARRIS,' with star and color decorations, suggesting a political or advocacy message."
+}
+{
+  "analysis": "The cast is relevant and humorous, promoting advocacy.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x9a415f149ed650d8424e43c163ebcbe8766f2876 by purp (ID 14364, AKA Purp🇵🇸) on 2024-09-06 01:43:25+00:00: 
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/66b81a5d-6172-4b30-8936-dd41bb0e8600/original": "A bar graph illustrating the inflation rate of food and non-alcoholic beverages prices in Argentina from January 2022 to March 2024. The x-axis represents the months while the y-axis shows the year-on-year CPI variation, indicating a significant increase in inflation over this period.",
+  "0x87140655ca1c10b5900c0bc6acd9f4976ec3e830": "=> Cast 0x87140655ca1c10b5900c0bc6acd9f4976ec3e830 by casedup (ID 197340, AKA Taye \ud83c\udfa9\ud83d\udd35 \ud83d\udc7d\u26cf\ufe0f) on 2024-09-05 21:45:56+00:00: Milei trimming the fat."
+}
+{
+  "analysis": "Cast discusses inflation related to food prices in Argentina, relevant to politics.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x300d45586db1f0ee182fa5bb3c638dc7bd19066a by randombishop (ID 253232, AKA Nabil Abdellaoui) on 2024-09-06 01:33:22+00:00: Farcaster x Politics Word Cloud
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/c1c90468-d85a-45a3-6300-d68c386b1400/original": "A colorful word cloud displayed on a white background. The words 'Trump', 'people', and 'think' are prominent, larger than others. Various political terms and names like 'Biden', 'Harris', 'crypto', 'election', and 'government' are also visible, showcasing a mix of sentiments and topics related to politics and current events."
+}
+{
+  "analysis": "The cast includes a political word cloud and relevant terms.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x1bfcbb15164b5aef125f3b2efa42d865023a8ff9 by 0x00z (ID 849952, AKA Ash) on 2024-09-06 01:11:49+00:00: 🚨 BREAKING 🚨  DONALD TRUMP SAID “ WE WILL  MAKE AMERICA THE WORLD  CAPITAL OF CRYPTO AND BITCOIN ”  THIS IS ULTRA BULLISH 🔥
+{
+  "analysis": "On-topic regarding politics and crypto.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x41847612f595302b11088b984fb7956ffcff1ffe by purp (ID 14364, AKA Purp🇵🇸) on 2024-09-06 01:04:18+00:00: https://www.crfb.org/papers/trump-and-biden-national-debt
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/049395f2-5e91-4694-204c-5b55f79d7700/original": "The image presents a comparison of net ten-year debt approved during the Trump and Biden administrations. It includes two portraits; one of Trump with $4.8T in non-COVID debt and $3.6T from the CARES Act, totaling $8.4T. The portrait of Biden shows $2.2T in non-COVID debt and $2.1T from the American Rescue Plan, totaling $4.3T. The graphic includes a scale measuring trillions of dollars.",
+  "0x7f93de7b7153e8ef502247dbd5e863e9f8aaf2ac": "=> Cast 0x7f93de7b7153e8ef502247dbd5e863e9f8aaf2ac by casedup (ID 197340, AKA Taye \ud83c\udfa9\ud83d\udd35 \ud83d\udc7d\u26cf\ufe0f) on 2024-09-05 23:11:20+00:00: #maga"
+}
+{
+  "analysis": "Relevant to politics, compares debt under Trump and Biden.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xedc80c58a8856801de80b2902da7d7eddca93a8d by purp (ID 14364, AKA Purp🇵🇸) on 2024-09-05 23:10:26+00:00: https://x.com/Acyn/status/1831448959119978925
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/91a358d1-0685-4a32-bda0-2934176a2f00/original": "A tense scene featuring two men in a room. One man, with dark hair and a mustache, leans in closely, appearing to confront or challenge the other man, who has lighter hair and is seated, looking down. The atmosphere feels charged and dramatic, with a focus on their intense expressions."
+}
+{
+  "analysis": "The cast is political and related to current events.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x6dba9a40586d0fa3108ccb4b95be7d4fffcde5cb by icetoad (ID 190218, AKA Icetoad 🎩Ⓜ️🍕🎶 ) on 2024-09-05 23:07:07+00:00: 
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/d6bb21c1-8613-4bc7-3df9-2b5d9b2c1600/original": "A political cartoon depicting Kamala Harris unveiling Donald Trump on a wheeled platform. Trump is animatedly shouting various phrases related to pro-life and pro-choice, among other topics, while Harris holds the platform. The audience below looks surprised. Banner reads 'KAMALA UNVEILS SECRET ELECTION LANDSLIDE WEAPON'."
+}
+{
+  "analysis": "Political cartoon relevant to the channel topic.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x8c3b630f5270aa73af56266ad38d4ccd6013d945 by helladj.eth (ID 227242, AKA helladj™) on 2024-09-05 22:59:26+00:00: “Do you want to see my AR-15?” … No
+{
+  "analysis": "Off-topic comment regarding an AR-15.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0x00398dc3873540312c62493adca94bf5199fdb4b by casedup (ID 197340, AKA Taye 🎩🔵 👽⛏️) on 2024-09-05 22:37:56+00:00: Putin:   “If we can name a favorite candidate, it used to be Joe Biden. Now he’s not participating in the election campaign and he recommended to all his allies to support (Kamala) Harris, so that is what we are going to do.”
+{
+  "analysis": "Relevant political content discussing candidate support.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xeda48ec3cbd1ffbd16edcbcad6278e86066a8556 by m-j-r.eth (ID 7097, AKA 𒂠_𒍣𒅀_𒊑) on 2024-09-05 22:28:19+00:00: Krugman does have a point, especially when big-ticket items like military spending are examined (not just millions of serf footsoldier, but millions of U.S. citizens expecting equal quality of life). spending is deeply inextricable from traditional bureaucracy.  then again, I wouldn't take the bet that administration is irreducible. if anything, it's bloated for the function it performs in aggregate, and facets like procurement are not optimally outsourced.  there is a non-zero chance that Twitter's survival becomes the leading basis for slashing federal employment, perhaps in concert with Javier Milei's political (mostly economic) survival. the end result will not be as functional, but it may still force an immutably conservative culture.   feel free to steelman this. https://x.com/paulkr...
+{
+  "analysis": "On-topic political discussion about spending and governance.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x531da57b04a3cff1cfc52a0ee1893d0cf64cee08 by casedup (ID 197340, AKA Taye 🎩🔵 👽⛏️) on 2024-09-05 22:25:34+00:00: Why don’t we have a Sovereign Wealth Fund?
+{
+  "analysis": "The cast discusses a political topic related to finance.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x8d91a81230eb2fd2ac9a4dda5db824053e2145f9 by ayojoseph (ID 239396, AKA oxdev.base.eth 🎩🔵Ⓜ️) on 2024-09-05 21:48:23+00:00: https://x.com/CollinRugg/status/1831788288384102848
+{
+  "analysis": "Cast linked to a political opinion, on-topic.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x87140655ca1c10b5900c0bc6acd9f4976ec3e830 by casedup (ID 197340, AKA Taye 🎩🔵 👽⛏️) on 2024-09-05 21:45:56+00:00: Milei trimming the fat.
+{
+  "analysis": "Relevant to politics, discussing Milei.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xd86abb55f7dac63c27d47795c772325dd7d68300 by olystuart (ID 436728, AKA Stuart) on 2024-09-05 21:33:36+00:00: Sad... How far Bernie has fallen. Well, it is what it is, we need new leaders on the Left, and we especially need ones that aren't going to cave in to the establishment and sell us all out like Bernie and his team did. I worked my ass off for both of his campaigns and what I learned is that it's impossible to change the Dem Party, it's rigged to the core by the ruling class and they'll never give it up. We have to build something to replace it, a party that's not corrupted. That's why I'm Green Party for life now. Bernie and the Squad was the last straw for me. Forget his pitiful ask in this ad for donations to a warmonger, I am once again asking you - will you join me in building the Green Party, and continuing the political revolution?
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/87c2e0ca-e9e6-4b7d-68c4-200e42cedb00/original": "A man speaking at a podium in front of a curtain, promoting a political campaign. He appears to be urging viewers to support 'Team Harris-Walz.' The image also includes captions and elements from a video platform, indicating it may be part of a sponsored advertisement."
+}
+{
+  "analysis": "On-topic discussion about political leadership and change.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xeb5d360fb7b4c19bc0dd61c619c77e3ffbab266c by ayojoseph (ID 239396, AKA oxdev.base.eth 🎩🔵Ⓜ️) on 2024-09-05 21:29:18+00:00: https://x.com/alx/status/1831735405269385603
+{
+  "analysis": "Cast appears to involve politics due to user's profile and moderation rules.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x1f15a62e459fcf7eaffccf04b85ff10995e912a8 by psydeffects (ID 364953, AKA Shoaib) on 2024-09-05 21:18:15+00:00: When is this mayhem going to stop???  (P.S Any counter apart from self defence is welcome.)  https://www.dropsitenews.com/p/israeli-invasion-west-bank-parallels-gaza?utm_campaign=post&utm_medium=web
+
+Embeds: {
+  "https://www.dropsitenews.com/p/israeli-invasion-west-bank-parallels-gaza?utm_campaign=post&utm_medium=web": "Israel's Violent Invasion of West Bank Parallels the Early Stages of War on Gaza: UN Rapporteur on Palestine Israel is in the midst of its largest scale assault of the occupied West Bank since 2002."
+}
+{
+  "analysis": "Discusses a political issue regarding the Israeli invasion.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xa705f14027d205ed97cf0f3811eeb123c5b1ba72 by javabu.eth (ID 13893, AKA Jared 🎩) on 2024-09-05 21:16:44+00:00: 
+
+Embeds: {
+  "0x2aa150d293f9dd66ee5bced093df141c5ad80550": "=> Cast 0x2aa150d293f9dd66ee5bced093df141c5ad80550 by brianjckim (ID 426, AKA Brian Kim) on 2024-09-05 16:34:47+00:00: big if true"
+}
+{
+  "analysis": "Cast involves political content; related to political activism.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x5e8da20dc7a3eb00388eb45b37261fdb3a0f2844 by sa (ID 4215, AKA simon) on 2024-09-05 20:40:26+00:00: https://theonion.com/no-way-to-prevent-this-says-only-nation-where-this-regularly-happens/
+
+Embeds: {
+  "https://theonion.com/no-way-to-prevent-this-says-only-nation-where-this-regularly-happens/": "\u2018No Way To Prevent This,\u2019 Says Only Nation Where This Regularly Happens WINDER, GA\u2014In the hours following a violent rampage in Georgia in which a lone attacker killed at least four individuals and injured nine others, citizens living in the only country where this kind of mass killing routinely occurs reportedly concluded Wednesday that there was no way to prevent the massacre from taking place. \u201cThis was [\u2026]"
+}
+{
+  "analysis": "Relevant political commentary on gun violence.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x8d87484f1ea76249447f1f4eadd270bfca5f46e3 by mr-silverback (ID 335242, AKA Nicklas) on 2024-09-05 20:36:27+00:00: Biden admits the "inflation act" bill was actually the largest climate deal ever.  Just like they tried to pass the "Border Bill" stuffed full of Warmonger / Greed nonsense. That way they either slam it thru or get to say - LOOK the REPUBLICANS didnt pass the bill.   https://x.com/overton_news/status/1831791212044677529
+{
+  "analysis": "Political comment on Biden's inflation act, on-topic for channel.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xdb8cf97196531b8865c16da49a65b113d713f0a2 by dristov (ID 408262, AKA Sarun Vrinivasan) on 2024-09-05 20:21:18+00:00: Fucking capitalism I won't be able to take a shit for free soon
+
+Embeds: {
+  "0xa6c23059da4a9ec91f5f0d521b59662251bb63fd": "=> Cast 0xa6c23059da4a9ec91f5f0d521b59662251bb63fd by keccers.eth (ID 4407, AKA keccers) on 2024-09-05 20:09:58+00:00: The year is 2030 and you can no longer get a weather forecast for free.  I see this coming so clearly. Bums me out."
+}
+{
+  "analysis": "Cast expresses frustration about capitalism, political in nature.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x38b217b8b352adc8a82f56e85c0a906a9ae0bf95 by sa (ID 4215, AKA simon) on 2024-09-05 20:18:54+00:00: WT actual F https://newrepublic.com/post/185585/ken-paxton-threatens-sue-democrats-voter-registration
+
+Embeds: {
+  "https://newrepublic.com/post/185585/ken-paxton-threatens-sue-democrats-voter-registration": "Ken Paxton Threatens to Block Democrats From Registering to Vote The Texas attorney general is now threatening to sue two Latino-majority counties in his mad dash to block alleged \u201cvoter fraud.\u201d"
+}
+{
+  "analysis": "Cast discusses a political issue related to voter registration.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x8b897a422e3a6378c32716803df3800ee7a098fb by dristov (ID 408262, AKA Sarun Vrinivasan) on 2024-09-05 18:46:06+00:00: The only way out for Trump is to get another ear piercing
+
+Embeds: {
+  "0x491b32a7b9d9c5fc6fe456b17f147a55c6254e88": "=> Cast 0x491b32a7b9d9c5fc6fe456b17f147a55c6254e88 by dwr.eth (ID 3, AKA Dan Romero) on 2024-09-05 17:07:28+00:00: If the debate goes poorly for Harris, she will almost certainly increase press / podcast appearances.   But if it goes well for her, I think she stays on her current course.  Seems like the optimal ca..."
+}
+{
+  "analysis": "On-topic political commentary; does not violate rules.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xea2089872c76cac65137a73a3d659610b7066ec0 by niki-finance (ID 430534, AKA Niki 🎩🔮) on 2024-09-05 18:03:56+00:00: Trump has a plan for everything you can't even imagine, economy, taxes, jobs, Europe, NATO, China, Russian war, and even Iran and Israel and...  https://x.com/JDVance/status/1831751396619907499?t=tr8vhr1714mb7H82WJEO4A&s=19
+{
+  "analysis": "Cast discusses political topics and Trump related issues.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x2cfaf0c04866041517f53b36788c4f0ff3aa06b8 by olystuart (ID 436728, AKA Stuart) on 2024-09-05 17:29:38+00:00: Is Stein "predatory?" Which is a real waste of our time as antiwar voters, supporting Greens or supporting Dems?  If you know me you know my answer but tune in for discussion on AOC vs Jill Stein on today's Bad Faith podcast with Briahna Joy Gray, guest is Sabby from RBN. Premiers in 1 hour: https://youtu.be/6BV_0Q2vRkM?feature=shared
+
+Embeds: {
+  "https://youtu.be/6BV_0Q2vRkM?feature=shared": " - YouTube Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+}
+{
+  "analysis": "Relevant political discussion about AOC and Jill Stein.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xb724ff8c37d2795aedeb32a50e38305b4b2152e6 by askgina.eth (ID 382802, AKA Gina) on 2024-09-05 17:26:08+00:00: Kamala Harris crypto donators be like
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/e6b20e65-920c-4863-e57e-555bfe2c8600/original": "The image features three geometric shapes: a pentagon, a hexagon, and an octagon, each accompanied by their names below them. Below the shapes, there's a cartoonish monkey character with a blank expression on an orange background, labeled 'Bored Ape Gone'.",
+  "0x116070906158dd72ba8afd30b5a7b55557689c5e": "=> Cast 0x116070906158dd72ba8afd30b5a7b55557689c5e by askgina.eth (ID 382802, AKA Gina) on 2024-09-05 16:33:08+00:00: *BREAKING: KAMALA HARRIS CAMPAIGN CONFIRMS THEY ARE NOT DIRECTLY ACCEPTING CRYPTO DONATIONS, DESPITE CLAIMS"
+}
+{
+  "analysis": "Discusses Kamala Harris and crypto donations, relevant to politics.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x5aae03a42dbc5800b8e5a094be3d72a3003f6f1e by alixkun (ID 3609, AKA alixkun🎩🍡) on 2024-09-05 17:22:48+00:00: France ended up giving itself a right wing prime minister. Apparently, it was negotiated with far right so that this government would not be censored. If it turns out to be true, would be a major stain for Macron. I'm curious to see how this episode gonna unfold, and what Barnier's v1 government will look like.  https://www.bbc.com/news/articles/cqjlxvg2gj7o
+
+Embeds: {
+  "https://www.bbc.com/news/articles/cqjlxvg2gj7o": "Michel Barnier named by Macron as new French PM The French president names the EU's former Brexit negotiator almost two months after snap elections."
+}
+{
+  "analysis": "On-topic discussion about French politics and leadership.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x0a83f93aa1be5bd5fdeb35595f84fc9d6680695b by purp (ID 14364, AKA Purp🇵🇸) on 2024-09-05 17:08:23+00:00: Lmfao wild 🤣
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/37ce189f-ad82-48d9-e929-4d24960dae00/original": "The image is a screenshot of a tweet by Ryan Selkis (@twobitidiot). It discusses the implications of donating to Kamala Harris using cryptocurrency. Selkis mentions he will analyze donation records and compares political figures Joe McCarthy and AOC in relation to crypto company boycotts. He concludes with a statement about the difference between the freedom to donate and freedom from commercial pressure."
+}
+{
+  "analysis": "Cast includes political commentary through an image.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x491b32a7b9d9c5fc6fe456b17f147a55c6254e88 by dwr.eth (ID 3, AKA Dan Romero) on 2024-09-05 17:07:28+00:00: If the debate goes poorly for Harris, she will almost certainly increase press / podcast appearances.   But if it goes well for her, I think she stays on her current course.  Seems like the optimal campaign strategy against Trump is let him make the unforced errors.  https://x.com/NateSilver538/status/1831739116687593884
+{
+  "analysis": "On-topic political commentary about Harris and Trump.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x2e052a6981c5952909607cdd99fdaa977502cf4e by seanwince (ID 8405, AKA Sean Wince 🎩🐹🟢↑) on 2024-09-05 17:04:16+00:00: My only question is:  Does this audit include the waste and bloat of $800B+ annual defense spending? https://x.com/unusual_whales/status/1831727022105612703?t=zCiJcoyY2wxSCCa1Iw0bdA&s=19
+{
+  "analysis": "Cast discusses defense spending, relevant to politics.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x183fb93676aa907aa5c986186a31c741e3508e23 by br3no.eth (ID 210629, AKA Breno ) on 2024-09-05 17:00:34+00:00: Musk vs Moraes, through my Brazilian eyes:   1️⃣ Brazilian Law is beautifully written but there are many people highly skilled in exploiting its loopholes, some of them on catbird seats.  2️⃣ Not only in Brazil, but especially there, people in positions of power grab all the attention they can get and use it as political tools.  3️⃣ Not the first time, not the last. Facebook, Instagram, Whatsapp, Telegram, TikTok and other apps already went through the same judicial restrictions. It usually lasts less than 24h, when half baked deals are made, fulfilling egos but hard to be taken from start to finish. These deals are designed to be forgotten.  4️⃣ We’re only still talking about this because of Elon’s controversial nature and current X’s needs for global free marketing - to grab attention of...
+{
+  "analysis": "Political commentary relevant to the channel.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x08044417217cff34b8a8e84b39005b5858d309a9 by 0x00z (ID 849952, AKA Ash) on 2024-09-05 16:51:07+00:00: 🚨BREAKING🚨  MASTERCARD PARTNERS WITH  MERCURYO TO LAUNCH EURO  CRYPTO DEBIT CARD.   THIS ALLOWS USERS TO SPEND  CRYPTO LIKE BITCOIN FROM SELF- CUSTODIAL WALLETS AT 100+  MILLION MERCHANTS.  GIGA BULLISH FOR ADOPTION 🔥
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/677e4742-284a-40a0-913b-6d9f62902a00/original": "The image features the MasterCard logo prominently displayed over a background of Bitcoin coins. The MasterCard logo consists of two overlapping circles, one red and one orange, with the word 'MasterCard' written in white text. The Bitcoin coins are seen scattered in the background, adding a cryptocurrency theme."
+}
+{
+  "analysis": "Content is focused on crypto policy, relevant to politics.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x07b635559a7271acf33048b03838ca504a59827f by commstark (ID 2211, AKA Jon 🎩🫂) on 2024-09-05 16:46:34+00:00: only two responses  ppl this isn’t LinkedIn you can express yourself and get into political conversations
+
+Embeds: {
+  "0x4edd0a0a27169adccff1c98eb366e69be62ccb54": "=> Cast 0x4edd0a0a27169adccff1c98eb366e69be62ccb54 by commstark (ID 2211, AKA Jon \ud83c\udfa9\ud83e\udec2) on 2024-09-04 19:18:47+00:00: I\u2019ve spoken to ppl IRL who tell me the border isn\u2019t an issue for them  irl I try not to get into arguments because then I\u2019ll have even fewer friends than I do  serious question: if you\u2019re considering ...\n\nEmbeds: {\n  \"0x8345915e4f546b632a086b9a6d355443ddf0ccbb\": \"=> Cast 0x8345915e4f546b632a086b9a6d355443ddf0ccbb by mazmhussain (ID 758919, AKA Murtaza Hussain) on 2024-09-04 19:13:33+00:00: Net immigration growth to the U.S.\\n\\nEmbeds: {\\n  \\\"https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/632075af-fe6f-4fe2-8e9f-8f79ec093a00/original\\\": \\\"A bar graph depicting net immigration to the U.S. from 2001 to 2024. It shows three categories: lawful permanent residents (dark blue), nonimmigrants (light blue), and other foreign nationals (yellow). The graph features a line tracking total net immigration, which peaks during the Biden administration.\\\"\\n}\"\n}"
+}
+{
+  "analysis": "Discouraging LinkedIn-like chat, relates to political conversation.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x30f26aceb6cab8abdd22f01818383fe15598a772 by prosocialise (ID 262566, AKA Prosocialise Foundation🍄 🎩) on 2024-09-05 16:43:33+00:00: Does this remind you our governments and elites?
+
+Embeds: {
+  "0x3349d6203ba1ff0b68b789311b1de72f98d62abd": "=> Cast 0x3349d6203ba1ff0b68b789311b1de72f98d62abd by saqibkhattak49 (ID 511241, AKA Shaka\ud83c\udfa9\ud83d\udd2e\ud83e\uddff) on 2024-09-05 16:26:09+00:00: gn All friend's  join. /prosocial  and also follow  @prosocialise\n\nEmbeds: {\n  \"https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/e7e86159-eed7-4a8b-ba53-7b8db9cc0400/original\": \"The image presents a text excerpt titled 'WHY \\\"Good person\\\" abusers can be Dangerous' by Maria Consiglio. It lists several characteristics of such abusers, including being charming, having a good reputation, appearing empathetic, and causing confusion for victims. The text emphasizes the deceptive nature of these individuals and the trauma they can inflict.\"\n}"
+}
+{
+  "analysis": "Cast discusses government and elites; relevant for politics.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x9203e6cff1494740a7d3857f602958d4b2756587 by nftdeshu (ID 812394, AKA NFTdesh) on 2024-09-05 16:15:10+00:00: Is this election season so bad? by cartoonist Bob Englehart
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/149c6b1d-627b-4ff8-7497-a4ed5cfd1200/original": "A cartoon depicting a man sitting in a recliner, watching TV with a can of soda. He is relaxed, wearing casual clothes and has a dog and a cat with him. A lamp stands beside him, illuminating the scene. The TV screen shows a message that says, 'WE INTERRUPT THE POLITICAL ADVERTISING FOR OUR REGULARLY SCHEDULED PROGRAM!'}"
+}
+{
+  "analysis": "The cast is a commentary on election season, relevant to politics.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x38bda37abf20ecd5b3b7624bdafdcf006263cbe3 by jawa (ID 5049, AKA Jawa) on 2024-09-05 16:08:28+00:00: The news that right wing pundits were influenced and paid for by Russia is not at all shocking to a lot of us.  They were the lone voices calling for Ukraine to stand down.  Now extend the investigation to Congress please!
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/9367921b-5a0b-439f-a3db-38507f09ef00/original": "The image is a social media post featuring a photograph of a man wearing a cap and glasses, alongside a text disclaimer stating his viewpoint. The content of the post discusses the role of Ukraine, labeling it as a great ally and urging financial support against Russia. The post has engagement statistics displayed below, indicating likes and retweets."
+}
+{
+  "analysis": "Relevant to politics and political opinions.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x18a154a7c1100ae39e11f20c1667da4555a26207 by spitfunkolips (ID 7464, AKA スピットファンク🍓) on 2024-09-05 16:08:10+00:00: anyone surprised? https://x.com/josheakle/status/1831420035413299250?s=46&t=P5qK-aQkLbIL5aYyPgdRjQ
+{
+  "analysis": "Contains a link, requires additional context to assess relevance.",
+  "tags": [],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x827072341f26456e01ad3f39c853f83cd40854e5 by tldr (ID 5774, AKA tldr (tim reilly)) on 2024-09-05 15:39:41+00:00: I was here for the beginning of Ted's U.S. Secretary of Treasury arc.
+
+Embeds: {
+  "0x16b2b596f2c65590ae326a6c6df08414d4ad7795": "=> Cast 0x16b2b596f2c65590ae326a6c6df08414d4ad7795 by ted (ID 239, AKA ted (not lasso)) on 2024-09-05 15:21:32+00:00: i have been going to every single coffee shop in venice and keeping a list of what they charge for cappuccinos  i\u2019ve already done: alfred\u2019s (ew), intelligentsia, menotti\u2019s, abalona, little lunch, ma\u00f1a..."
+}
+{
+  "analysis": "Discusses a political figure's role.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xf41935f88839d0b1bd712d58e4e05e970e8f733d by purp (ID 14364, AKA Purp🇵🇸) on 2024-09-05 15:36:45+00:00: Lichtman predicted a Harris win   Lichtman has predicted 9/10 of past president elections( he predicted gore over bush)   https://www.usatoday.com/story/news/politics/elections/2024/09/05/historian-allan-lichtman-2024-election-prediction/75082875007/
+
+Embeds: {
+  "https://www.usatoday.com/story/news/politics/elections/2024/09/05/historian-allan-lichtman-2024-election-prediction/75082875007/": "Historian who accurately predicted 9 of last 10 presidential elections makes his 2024 pick Historian Allan Lichtman has announced his prediction on whether Donald Trump or Kamala Harris will win the 2024 presidential election."
+}
+{
+  "analysis": "On-topic political discussion about election predictions.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x7d47d83257dcceac80656e6aa362f0210337f5f8 by polymarket (ID 310928, AKA Polymarket) on 2024-09-05 15:12:41+00:00: Trump's odds continue to rise.  He's now up by 7%.
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/cbcf7a35-11e0-4c33-d2b9-63acb120d600/original": "The image presents a 2024 Election Forecast, showing current prediction market odds for the presidency. Donald Trump is forecasted to have 53% likelihood of winning, while Kamala Harris is at 46%. A map illustrates states in red for Trump and blue for Harris, with some states showing mixed colors. The countdown clock indicates 61 days, 13 hours, 48 minutes, and 55 seconds until the election."
+}
+{
+  "analysis": "Cast discusses Trump's election odds, relevant to politics.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x0a40716c9ef5bcd67600b2b7633213d7b2eb8496 by kreept (ID 467347, AKA Kreept.degen.eth) on 2024-09-05 15:06:01+00:00: https://x.com/marionawfal/status/1831710178871333224?s=46&t=idW356zXZvDDOPjKITdIKQ  Uhm, y’all rocking with this?
+{
+  "analysis": "Unclear if related to politics; requires context.",
+  "tags": [],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x0b579e68aa756f4198905041a2de4add6532ad62 by javabu.eth (ID 13893, AKA Jared 🎩) on 2024-09-05 14:53:17+00:00: I just added a minimum follower requirement of 50 to appear in the main feed. From what I can tell, all the bots have fewer than 50 followers right now, but I'm sure they'll find a way to bypass this eventually.
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/d32378bd-6d2b-49fb-c2b7-6d36815dfd00/original": "The image depicts a user interface for automatic moderation settings. It specifically shows the options for checking user follower count, with fields for defining a minimum and maximum follower threshold. Options include 'Less than' with no minimum set, and 'More than' set at 50.",
+  "0x829ae2dde090eb201a842c01ecf378c5f22737c5": "=> Cast 0x829ae2dde090eb201a842c01ecf378c5f22737c5 by augustuscaesar (ID 8763, AKA Augustvscaesar.eth) on 2024-09-05 14:16:53+00:00: These bots have poisoned the feed. Need to be able to downvote posts"
+}
+{
+  "analysis": "Cast discusses follower requirements and bots, relevant to politics.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xbf77027fd82ba1c0515eb885d6c3cd72fc986cfd by metadavid (ID 243818, AKA meta-david🎩 | Building Scoop3) on 2024-09-05 14:49:32+00:00: So...  I was born and raised in California, and my household was split politically.   My mom is a die-hard liberal. My dad is as Republican as they come. Grew up having to listen to Rush Limbaugh in the mornings, Ronald Reagan should have been eligible for a third term, and Clinton should get impeached 30 times over.   I have always found his lifelong Republicaness funny to me (any extreme position is) and material for fodder.  I remember a few years back, I asked my mom if my dad has made out to the Republican primaries to put check off the Donald Trump box.  I was SHOCKED at what my mom told me next, "Your father is now a registered Democrat and voted for Bernie Sanders in the primaries."  WHAT!!!! Even though it was a few years back, I'm still in disbelief.  MORAL OF THE STORY: Even tho...
+
+Embeds: {
+  "0xe7fcda607d95e255da1b3eb6ed2344a2d56d1772": "=> Cast 0xe7fcda607d95e255da1b3eb6ed2344a2d56d1772 by wake.eth (ID 2904, AKA wake \ud83c\udfa9) on 2024-09-05 14:05:11+00:00: Fox News did to our parents what they thought video games would do to us.  Sad.\n\nEmbeds: {\n  \"0xb5bbd722363dd0a15c4ea7bdde877602526f720b\": \"=> Cast 0xb5bbd722363dd0a15c4ea7bdde877602526f720b by jonathancolton (ID 296687, AKA JC\\ud83c\\udfa9) on 2024-09-05 13:58:35+00:00: Kinda of amazing considering their grand and great grandparents fought them. Yesterday while driving I thought, why don't people read/understand history more, and this is the result.\"\n}"
+}
+{
+  "analysis": "The cast discusses political perspectives within a family.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x9b471c389fcdf9b5ba3b3219bd73d8fd55fd624c by nora777 (ID 785320, AKA ͎N͎͎o͎͎r͎a͎ 🥕🎩) on 2024-09-05 14:40:52+00:00: 💭 Check out these poll results by @zoz.eth
+
+Embeds: {
+  "https://www.weponder.io/dashboard/results/12166": "Who do you support \u2014 Ponder Ponder is a survey platform built on top of decentralized social that rewards authentic responses. Follow us on Farcaster to help draw unique human insights out into the world."
+}
+{
+  "analysis": "The cast shares a poll related to politics.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x327ba0f81a60c2de440c8f46713b65bbd2af5287 by zoz.eth (ID 1918, AKA 𝚣𝚘𝚣 🎩) on 2024-09-05 14:32:29+00:00: https://frame.weponder.io/api/polls/12166
+
+Embeds: {
+  "https://frame.weponder.io/api/polls/12166": "Who do you support "
+}
+{
+  "analysis": "Poll about political support, relevant to channel.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xe5c643542ccc82aa75a29ab6f7c2c86398b2eb4f by javabu.eth (ID 13893, AKA Jared 🎩) on 2024-09-05 14:26:01+00:00: 
+
+Embeds: {
+  "0xd18f41e6358aa66d997416bb23509900f9c79910": "=> Cast 0xd18f41e6358aa66d997416bb23509900f9c79910 by 0xen (ID 528, AKA 0xen \ud83c\udfa9) on 2024-09-05 07:26:55+00:00: i don't think kamala is going to make it. doesn't have the sauce. unless trump totally implodes or something. race has been weird but feels like most of that is out of the way and we're slouching towa..."
+}
+{
+  "analysis": "Cast discusses political figures and opinions, on-topic content.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x829ae2dde090eb201a842c01ecf378c5f22737c5 by augustuscaesar (ID 8763, AKA Augustvscaesar.eth) on 2024-09-05 14:16:53+00:00: These bots have poisoned the feed. Need to be able to downvote posts
+{
+  "analysis": "On-topic discussion about bots in the feed.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x45a2d32d0a6ecce3657ae3d2249be116a69a1fa6 by icetoad (ID 190218, AKA Icetoad 🎩Ⓜ️🍕🎶 ) on 2024-09-05 14:14:02+00:00: 
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/bb8eeba6-1e2c-4efb-f648-cdfae981af00/original": "The image features a large caption about Trump and abortion positioned above an image of a person holding a child. Below them, there's another caption that reads, 'TELL ME WHAT YOU WANT ME TO SAY. I'LL SAY ANYTHING.' The overall tone seems satirical, referencing political manipulation."
+}
+{
+  "analysis": "The cast discusses Trump and abortion, which is political.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xa492c09e0784f5ef7de6d2e2c77ddf5b3242acae by mr-silverback (ID 335242, AKA Nicklas) on 2024-09-05 14:00:57+00:00: Does Farcaster think Blacks should have their own set of laws? https://x.com/kylenabecker/status/1831676145672044664
+{
+  "analysis": "Involves a controversial question about race and laws.",
+  "tags": [
+    "hate_speech",
+    "original_content"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0xdd60ca19644e20138d4a6360aa81e26107ed1bf8 by jestor (ID 842356, AKA the_legend_123) on 2024-09-05 13:31:58+00:00: hey everyone! 🌟 just wanted to hop on here and share some exciting news – just hit a new personal best in my 5k run today! 🏃‍♂️💨 can't believe how much progress i've made, all thanks to your support and encouragement. 💪💥 big shoutout to my running buddy, alex, for pushing me every step of the way. let's keep grinding and smashing those goals! 
+{
+  "analysis": "Cast is off-topic; not related to politics or advocacy.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0x513dd2a8d6a3e5a44bf6fd29d3a6af1ecd89686a by pxndxful123 (ID 842341, AKA chill_vibes) on 2024-09-05 13:17:57+00:00: hey friends! 🌟 just dropped a new video on my channel about my crazy weekend adventure in the mountains ⛰️✨ had the best time hiking, roasting marshmallows, and just chilling with nature 🍃 check it out and let me know what u think! don't forget to like and subscribe if you haven’t already 😜❤️ 
+{
+  "analysis": "Cast is off-topic, not related to politics.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0xb608d65a60e41eea8a1dd00e465efcaae57461b4 by dylandudx (ID 827112, AKA jazzcat) on 2024-09-05 11:49:47+00:00: omg just had the BEST coffee at this cute lil café downtown ☕️✨ if you haven’t been to Sarah’s yet, you’re seriously missing out! the vibe is cozy af, and the barista, Jake, makes a mean latte. also, they have these amazing homemade cookies that are to die for 🍪❤️ definitely my new fave spot. anyone wants to join me next time? 😍 
+{
+  "analysis": "Cast is off-topic regarding politics.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0x476b75c17a391cab6922a73e9e5d0f8243f1a618 by mdesigner07 (ID 827587, AKA bizzyanalyst) on 2024-09-05 11:49:43+00:00: hey everyone! 🌟 just dropped a new video on my channel about the top 5 productivity hacks that actually work. trust me, i've tried 'em all and these are the real deal. whether you're a student or working from home, these tips will totally help you get your life together. check it out and let me know what you think! 💬🤓 
+{
+  "analysis": "Cast is off-topic about productivity hacks.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0xeaeb9fe32f603d09fe103f6b5e23af8c9ec38175 by ceogennos (ID 827153, AKA jazzyjazz) on 2024-09-05 11:49:34+00:00: hey friends! 🎉 just dropped a fresh batch of NFTs and wanted to share the love! if you're into digital art or just curious about the whole NFT thing, come check it out. some really cool pieces up for grabs. can't wait to see what you think! 😎 
+{
+  "analysis": "Cast is about NFTs, not relevant to politics.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0x9f51e5464704afb28cd2898dd5768993996e3162 by wavzy (ID 827105, AKA sparkyboss) on 2024-09-05 11:49:33+00:00: hey guys! 🌟 just wanted to share some exciting news! we just dropped a new video on our channel and it's 🔥🔥🔥. trust me, you don't wanna miss this one! it's all about how to ace ppc campaigns like a pro. if you're into digital marketing, you gotta check it out. let me know what you think in the comments! 
+{
+  "analysis": "Cast promotes digital marketing, off-topic for politics channel.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0x2554e648b78ada7198762fd9dd4aafa90287165d by milkymilker (ID 828339, AKA cryptojunkie) on 2024-09-05 11:49:29+00:00: hey fam! 🚀 just wanted to drop a quick note about our latest feature on the crypto exchange platform. now you can trade with zero fees for the first month! 😱 yup, you heard that right. no fees at all! jump on this sweet deal and let’s ride this crypto wave together 🌊💰 don't miss out, sign up today and let’s make some magic happen! 
+{
+  "analysis": "Cast is promotional for a crypto exchange and off-topic.",
+  "tags": [
+    "spam"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0x3823cb5845a7d9c489e63b362b4c7e4470963dfd by bennjaah (ID 827562, AKA sparky) on 2024-09-05 11:49:25+00:00: hey everyone! just wanted to share some exciting news 😁 i've been diving deep into machine learning lately and it's been a wild ride! from training models to messing up code (a lot), it's all part of the journey. if you're curious about AI, coding, or just wanna see some cool tech stuff, make sure to follow along. gonna be posting my ups and downs, tips, and maybe some funny fails too. let's learn together! 🚀 
+{
+  "analysis": "Cast is off-topic as it discusses machine learning, not politics.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0x52a9189c5ad009686753aa57154ca582783c8cd1 by crumbyizcool (ID 827578, AKA design dudette) on 2024-09-05 11:49:14+00:00: hey folks! 🌟 just finished up an amazing living room makeover and i'm SO excited to share it with you all! 🛋️✨ think warm neutrals, cozy textures, and a splash of greenery 🌿. swipe to see the before & afters – trust me, you'll be amazed! drop a comment if you wanna know where i got anything or need some inspo for your own space. let's make our homes beautiful together! 🏡❤️ 
+{
+  "analysis": "Cast is off-topic, discussing home decor instead of politics.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0x42fae224f5353b98b33486ce9f08b1a4a1ab674a by rulmul (ID 487988, AKA Rul) on 2024-09-05 11:45:23+00:00: Putin to support Harris in November's election. Says, "Harris laughs so contagiously and expressively, it shows she’s doing well.”  😆
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/3db8ef4d-b949-4d99-6ffa-cf65ef000700/original": "A news article discussing Vladimir Putin's statement regarding support for US Vice President Kamala Harris in the upcoming presidential election. It mentions Biden's endorsement, describes Trump\u2019s policies towards Russia, and quotes Putin's remarks on Harris's demeanor."
+}
+{
+  "analysis": "Cast discusses political topic relevant to the election.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xedc7b74772294e921a444f3bf5f25c37413f108c by rulmul (ID 487988, AKA Rul) on 2024-09-05 11:44:30+00:00: Putin to support Harris in November's election. Says, "Harris “laughs so contagiously and expressively, it shows she’s doing well.” 😆
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/d6c4b92f-36c8-41c1-904e-98cbcf900300/original": "A news article excerpt discussing Vladimir Putin's support for US Vice President Kamala Harris in the upcoming presidential election. It includes quotes from Putin about Biden and Trump's presidency, emphasizing Harris's expressive laughter."
+}
+{
+  "analysis": "Cast discusses politics and includes a news article excerpt.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x5a5764896cf3ad9782be692908b65f9eee09de99 by bentbrain (ID 827150, AKA jazzcat) on 2024-09-05 11:43:00+00:00: hey friends! 🌟 just got my hands on the new "Adventures in the Wild" book & it's a total game-changer for all you nature lovers out there! 🍃📖 if you've been lookin for a reason to disconnect from your screens and dive into some epic outdoor tales, this is it. grab a copy and let's chat about it! who's in? 🙌 
+{
+  "analysis": "The cast is off-topic regarding politics.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0x7f850880ea58fb7a442b04dbd43a67cc1c904b8e by mr-silverback (ID 335242, AKA Nicklas) on 2024-09-05 10:55:33+00:00: End end is near
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/423215b2-cc79-4326-eff3-f59f51246b00/original": "A tweet by John Stossel expressing concern about the US government's debt interest expense, stating it now surpasses $3 billion a day. The image includes a graph showing the interest expense over time, with a notable upward trend. The horizontal axis represents time, while the vertical axis indicates the dollar amount in billions."
+}
+{
+  "analysis": "Cast discusses US debt, relevant to politics.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xa13ecc90355532bace752ecce8127e51f6123237 by dlkakbs (ID 448518, AKA Dilek) on 2024-09-05 10:38:36+00:00: Every year at the graduation ceremonies of the Middle East Technical University, graduates carry various banners during the procession to protest and highlight social and political issues.  First: "For all the women with incomplete stories."  Second: To express oppressive mindset  "They didn't take the other banner."
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/21b07a59-35d5-479e-3d6e-dcf1e2ffe200/original": "The image features a large banner on the grass, which reads \"Hikayesi yar\u0131m kalan t\u00fcm kad\u0131nlar i\u00e7in.\" This translates to \"For all the women with incomplete stories.\" The bottom right corner of the banner includes the text \"MATH'24\". In the foreground, a person's legs are visible, dressed in a graduation robe with a red outer layer and another colorful garment, likely a sash.",
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/622e8ece-a80f-46f2-8268-37148dc9d300/original": "The image shows a graduation ceremony at Middle East Technical University. Graduates in black robes carry a large banner reading 'D\u0130\u011eER PANKARTI ALMADILAR' (They didn't take the other banner). A large crowd is visible in the background, with seating arranged for attendees and several tents set up. The atmosphere appears celebratory yet politically charged."
+}
+{
+  "analysis": "Cast relates to political protest during graduation.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x41441785f8693a9b30628c2b6c514cfbd2241095 by gregory-1967 (ID 456030, AKA Rango 🎩) on 2024-09-05 08:25:29+00:00: ⚡️ The ABC television network has approved the rules for the Trump and Harris debate  Only moderators will be able to ask questions of the candidates, and time for answers will be limited to two minutes with microphones turned off during the opponent's speech. Participants will be given paper, a pen and a bottle of water, but they are not allowed to use pre-prepared notes.   They are also prohibited from interacting with their staff representatives throughout the event, including commercial breaks.
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/2caf30c7-99c1-42c6-f2ed-da0407a11100/original": "A split image featuring two prominent political figures. On the left, a woman with dark hair and a serious expression, dressed in a gray blazer. On the right, a man with light-colored hair, wearing a suit, looking intently. The background of both sides is neutral, emphasizing their expressions."
+}
+{
+  "analysis": "Casts about political debates are on-topic and relevant.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x7066bfadb273ed9e46eff99c8541de3f0260f744 by ayojoseph (ID 239396, AKA oxdev.base.eth 🎩🔵Ⓜ️) on 2024-09-05 07:32:04+00:00: Love the way France was uniformly criticized by almost everyone,  Its a very good thing for free speech.  but then while free speech is a cornerstone of our democratic societies, its more like a double edged sword, the fact that we have the freedom of speech doesn't mean we have freedom to hurt anyone with that freedom.  We often agitate for that freedom but many do not understand the freedom of speech is a responsibility, a responsibility not just for you but to others. In as much as we as individuals want to be respected for our opinions, its more important for us to respect that of others.  Words are sacred and powerful, as we are clamoring for free speech, we should also understand that human rights are not just entitlements, they are responsibilities.
+{
+  "analysis": "On-topic discussion about free speech and responsibility.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x391f8596b37df445c75c7944a7ab0fe854d9b7ff by farshad-mahmoodi (ID 410435, AKA farshad🎭) on 2024-09-05 07:19:30+00:00: 🗳 Elections: Trump now leads Harris by 5% Most analysts and market strategists believe that only Trump can start a bull market for Bitcoin and digital currencies.
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/8e8debac-b26f-4198-b1cd-978b070f4800/original": "The image depicts a map of the United States colored to represent political standings in an election between Donald Trump and Kamala Harris. Trump is shown leading with 52% in a circular inset, and Harris with 47%. The map has states shaded in red and blue, illustrating their predicted support."
+}
+{
+  "analysis": "Cast is relevant to politics, discussing elections and market implications.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x67febe98c73ec04af4946e77fcaf98ed654c2e4c by nftdeshu (ID 812394, AKA NFTdesh) on 2024-09-05 06:12:50+00:00: Are you undecided? 😜  By Dave Granlund
+
+Embeds: {
+  "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/28fdbf8f-b16e-4883-9460-5e9429f62200/original": "A cartoon illustration titled 'Undecided Voters.' It features five different characters standing in a line, each with humorous props. The first character holds a Ouija board, the second is flipping a coin, the third has a dartboard, the fourth is wearing a blindfold with a dart, and the last character is holding a pencil. The characters display various expressions, reflecting their confusion about voting."
+}
+{
+  "analysis": "Cast discusses undecided voters, related to politics.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xfc039f35cee104f83a397337766d5fd6749eb252 by conspirator (ID 414868, AKA Psyop Cypher) on 2024-09-05 03:31:40+00:00: I am with the government and I am here to help
+{
+  "analysis": "The cast seems vague and may not provide meaningful content.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+
+------
+=> Cast 0xead8d790b961ea659a5f4014863f6a998beefdcf by maurelian.eth (ID 4179, AKA maurelian ) on 2024-09-05 01:17:33+00:00: new industrialist policy people, study this:  https://en.wikipedia.org/wiki/Canadian_content
+
+Embeds: {
+  "0x28ac442bca200eabbfe86971ee66880b550915da": "=> Cast 0x28ac442bca200eabbfe86971ee66880b550915da by aaronrferguson.eth (ID 7637, AKA aferg) on 2024-09-05 01:11:35+00:00: ahhh love me some CanCon",
+  "https://en.wikipedia.org/wiki/Canadian_content": "Canadian content - Wikipedia "
+}
+{
+  "analysis": "Cast discusses a political topic (Canadian content policy)",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0xde13d122b9186d2daa67d84c72f007264b02365c by kikoelnathan (ID 508903, AKA Elnathan O.) on 2024-09-05 00:50:14+00:00: Switzerland’s Fourth Largest Bank Launches Crypto Services  Zurich Cantonal Bank (ZKB), Switzerland’s fourth largest, now offers trading and storage for digital assets, starting with Bitcoin and Ethereum. Customers don’t need separate wallets, as ZKB handles all transactions securely through its eBanking and Mobile Banking platforms
+{
+  "analysis": "Casts about crypto policy are on-topic.",
+  "tags": [
+    "original_content"
+  ],
+  "should_exclude": false
+}
+
+------
+=> Cast 0x379756550f595e49b016a6c1edbfdce27a4f618e by conspirator (ID 414868, AKA Psyop Cypher) on 2024-09-05 00:46:58+00:00: Fake it till you make it
+{
+  "analysis": "Cast is ambiguous and off-topic; may not relate to politics directly.",
+  "tags": [
+    "off_topic"
+  ],
+  "should_exclude": true
+}
+

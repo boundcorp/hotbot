@@ -8,6 +8,6 @@ class ContentTags(TextChoices):
     BOT_TIP_REPLY = 'bot_tip_reply', 'Bot Tip Reply, automated reply to a tipping message, usually saying remaining balance'
     ORIGINAL_CONTENT = 'original_content', 'Original Content, a real human message, it is on-topic and valid user content (as opposed to spam, nonsense, or tipping-without-content), its not just "haha" or "great point"'
     SPAM = 'spam', 'Spam'
-    OFF_TOPIC = 'off_topic', 'Off Topic'
-    HATE_SPEECH = 'hate_speech', 'Hate Speech'
+    OFF_TOPIC = 'off_topic', 'Off Topic - completely unrelated to channel topic, very low likelihood of being relevant discussion. If unsure, dont tag as off-topic.'
+    HATE_SPEECH = 'hate_speech', 'Hate Speech - explicit racism, sexism, homophobia, transphobia, etc'
     SEXUALLY_EXPLICIT = 'sexually_explicit', 'Sexually Explicit'

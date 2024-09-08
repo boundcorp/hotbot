@@ -72,6 +72,7 @@ INSTALLED_APPS = [
     "django_extensions",
     "hotbot.apps.users",
     "hotbot.apps.farcaster",
+    "hotbot.apps.agents",
 ]
 
 SITE_ROOT = PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))

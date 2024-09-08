@@ -11,5 +11,6 @@
         "**/_metadata": true,
         "**/_ssr": true,
         "**/staticfiles": true
-    }
+    },
+    "makefile.configureOnOpen": false
 }

@@ -6,6 +6,9 @@ class Channel(TimestampMixin, UUIDMixin, models.Model):
     fid = models.CharField(max_length=255)
     name = models.CharField(max_length=255)
     image_url = models.URLField(max_length=2048, null=True, blank=True)
+    description = models.TextField(null=True, blank=True)
+    moderation_enabled = models.BooleanField(default=False)
+    moderation_rules = models.TextField(null=True, blank=True)
 
     class Meta:
         app_label = 'farcaster'

@@ -39,11 +39,11 @@ export const EnumContentTags: EnumTextChoices =  {
     value: "spam"
   },
   'off_topic': {
-    label: "Off Topic",
+    label: "Off Topic - completely unrelated to channel topic, very low likelihood of being relevant discussion. If unsure, dont tag as off-topic.",
     value: "off_topic"
   },
   'hate_speech': {
-    label: "Hate Speech",
+    label: "Hate Speech - explicit racism, sexism, homophobia, transphobia, etc",
     value: "hate_speech"
   },
   'sexually_explicit': {

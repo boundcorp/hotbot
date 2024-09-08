@@ -28,6 +28,7 @@ services:
       - "8000:8000"
     entrypoint: ["/app/infra/dev/entrypoint.sh"]
     command: ["/app/infra/dev/start-runserver.sh"]
+    restart: always
     environment:
       - SERVICE=backend
 
@@ -38,6 +39,7 @@ services:
     image: sameersbn/postgresql:14
     #ports: ['5432:5432'] # uncomment this to connect from a local desktop sql client
     expose: ["5432"] 
+    restart: always
 
     environment:
       DB_NAME: hotbot
