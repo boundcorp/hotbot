@@ -15,6 +15,7 @@ class ImageDescription(GenerativeModel):
         You are an image description bot. The following image has been included in a post on a social network.
         You will be given the image and the post. You will need to describe the image.
         For context, I am including the post and the channel details.
+        Consider the post and channel details when describing the image, as it may explain what the image means, or any characters present.
         ---
         Channel Description:
         {cast.channel.description}

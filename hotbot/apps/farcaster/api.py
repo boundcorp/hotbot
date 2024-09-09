@@ -53,6 +53,20 @@ class NeynarClient:
     def get_cast_conversation(self, cast_hash_or_url):
         url = f"{self.base_url}/cast/conversation?identifier={cast_hash_or_url}&type=hash&reply_depth=3&include_chronological_parent_casts=true&limit=20"
         return self._get_paginated_page(url, self.base_headers)
+    
+    def post_cast(self, text, parent_hash=None, parent_url=None, mentions=None, embeds=None):
+        signer_uuid = os.environ.get('FC_SIGNER_UUID')
+        url = f"{self.base_url}/cast"
+        payload = {
+            "signer_uuid": signer_uuid,
+            "text": text,
+            "parent_hash": parent_hash,
+            "parent_url": parent_url,
+            "mentions": mentions,
+            "embeds": embeds
+        }
+        response = requests.post(url, json=payload, headers=self.base_headers)
+        return response.json()
 
 client = NeynarClient()
 

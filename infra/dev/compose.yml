@@ -19,6 +19,9 @@ services:
     <<: *common-django-settings
     environment:
       - SERVICE=django_shell
+    volumes:
+      - ../../:/app
+      - ./.pythonhist:/.pythonhist
     command: "bash"
     entrypoint: []
 

@@ -10,6 +10,7 @@ import logging
 from django.utils import timezone
 
 logger = logging.getLogger(__name__)
+X_DOT_COM = "https://x.com/"
 
 class CastQuerySet(models.QuerySet):
     def active(self):
@@ -55,6 +56,9 @@ class Cast(TimestampMixin, UUIDMixin, models.Model):
 
     objects = CastManager()
 
+    class ApiCastNotFound(Exception):
+        pass
+
     class Meta:
         app_label = 'farcaster'
         ordering = ['-timestamp']
@@ -62,8 +66,15 @@ class Cast(TimestampMixin, UUIDMixin, models.Model):
     @classmethod
     def fetch_by_hash(cls, hash):
         from ..api import client
-        cast = client.get_cast(hash)
-        return cls.create_from_json(cast['cast'])
+        data = client.get_cast(hash)
+        if not data or data.get('code') == 'NotFound':
+            raise cls.ApiCastNotFound(f"Cast {hash} not found")
+        try:
+            return cls.create_from_json(data['cast'])
+        except Exception as e:
+            logger.error("Error creating cast from json", data, e)
+            traceback.print_exc()
+            return None
     
     @classmethod
     def create_from_json(cls, data, channel=None):
@@ -125,69 +136,122 @@ class Cast(TimestampMixin, UUIDMixin, models.Model):
     def short_text_summary(self, max_length=300):
         content = self.text.replace("\n", " ")
         return f"{content[:max_length]}{'...' if len(content) > max_length else ''}"
+    
+    def fetch_embed_tweet_description(self, embed):
+        from ..twitter import TwitterClient
+        if embed['url'] in self.embed_descriptions:
+            return True
+        self.log_moderation(f"Fetching tweet {embed['url']}")
+        tweet = None
+        try:
+            tweet = TwitterClient().get_tweet_by_url(embed['url'])
+            self.embed_descriptions[embed['url']] = f"Tweet by {tweet['data']['username']}: {tweet['data']['text']}"
+            self.save()
+            return True
+        except Exception as e:
+            self.log_moderation(f"Error fetching tweet {embed['url']}: {tweet} - {e}")
+            traceback.print_exc()
+            self.embed_descriptions[embed['url']] = "ERROR: Failed to fetch tweet"
+            self.save()
+            return False
 
-    def fetch_relevant_metadata(self, allow_refetch=True):
+    def fetch_embed_cast_description(self, embed):
+        if embed['cast_id']['hash'] in self.embed_descriptions:
+            return True
+        try:
+            embedded_cast = Cast.objects.get(hash=embed['cast_id']['hash'])
+            self.log_moderation(f"Found embed cast {embed['cast_id']['hash']}")
+        except Cast.DoesNotExist:
+            self.log_moderation(f"Fetching embed cast {embed['cast_id']['hash']}")
+            try:
+                embedded_cast = Cast.fetch_by_hash(embed['cast_id']['hash'])
+            except Cast.ApiCastNotFound:
+                self.log_moderation(f"Embed cast {embed['cast_id']['hash']} not found")
+                self.embed_descriptions[embed['cast_id']['hash']] = "ERROR: Embedded cast not found"
+                self.save()
+                return False
+        if embedded_cast and embedded_cast.embeds and not embedded_cast.embed_descriptions:
+            embedded_cast.fetch_embed_descriptions(allow_refetch=False)
+            embedded_cast.refresh_from_db()
+        self.embed_descriptions[embed['cast_id']['hash']] = embedded_cast.short_summary(max_length=200, include_embeds=True)
+        self.save()
+        return True
+    
+    def fetch_embed_image_description(self, embed):
         from hotbot.apps.farcaster.analysis.image_description import ImageDescription
-        needs_refetch = False
-        if self.embeds:
-            for embed in self.embeds:
-                if 'cast_id' in embed and embed['cast_id']['hash'] not in self.embed_descriptions:
-                    try:
-                        cast = Cast.objects.get(hash=embed['cast_id']['hash'])
-                        self.log_moderation(f"Found embed cast {embed['cast_id']['hash']}")
-                    except Cast.DoesNotExist:
-                        self.log_moderation(f"Fetching embed cast {embed['cast_id']['hash']}")
-                        cast = Cast.fetch_by_hash(embed['cast_id']['hash'])
-                    cast.fetch_relevant_metadata(allow_refetch=False)
-                    cast.refresh_from_db()
-                    self.embed_descriptions[embed['cast_id']['hash']] = cast.short_summary(max_length=200, include_embeds=True)
-                    self.save()
-                elif 'url' in embed:
-                    status = embed['metadata'].get('_status', 'PENDING')
-                    if status == 'PENDING':
-                        self.log_moderation("Re-fetching cast to update PENDING url embed")
-                        try:
-                            cast = Cast.fetch_by_hash(self.hash)
-                        except Exception as e:
-                            self.log_moderation(f"Error fetching cast {self.hash}: {e}")
-                            traceback.print_exc()
-                        self.refresh_from_db()
-                        needs_refetch = True
-                        break
-                    else:
-                        if 'image' in embed['metadata']:
-                            if embed['url'] not in self.embed_descriptions:
-                                self.log_moderation(f"Parsing embed image {embed['url']}")
-                                try:
-                                    result = ImageDescription.parse_content(self, embed['url'])
-                                    self.embed_descriptions[embed['url']] = result.description
-                                except Exception as e:
-                                    self.log_moderation(f"Error parsing embed image {embed['url']}: {e}")
-                                    traceback.print_exc()
-                                    self.embed_descriptions[embed['url']] = "Failed to parse image"
-                                self.save()
-                        elif 'html' in embed['metadata']:
-                            if 'ogTitle' in embed['metadata']['html']:
-                                self.embed_descriptions[embed['url']] = (
-                                    embed['metadata']['html']['ogTitle'] + " " +
-                                    embed['metadata']['html'].get('ogDescription', '')
-                                )
-                        else:
-                            self.log_moderation(f"Embed url {embed['url']} is {status}")
-                            print(json.dumps(embed, indent=2))
-                else:
-                    print(json.dumps(embed, indent=2))
-        if needs_refetch and allow_refetch:
-            self.log_moderation("Needs refetch, fetching again...")
-            time.sleep(1)
-            self.fetch_relevant_metadata(allow_refetch=False)
+        if embed['url'] in self.embed_descriptions:
+            return
+        self.log_moderation(f"Parsing embed image {embed['url']}")
+        try:
+            result = ImageDescription.parse_content(self, embed['url'])
+            self.embed_descriptions[embed['url']] = result.description
+        except Exception as e:
+            self.log_moderation(f"Error parsing embed image {embed['url']}: {e}")
+            traceback.print_exc()
+            self.embed_descriptions[embed['url']] = "ERROR: Failed to parse image"
+        self.save()
 
+    def fetch_embed_url_description(self, embed):
+        if embed['url'] in self.embed_descriptions:
+            return True
+        if X_DOT_COM in embed['url']:
+            return self.fetch_embed_tweet_description(embed)
+        if 'image' in embed['metadata']:
+            return self.fetch_embed_image_description(embed)
+        elif 'html' in embed['metadata']:
+            if 'ogTitle' in embed['metadata']['html']:
+                self.embed_descriptions[embed['url']] = (
+                    embed['metadata']['html']['ogTitle'] + " " +
+                    embed['metadata']['html'].get('ogDescription', '')
+                )
+                self.save()
+                return True
+            else:
+                self.log_moderation(f"Embed url {embed['url']} has no ogTitle")
+        else:
+            self.log_moderation(f"Unknown embed type: {json.dumps(embed, indent=2)}")
+    
+    def fetch_embed_descriptions(self, allow_refetch=True, reset=False):
+        needs_retry = False
+        if reset:
+            self.embed_descriptions = {}
+            self.save()
+        for embed in (self.embeds or []):
+            if 'cast_id' in embed:
+                self.fetch_embed_cast_description(embed)
+            elif 'url' in embed:
+                status = embed.get('metadata', {}).get('_status', 'PENDING')
+                if status == 'PENDING' and not X_DOT_COM in embed['url']:
+                    if allow_refetch:
+                        self.refetch_cast()
+                        needs_retry = True
+                    self.log_moderation(f"Skipping pending embed {embed['url']}")
+                else:
+                    self.fetch_embed_url_description(embed)
+            else:
+                self.log_moderation(f"Unknown embed type: {json.dumps(embed, indent=2)}")
+                self.embed_descriptions[embed['url']] = "ERROR: Unknown embed type"
+                self.save()
+        if needs_retry and allow_refetch:
+            self.log_moderation("Needs retry...")
+            time.sleep(1)
+            self.refresh_from_db()
+            self.fetch_embed_descriptions(allow_refetch=False)
+
+    def refetch_cast(self):
+        self.log_moderation("Re-fetching cast to update PENDING url embed")
+        try:
+            Cast.fetch_by_hash(self.hash)
+        except Exception as e:
+            self.log_moderation(f"Error fetching cast {self.hash}: {e}")
+            traceback.print_exc()
+        self.refresh_from_db()
 
     def automod_classify(self, verbose=False):
         import time
         start_time = time.time()
         self.moderation_log = []
-        self.fetch_relevant_metadata()
+        self.fetch_embed_descriptions()
         analysis = self.perform_moderation_analysis(verbose=verbose)
         self.moderation_duration = time.time() - start_time
         self.save()

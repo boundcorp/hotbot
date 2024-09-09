@@ -121,7 +121,7 @@ LOGGING = {
     "disable_existing_loggers": False,
     "formatters": {
         "verbose": {
-            "format": ("%(levelname)s %(asctime)s |" "%(pathname)s:%(lineno)d (in %(funcName)s) |" " %(message)s ")
+            "format": ("%(levelname)s %(asctime)s |" "%(pathname)s:%(lineno)d |" " %(message)s ")
         },
         "simple": {"format": "%(levelname)s %(message)s"},
     },
@@ -143,6 +143,11 @@ LOGGING = {
         "null": {
             "class": "logging.NullHandler",
         },
+        "logfile": {
+            "class": "logging.FileHandler",
+            "filename": "hotbot.log",
+            "formatter": "verbose",
+        },
     },
     "loggers": {
         "django": {
@@ -160,7 +165,7 @@ LOGGING = {
         },
         "hotbot": {
             "handlers": ["console"],
-            "level": "INFO",
+            "level": "DEBUG",
         },
     },
 }

@@ -33,7 +33,9 @@ def neynar_webhook_receiver(request):
             f.write('\n')
             try:
                 from hotbot.apps.farcaster.models import Cast
-                Cast.create_from_json(body_data['data'])
+                cast = Cast.create_from_json(body_data['data'])
+                if channel in ['politics', 'cryptoleft'] and not cast.parent_hash:
+                    cast.automod_classify(verbose=True)
             except Exception as e:
                 traceback.print_exc()
                 logger.error(f"error creating cast in {channel}: {e}")

@@ -33,6 +33,7 @@ ruff = "*"
 pytest = "*"
 pytest-django = "*"  # Added pytest-django dependency
 openai = "*"
+pytwitter = "*"
 
 [build-system]
 requires = ["poetry-core"]

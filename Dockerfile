@@ -99,6 +99,7 @@ ENV LANG C.UTF-8
 ENV PYTHONUNBUFFERED 1
 ENV PYTHONPATH=/app:$PYTHONPATH
 ENV PYTHONSTARTUP=/app/.pythonrc
+ENV PYTHONHISTORY=/app/.python_history
 
 RUN apt update -yq && apt install -yq \
     netcat gcc python3-dev libpq-dev libxml2-dev libxslt-dev \
