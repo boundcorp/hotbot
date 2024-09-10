@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        target: [dev, release-backend]
+        target: [dev, release-backend, deploy]
     steps:
     - uses: actions/checkout@v3
     - name: Set up Docker Buildx
