@@ -1,4 +1,16 @@
 #!/usr/bin/env bash
 set -e
+#!/usr/bin/env bash
 
+# Run the pre-commit checks
+echo "Running pre-commit checks..."
 make --no-print-directory precommit
+
+# Check for changes after running pre-commit checks
+if ! git diff --quiet; then
+  echo "Pre-commit checks modified files. Please review and stage changes."
+  exit 1
+fi
+
+# Allow commit to proceed
+exit 0
