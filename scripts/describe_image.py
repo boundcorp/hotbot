@@ -5,5 +5,5 @@ import json
 
 def run():
     cast = Cast.objects.get(hash="0x1d00d9c8add3fda326cd479f28cba8486b3fe1e3")
-    result = ImageDescription.parse_content(cast, cast.embeds[0]["url"])
+    result = ImageDescription.describe_image(cast, cast.embeds[0]["url"])
     print(json.dumps(result.model_dump(), indent=2))

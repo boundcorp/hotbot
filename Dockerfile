@@ -3,26 +3,20 @@ ARG image_version=python:3.10.9
 #
 #
 # Base stage
-FROM ${image_version}-alpine3.17 as base
+FROM ${image_version} AS base
 
 ENV PATH=/app/.venv/bin:$PATH
 ENV LANG=C.UTF-8
 ENV PYTHONUNBUFFERED=1
 
-# Fix for psycopg2 ssl loading error
-# https://stackoverflow.com/questions/60588431/psycopg2-import-error-ssl-check-private-key-symbol-not-found
-ENV LD_PRELOAD=/lib/libssl.so.1.1
-
-RUN apk add --no-cache \
-    libpq \
-    libjpeg \
-    libcurl \
+RUN apt update -yq && apt install -yq \
+    libpq-dev \
+    libjpeg-dev \
+    libcurl4-openssl-dev \
     bash \
     libxml2-dev \
     libxslt-dev \
-    curl-dev \
-    python3-dev \
-    build-base
+    curl 
 
 RUN pip install --no-cache-dir --upgrade pipenv pip uv poetry setuptools
 
@@ -42,51 +36,50 @@ RUN pip install --no-cache-dir --upgrade pipenv pip uv poetry setuptools
 #
 #
 # Builder stage
-FROM base as builder
+FROM base AS builder
 
-RUN apk add --no-cache \
-    zlib-dev \
-    jpeg-dev \
-    gcc \
-    musl-dev \
-    postgresql-dev \
-    linux-headers \
-    build-base \
-    libcurl \
-    curl-dev \
-    libxml2-dev \
-    libxslt-dev \
-    libffi-dev \
-    openssl \
-    freetype-dev \
-    git
+RUN apt update -yq && apt install -yq \
+    netcat gcc python3-dev libpq-dev libxml2-dev libxslt-dev \
+    libcurl4-openssl-dev libssl-dev libffi-dev curl
 
+# Copy only requirements file first to leverage Docker cache
 COPY requirements.freeze.txt /app/
 
 WORKDIR /app
 RUN uv venv /app/.venv
 ENV PATH=/app/.venv/bin:$PATH
-RUN source /app/.venv/bin/activate
-RUN uv pip install -r requirements.freeze.txt
+RUN . /app/.venv/bin/activate
 
+# Copy the rest of the application
+COPY pyproject.toml README.md /app/
 COPY hotbot/ /app/hotbot
+COPY infra /app/infra
+
+# Install the application
+RUN uv pip install -e .
+
+
 
 #
 #
 # Release
-FROM base as release
+FROM base AS release
+
+RUN apt update -yq && apt install -yq libfreetype6-dev libjpeg62-turbo-dev libpng-dev
 
 COPY --from=builder /app /app
-
-RUN apk add --no-cache freetype-dev
-
+COPY --from=builder /app/.venv /app/.venv
+COPY hotbot/ /app/hotbot
+COPY scripts/ /app/scripts
+COPY infra /app/infra
+COPY manage.py /app/
 RUN mkdir -p /app/frontend
 
 WORKDIR /app
 RUN mkdir -p /app/static/uploads && chmod 777 /app/static/uploads
-RUN source /venv/bin/activate
-ENV PATH=/venv/bin:$PATH
-RUN /venv/bin/python manage.py collectstatic --noinput
+RUN chmod -R 777 /app/.venv/lib/python3.10/site-packages/mountaineer/views/
+ENV PATH=/app/.venv/bin:$PATH
+RUN /app/.venv/bin/python manage.py collectstatic --noinput
 ENV PYTHONPATH=/app:$PYTHONPATH
 ENV PYTHONSTARTUP=/app/.pythonrc
 

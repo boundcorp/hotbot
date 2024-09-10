@@ -40,15 +40,5 @@ def build():
     )
 
 
-@cli.command()
-@option(
-    "--output-file",
-    default="hotbot/views/src/enums.ts",
-    help="Output file for the generated typing definitions",
-)
-def generate_enums(output_file: str):
-    generate_enum_typing_file(output_file=output_file)
-
-
 if __name__ == "__main__":
     cli()

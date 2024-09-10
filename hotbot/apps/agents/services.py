@@ -30,7 +30,6 @@ USER_PROMPT_TYPE = Union[
 ]
 
 
-
 class GenerativeModel(BaseModel):
     @classmethod
     def system_prompt(cls):

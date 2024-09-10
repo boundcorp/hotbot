@@ -1,4 +1,5 @@
 from importlib import import_module
+from typing import Type
 from asgiref.sync import sync_to_async
 
 from fastapi import Depends
@@ -20,12 +21,15 @@ class UserProfileOutput(ModelSchema):
     )
 
 
+SessionStoreType = Type[SessionStore]
+
+
 class AuthDependencies:
     @staticmethod
     async def get_user(
         request: Request,
         response: Response,
-        session: SessionStore = Depends(get_session),
+        session: SessionStoreType = Depends(get_session),
     ):
         # If you have the middleware wrapper installed, django_request will be available
         if hasattr(request.state, "django_request"):

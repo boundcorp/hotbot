@@ -21,14 +21,14 @@ docker_build_clean:
 	bin/dc build --no-cache
 
 generate:
-	python3 hotbot/cli.py generate-enums
+	python3 manage.py runscript generate_enums
 
 format:
 	make ruff_format
 	make mypy
 
 venv:
-	uv venv .venv
+	[ -d .venv ] || uv venv .venv
 	uv pip install -e .
 
 freeze:
