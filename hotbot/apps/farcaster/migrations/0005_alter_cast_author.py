@@ -5,15 +5,19 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('farcaster', '0004_channel_image_url_alter_account_pfp_url'),
+        ("farcaster", "0004_channel_image_url_alter_account_pfp_url"),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='cast',
-            name='author',
-            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, to='farcaster.account'),
+            model_name="cast",
+            name="author",
+            field=models.ForeignKey(
+                blank=True,
+                null=True,
+                on_delete=django.db.models.deletion.CASCADE,
+                to="farcaster.account",
+            ),
         ),
     ]

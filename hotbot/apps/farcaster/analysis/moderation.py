@@ -8,12 +8,18 @@ from django.db.models import Count
 
 class ModerationAnalysis(GenerativeModel):
     analysis: str = Field(description="A summary of the analysis, up to 75 characters")
-    tags: list[str] = Field(description="A list of tags to apply to the cast, as many as are relevant; if the cast has no other tags, it is probably original content")
-    should_exclude: bool = Field(description="The final judgement: should the cast be excluded from the main feed (denied) or not (allowed)")
+    tags: list[str] = Field(
+        description="A list of tags to apply to the cast, as many as are relevant; if the cast has no other tags, it is probably original content"
+    )
+    should_exclude: bool = Field(
+        description="The final judgement: should the cast be excluded from the main feed (denied) or not (allowed)"
+    )
 
     @classmethod
     def build_system_prompt(cls, channel: Channel):
-        TAG_CHOICES = '\n'.join(f'({tag}: {description})' for tag, description in ContentTags.choices)
+        TAG_CHOICES = "\n".join(
+            f"({tag}: {description})" for tag, description in ContentTags.choices
+        )
         return f"""
         YOUR TASK:
         You are a spam analysis and moderation bot. You analyze a cast into a Channel and determine if it should be excluded.
@@ -50,8 +56,21 @@ class ModerationAnalysis(GenerativeModel):
 
     @classmethod
     def build_user_prompt(cls, cast: Cast):
-        other_casts = Cast.objects.filter(author__fid=cast.author.fid).exclude(hash=cast.hash).order_by('-timestamp')
-        other_tags = other_casts.values('cast_tags__tag').annotate(tag_count=Count('cast_tags__tag')).order_by('-tag_count')
+        if not cast.author:
+            raise ValueError(
+                f"Cast {cast.hash} has no author, unable to build moderation analysis prompt"
+            )
+
+        other_casts = (
+            Cast.objects.filter(author__fid=cast.author.fid)
+            .exclude(hash=cast.hash)
+            .order_by("-timestamp")
+        )
+        other_tags = (
+            other_casts.values("cast_tags__tag")
+            .annotate(tag_count=Count("cast_tags__tag"))
+            .order_by("-tag_count")
+        )
 
         return f"""
         --- Target Cast ---

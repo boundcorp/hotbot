@@ -7,7 +7,9 @@ from django.db.models import Count
 
 
 class TopicExtraction(GenerativeModel):
-    topics: list[str] = Field(description="A list of popular topics in the channel, in hashtag format without the # (eg 'Hotdog', 'Pizza', 'BananaSplit')")
+    topics: list[str] = Field(
+        description="A list of popular topics in the channel, in hashtag format without the # (eg 'Hotdog', 'Pizza', 'BananaSplit')"
+    )
 
     @classmethod
     def build_system_prompt(cls, channel: Channel):

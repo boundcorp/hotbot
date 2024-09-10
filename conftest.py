@@ -5,6 +5,7 @@ from hotbot.apps.users.factories import UserFactory
 import django.conf
 import pytest
 
+
 @pytest.fixture
 def strong_pass():
     # Test password is very strong
@@ -22,4 +23,3 @@ def project_fixture_common(db, settings):
     user = UserFactory.create()
 
     return ProjectFixture(settings=settings, user=user)
-

@@ -75,7 +75,9 @@ INSTALLED_APPS = [
     "hotbot.apps.agents",
 ]
 
-SITE_ROOT = PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
+SITE_ROOT = PROJECT_ROOT = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "../..")
+)
 BACKEND_FOLDER = SITE_ROOT + "/hotbot"
 
 
@@ -121,7 +123,11 @@ LOGGING = {
     "disable_existing_loggers": False,
     "formatters": {
         "verbose": {
-            "format": ("%(levelname)s %(asctime)s |" "%(pathname)s:%(lineno)d |" " %(message)s ")
+            "format": (
+                "%(levelname)s %(asctime)s |"
+                "%(pathname)s:%(lineno)d |"
+                " %(message)s "
+            )
         },
         "simple": {"format": "%(levelname)s %(message)s"},
     },
@@ -257,14 +263,18 @@ ALLOWED_HOSTS = ["127.0.0.1", "localhost", "*"]
 MINIO_STORAGE_ENDPOINT = os.environ.get("MINIO_STORAGE_ENDPOINT", "minio:9000")
 MINIO_STORAGE_ACCESS_KEY = os.environ.get("MINIO_STORAGE_ACCESS_KEY", "dev")
 MINIO_STORAGE_SECRET_KEY = os.environ.get("MINIO_STORAGE_SECRET_KEY", "test1234")
-MINIO_STORAGE_MEDIA_BUCKET_NAME = os.environ.get("MINIO_STORAGE_MEDIA_BUCKET_NAME",
-                                                    "hotbot-assets")
+MINIO_STORAGE_MEDIA_BUCKET_NAME = os.environ.get(
+    "MINIO_STORAGE_MEDIA_BUCKET_NAME", "hotbot-assets"
+)
 MINIO_STORAGE_USE_HTTPS = env_variable_truthy("MINIO_STORAGE_USE_HTTPS")
 MINIO_STORAGE_AUTO_CREATE_MEDIA_BUCKET = True
 MINIO_STORAGE_MEDIA_URL = os.environ.get(
-    "MINIO_STORAGE_MEDIA_URL", f"http://localhost:9000/{MINIO_STORAGE_MEDIA_BUCKET_NAME}"
+    "MINIO_STORAGE_MEDIA_URL",
+    f"http://localhost:9000/{MINIO_STORAGE_MEDIA_BUCKET_NAME}",
 )
-MINIO_STORAGE_MEDIA_USE_PRESIGNED = env_variable_truthy("MINIO_STORAGE_MEDIA_USE_PRESIGNED", "true")
+MINIO_STORAGE_MEDIA_USE_PRESIGNED = env_variable_truthy(
+    "MINIO_STORAGE_MEDIA_USE_PRESIGNED", "true"
+)
 
 # set minio as storage backend
 DEFAULT_FILE_STORAGE = "minio_storage.storage.MinioMediaStorage"
@@ -289,7 +299,9 @@ else:
     APP_HOSTNAME = "localhost"
     BASE_URL = f"{PROTOCOL}://localhost:{FRONTEND_PORT}"
     EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
-    BACKEND_URL = os.environ.get("BACKEND_URL", f"{PROTOCOL}://localhost:{BACKEND_PORT}")
+    BACKEND_URL = os.environ.get(
+        "BACKEND_URL", f"{PROTOCOL}://localhost:{BACKEND_PORT}"
+    )
 
 APPEND_SLASH = True
 

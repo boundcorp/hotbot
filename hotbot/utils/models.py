@@ -20,14 +20,18 @@ def _generate_full_uuid():
 
 
 class ShortIdMixin(models.Model):
-    id = models.CharField(max_length=32, primary_key=True, default=_generate_id, editable=False)
+    id = models.CharField(
+        max_length=32, primary_key=True, default=_generate_id, editable=False
+    )
 
     class Meta:
         abstract = True
 
 
 class MediumIDMixin(models.Model):
-    id = models.CharField(max_length=32, primary_key=True, default=_generate_medium_id, editable=False)
+    id = models.CharField(
+        max_length=32, primary_key=True, default=_generate_medium_id, editable=False
+    )
 
     class Meta:
         abstract = True
@@ -108,7 +112,11 @@ class ModelDiffMixin(object):
 
 
 def from_choices(c):
-    return {"choices": c.choices, "max_length": max([len(x) for x in c]), "default": c.choices[0][0]}
+    return {
+        "choices": c.choices,
+        "max_length": max([len(x) for x in c]),
+        "default": c.choices[0][0],
+    }
 
 
 def format_cents(c):

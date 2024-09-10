@@ -25,19 +25,20 @@ generate:
 
 format:
 	make ruff_format
-	make black
-	make isort
-	make autoflake
 	make mypy
 
 venv:
 	uv venv .venv
 	uv pip install -e .
 
+freeze:
+	uv pip freeze > requirements.freeze.txt
+
 precommit:
 	make format
 	make generate
 	make test
+	make freeze
 
 # CI Pipeline & Tests
 
@@ -60,17 +61,8 @@ clean:
 mypy:
 	mypy
 
-isort:
-	isort hotbot
-
-flake8:
-	flake8
-
 autoflake:
 	autoflake -r -i --expand-star-imports --remove-all-unused-imports --remove-duplicate-keys --remove-unused-variables --ignore-init-module-imports hotbot/apps/
-
-black:
-	black hotbot wsgi.py manage.py
 
 ruff_check:
 	ruff check .

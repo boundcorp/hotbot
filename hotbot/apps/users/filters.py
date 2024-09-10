@@ -9,5 +9,3 @@ class UserFilterSet(django_filters.FilterSet):
         fields = {
             "email": ["icontains"],
         }
-
-

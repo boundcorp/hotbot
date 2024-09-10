@@ -34,6 +34,10 @@ pytest = "*"
 pytest-django = "*"  # Added pytest-django dependency
 openai = "*"
 pytwitter = "*"
+autoflake = "*"
+mypy = "*"
+django-stubs = "*"
+types-requests = "*"
 
 [build-system]
 requires = ["poetry-core"]
@@ -78,6 +82,11 @@ select = ["B", "C", "E", "F", "W", "T4"]
 files = ["hotbot"]
 ignore_missing_imports = true
 plugins = ["mypy_django_plugin.main", "pydantic.mypy"]
+
+[tool.django-stubs]
+django_settings_module = "hotbot.settings"
+strict_settings = true
+
 
 [tool.pytest.ini_options]
 DJANGO_SETTINGS_MODULE = "hotbot.settings.test_settings"

@@ -4,15 +4,14 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('farcaster', '0014_cast_moderation_log'),
+        ("farcaster", "0014_cast_moderation_log"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='channel',
-            name='moderation_enabled',
+            model_name="channel",
+            name="moderation_enabled",
             field=models.BooleanField(default=False),
         ),
     ]

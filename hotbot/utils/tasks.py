@@ -22,7 +22,9 @@ def ensure_scheduled(func, schedule_type, name=None, **kwargs):
         print_if_not_tests("*** Schedule updated: {}".format(info))
     else:
         if not "repeats" in kwargs:
-            updates["repeats"] = -1  # it says it defaults to -1 but it keeps getting set to -2 for some reason
+            updates[
+                "repeats"
+            ] = -1  # it says it defaults to -1 but it keeps getting set to -2 for some reason
         Schedule.objects.create(name=name, **updates)
         print_if_not_tests("*** Created schedule: {}".format(info))
 

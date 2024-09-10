@@ -20,7 +20,14 @@ class CustomUserAdmin(UserAdmin):
     ]
 
     fieldsets = UserAdmin.fieldsets[0:2] + (
-        ("Access", {"fields": ["account_type", ]}),
+        (
+            "Access",
+            {
+                "fields": [
+                    "account_type",
+                ]
+            },
+        ),
         ("Django Permissions", {"fields": ("is_active", "is_staff", "is_superuser")}),
     )
 
@@ -33,5 +40,12 @@ class CustomUserAdmin(UserAdmin):
             },
         ),
         ("Personal Info", {"fields": ("first_name", "last_name")}),
-        ("Access", {"fields": ["account_type", ]}),
+        (
+            "Access",
+            {
+                "fields": [
+                    "account_type",
+                ]
+            },
+        ),
     )

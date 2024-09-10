@@ -4,15 +4,14 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('farcaster', '0006_alter_account_options_alter_cast_options_and_more'),
+        ("farcaster", "0006_alter_account_options_alter_cast_options_and_more"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='account',
-            name='analysis_result',
+            model_name="account",
+            name="analysis_result",
             field=models.CharField(blank=True, max_length=2048, null=True),
         ),
     ]

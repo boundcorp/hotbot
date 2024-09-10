@@ -4,15 +4,14 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('farcaster', '0011_cast_moderation_duration'),
+        ("farcaster", "0011_cast_moderation_duration"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='cast',
-            name='embed_descriptions',
+            model_name="cast",
+            name="embed_descriptions",
             field=models.JSONField(default=dict),
         ),
     ]

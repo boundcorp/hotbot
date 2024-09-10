@@ -4,40 +4,39 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('farcaster', '0007_account_analysis_result'),
+        ("farcaster", "0007_account_analysis_result"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='channel',
-            name='description',
+            model_name="channel",
+            name="description",
             field=models.TextField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='channel',
-            name='moderation_rules',
+            model_name="channel",
+            name="moderation_rules",
             field=models.TextField(blank=True, null=True),
         ),
         migrations.AlterField(
-            model_name='cast',
-            name='embeds',
+            model_name="cast",
+            name="embeds",
             field=models.JSONField(blank=True),
         ),
         migrations.AlterField(
-            model_name='cast',
-            name='reactions',
+            model_name="cast",
+            name="reactions",
             field=models.JSONField(blank=True),
         ),
         migrations.AlterField(
-            model_name='cast',
-            name='replies',
+            model_name="cast",
+            name="replies",
             field=models.JSONField(blank=True),
         ),
         migrations.AlterField(
-            model_name='cast',
-            name='text',
+            model_name="cast",
+            name="text",
             field=models.TextField(blank=True),
         ),
     ]

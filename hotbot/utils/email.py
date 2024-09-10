@@ -44,7 +44,9 @@ class MailableEntityMixin(object):
             html_message=html_message,
         )
 
-    def send_notification_mail(self, title, content_blocks=None, signature=None, cc_emails=None):
+    def send_notification_mail(
+        self, title, content_blocks=None, signature=None, cc_emails=None
+    ):
         html, plain_message = prepare_email(
             {
                 "title": title,
@@ -54,7 +56,15 @@ class MailableEntityMixin(object):
         )
         self.send_raw_mail(title, html, plain_message, cc_emails=cc_emails)
 
-    def send_action_button_mail(self, title, button_text, link, content_blocks=None, signature=None, cc_emails=None):
+    def send_action_button_mail(
+        self,
+        title,
+        button_text,
+        link,
+        content_blocks=None,
+        signature=None,
+        cc_emails=None,
+    ):
         html, plain_message = prepare_email(
             {
                 "title": title,

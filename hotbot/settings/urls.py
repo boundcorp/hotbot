@@ -6,7 +6,11 @@ from django.conf.urls.static import static
 from django.urls import path
 from rest_framework.routers import DefaultRouter
 
-from hotbot.apps.farcaster.webhooks import automod_webhook_curate, automod_webhook_exclude, neynar_webhook_receiver
+from hotbot.apps.farcaster.webhooks import (
+    automod_webhook_curate,
+    automod_webhook_exclude,
+    neynar_webhook_receiver,
+)
 from hotbot.utils.admin import admin_site
 from hotbot.utils.views import healthz
 

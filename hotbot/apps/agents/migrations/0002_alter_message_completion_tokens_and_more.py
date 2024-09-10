@@ -4,20 +4,19 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('agents', '0001_initial'),
+        ("agents", "0001_initial"),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='message',
-            name='completion_tokens',
+            model_name="message",
+            name="completion_tokens",
             field=models.IntegerField(blank=True, null=True),
         ),
         migrations.AlterField(
-            model_name='message',
-            name='prompt_tokens',
+            model_name="message",
+            name="prompt_tokens",
             field=models.IntegerField(blank=True, null=True),
         ),
     ]

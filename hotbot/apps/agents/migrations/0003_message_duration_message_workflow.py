@@ -4,20 +4,19 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('agents', '0002_alter_message_completion_tokens_and_more'),
+        ("agents", "0002_alter_message_completion_tokens_and_more"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='message',
-            name='duration',
+            model_name="message",
+            name="duration",
             field=models.FloatField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='message',
-            name='workflow',
+            model_name="message",
+            name="workflow",
             field=models.CharField(blank=True, max_length=64, null=True),
         ),
     ]

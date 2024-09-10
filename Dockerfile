@@ -72,8 +72,8 @@ COPY hotbot/ /app/hotbot
 
 #
 #
-# Release-backend
-FROM base as release-backend
+# Release
+FROM base as release
 
 COPY --from=builder /app /app
 
@@ -146,5 +146,5 @@ RUN uv pip install -e .
 
 #
 #
-# This make release-backend the default stage
-FROM release-backend
+# This make release the default stage
+FROM release

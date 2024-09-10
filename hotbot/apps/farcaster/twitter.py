@@ -16,5 +16,8 @@ class TwitterClient:
 
         return requests.get(
             f"https://api.x.com/2/tweets/{tweet_id}?tweet.fields=created_at,text,username&expansions=author_id&user.fields=username",
-            headers={"Authorization": f"Bearer {self.bearer_token}", "Content-Type": "application/json"},
+            headers={
+                "Authorization": f"Bearer {self.bearer_token}",
+                "Content-Type": "application/json",
+            },
         ).json()

@@ -4,15 +4,14 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('farcaster', '0010_alter_cast_options_alter_accounttag_tag_and_more'),
+        ("farcaster", "0010_alter_cast_options_alter_accounttag_tag_and_more"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='cast',
-            name='moderation_duration',
+            model_name="cast",
+            name="moderation_duration",
             field=models.FloatField(blank=True, null=True),
         ),
     ]

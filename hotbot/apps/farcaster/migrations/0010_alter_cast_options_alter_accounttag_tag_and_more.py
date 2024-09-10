@@ -4,24 +4,85 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('farcaster', '0009_cast_moderation_analysis'),
+        ("farcaster", "0009_cast_moderation_analysis"),
     ]
 
     operations = [
         migrations.AlterModelOptions(
-            name='cast',
-            options={'ordering': ['-timestamp']},
+            name="cast",
+            options={"ordering": ["-timestamp"]},
         ),
         migrations.AlterField(
-            model_name='accounttag',
-            name='tag',
-            field=models.CharField(choices=[('automated', 'Automated'), ('user_giving_tips_with_content', 'User Giving Tips, post also contains original content'), ('user_giving_tips_without_content', 'User Giving Tips, no original content'), ('bot_tip_reply', 'Bot Tip Reply, automated reply to a tipping message, usually saying remaining balance'), ('original_content', 'Original Content, a real human message, it is on-topic and valid user content (as opposed to spam, nonsense, or tipping-without-content), its not just "haha" or "great point"'), ('spam', 'Spam'), ('off_topic', 'Off Topic - completely unrelated to channel topic, very low likelihood of being relevant discussion'), ('hate_speech', 'Hate Speech - explicit racism, sexism, homophobia, transphobia, etc'), ('sexually_explicit', 'Sexually Explicit')], max_length=255),
+            model_name="accounttag",
+            name="tag",
+            field=models.CharField(
+                choices=[
+                    ("automated", "Automated"),
+                    (
+                        "user_giving_tips_with_content",
+                        "User Giving Tips, post also contains original content",
+                    ),
+                    (
+                        "user_giving_tips_without_content",
+                        "User Giving Tips, no original content",
+                    ),
+                    (
+                        "bot_tip_reply",
+                        "Bot Tip Reply, automated reply to a tipping message, usually saying remaining balance",
+                    ),
+                    (
+                        "original_content",
+                        'Original Content, a real human message, it is on-topic and valid user content (as opposed to spam, nonsense, or tipping-without-content), its not just "haha" or "great point"',
+                    ),
+                    ("spam", "Spam"),
+                    (
+                        "off_topic",
+                        "Off Topic - completely unrelated to channel topic, very low likelihood of being relevant discussion",
+                    ),
+                    (
+                        "hate_speech",
+                        "Hate Speech - explicit racism, sexism, homophobia, transphobia, etc",
+                    ),
+                    ("sexually_explicit", "Sexually Explicit"),
+                ],
+                max_length=255,
+            ),
         ),
         migrations.AlterField(
-            model_name='casttag',
-            name='tag',
-            field=models.CharField(choices=[('automated', 'Automated'), ('user_giving_tips_with_content', 'User Giving Tips, post also contains original content'), ('user_giving_tips_without_content', 'User Giving Tips, no original content'), ('bot_tip_reply', 'Bot Tip Reply, automated reply to a tipping message, usually saying remaining balance'), ('original_content', 'Original Content, a real human message, it is on-topic and valid user content (as opposed to spam, nonsense, or tipping-without-content), its not just "haha" or "great point"'), ('spam', 'Spam'), ('off_topic', 'Off Topic - completely unrelated to channel topic, very low likelihood of being relevant discussion'), ('hate_speech', 'Hate Speech - explicit racism, sexism, homophobia, transphobia, etc'), ('sexually_explicit', 'Sexually Explicit')], max_length=255),
+            model_name="casttag",
+            name="tag",
+            field=models.CharField(
+                choices=[
+                    ("automated", "Automated"),
+                    (
+                        "user_giving_tips_with_content",
+                        "User Giving Tips, post also contains original content",
+                    ),
+                    (
+                        "user_giving_tips_without_content",
+                        "User Giving Tips, no original content",
+                    ),
+                    (
+                        "bot_tip_reply",
+                        "Bot Tip Reply, automated reply to a tipping message, usually saying remaining balance",
+                    ),
+                    (
+                        "original_content",
+                        'Original Content, a real human message, it is on-topic and valid user content (as opposed to spam, nonsense, or tipping-without-content), its not just "haha" or "great point"',
+                    ),
+                    ("spam", "Spam"),
+                    (
+                        "off_topic",
+                        "Off Topic - completely unrelated to channel topic, very low likelihood of being relevant discussion",
+                    ),
+                    (
+                        "hate_speech",
+                        "Hate Speech - explicit racism, sexism, homophobia, transphobia, etc",
+                    ),
+                    ("sexually_explicit", "Sexually Explicit"),
+                ],
+                max_length=255,
+            ),
         ),
     ]

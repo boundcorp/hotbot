@@ -5,12 +5,16 @@ from django.db import models
 from hotbot.utils.models import TimestampMixin, UUIDMixin
 from hotbot.utils.email import MailableEntityMixin
 
+
 class AccountTypes(models.TextChoices):
     STAFF = "staff", "Staff"
     USER = "user", "User"
 
+
 class User(TimestampMixin, UUIDMixin, AbstractUser, MailableEntityMixin):
-    account_type = models.CharField(max_length=50, choices=AccountTypes.choices, default=AccountTypes.STAFF)
+    account_type = models.CharField(
+        max_length=50, choices=AccountTypes.choices, default=AccountTypes.STAFF
+    )
 
     def __str__(self):
         return f"{self.get_full_name()} <{self.email}>"
@@ -41,4 +45,4 @@ class User(TimestampMixin, UUIDMixin, AbstractUser, MailableEntityMixin):
                 "Please click the button below to reset your password.",
                 "If you did not request a password reset, please ignore this email.",
             ],
-            )
+        )

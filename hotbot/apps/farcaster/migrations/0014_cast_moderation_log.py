@@ -4,15 +4,17 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('farcaster', '0013_alter_accounttag_tag_alter_cast_embed_descriptions_and_more'),
+        (
+            "farcaster",
+            "0013_alter_accounttag_tag_alter_cast_embed_descriptions_and_more",
+        ),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='cast',
-            name='moderation_log',
+            model_name="cast",
+            name="moderation_log",
             field=models.JSONField(blank=True, default=list),
         ),
     ]

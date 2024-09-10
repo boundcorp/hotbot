@@ -4,20 +4,19 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('farcaster', '0003_alter_account_display_name'),
+        ("farcaster", "0003_alter_account_display_name"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='channel',
-            name='image_url',
+            model_name="channel",
+            name="image_url",
             field=models.URLField(blank=True, max_length=2048, null=True),
         ),
         migrations.AlterField(
-            model_name='account',
-            name='pfp_url',
+            model_name="account",
+            name="pfp_url",
             field=models.URLField(blank=True, max_length=2048, null=True),
         ),
     ]

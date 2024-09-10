@@ -15,18 +15,26 @@ User = get_user_model()
 # These are just some sensible defaults for the user model, from the cookie cutter
 # You can override these in your own project
 class UserProfileOutput(ModelSchema):
-    model_config = ConfigDict(model=User, include=["id", "username", "email", "first_name", "last_name"])
+    model_config = ConfigDict(  # type: ignore[typeddict-unknown-key]
+        model=User, include=["id", "username", "email", "first_name", "last_name"]
+    )
 
 
-class AuthDependencies():
+class AuthDependencies:
     @staticmethod
-    async def get_user(request: Request, response: Response, session: SessionStore = Depends(get_session)):
+    async def get_user(
+        request: Request,
+        response: Response,
+        session: SessionStore = Depends(get_session),
+    ):
         # If you have the middleware wrapper installed, django_request will be available
         if hasattr(request.state, "django_request"):
             user = await request.state.django_request.auser()
         else:
             # Otherwise, we have fastapi-alternative implementations of the django session store and user lookup
-            user = await sync_to_async(get_user_from_session)(request, response, session)
+            user = await sync_to_async(get_user_from_session)(
+                request, response, session
+            )
         if user.is_anonymous:
             return None
 

@@ -5,31 +5,37 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='Message',
+            name="Message",
             fields=[
-                ('id', models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True, serialize=False)),
-                ('created_at', models.DateTimeField(auto_now_add=True, db_index=True)),
-                ('updated_at', models.DateTimeField(auto_now=True, db_index=True)),
-                ('openai_id', models.CharField(max_length=128, unique=True)),
-                ('success', models.BooleanField(default=True)),
-                ('content', models.JSONField()),
-                ('refusal_reason', models.TextField(blank=True, null=True)),
-                ('response', models.TextField(blank=True, null=True)),
-                ('model', models.CharField(max_length=64)),
-                ('completion_tokens', models.IntegerField()),
-                ('prompt_tokens', models.IntegerField()),
+                (
+                    "id",
+                    models.UUIDField(
+                        default=uuid.uuid4,
+                        editable=False,
+                        primary_key=True,
+                        serialize=False,
+                    ),
+                ),
+                ("created_at", models.DateTimeField(auto_now_add=True, db_index=True)),
+                ("updated_at", models.DateTimeField(auto_now=True, db_index=True)),
+                ("openai_id", models.CharField(max_length=128, unique=True)),
+                ("success", models.BooleanField(default=True)),
+                ("content", models.JSONField()),
+                ("refusal_reason", models.TextField(blank=True, null=True)),
+                ("response", models.TextField(blank=True, null=True)),
+                ("model", models.CharField(max_length=64)),
+                ("completion_tokens", models.IntegerField()),
+                ("prompt_tokens", models.IntegerField()),
             ],
             options={
-                'ordering': ('-updated_at', '-created_at'),
-                'abstract': False,
+                "ordering": ("-updated_at", "-created_at"),
+                "abstract": False,
             },
         ),
     ]

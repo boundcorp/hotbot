@@ -10,6 +10,7 @@ TYPING_DEFINITIONS = [
     "export type EnumTextChoices = Record<string, EnumTextChoice>",
 ]
 
+
 def load_django_enums():
     enums = {}
 
@@ -27,12 +28,17 @@ def load_django_enums():
                         enums[name] = obj
     return enums
 
+
 def enum_choice_to_interface(choice):
     label = getattr(choice, "label", choice.value.replace("_", " ").capitalize())
-    return ',\n'.join('    ' + line for line in [
-        f"label: \"{label}\"",
-        f"value: \"{choice.value}\"",
-    ])
+    return ",\n".join(
+        "    " + line
+        for line in [
+            f'label: "{label}"',
+            f'value: "{choice.value}"',
+        ]
+    )
+
 
 def enum_to_interface(name, enum):
     return (
@@ -41,7 +47,10 @@ def enum_to_interface(name, enum):
         + ": EnumTextChoices = "
         + " {\n"
         + ",\n".join(
-            "  " + "'" + item.value + "'"
+            "  "
+            + "'"
+            + item.value
+            + "'"
             + ": {\n"
             + enum_choice_to_interface(item)
             + "\n  }"
@@ -51,12 +60,19 @@ def enum_to_interface(name, enum):
     )
 
 
+def generate_enum_typing_file(
+    enums: Optional[Dict[str, type[models.TextChoices]]] = None,
+    output_file: str = "hotbot/views/src/enums.ts",
+):
+    if output_file is None:
+        return
 
-def generate_enum_typing_file(enums: Optional[Dict[str, type[models.TextChoices]]] = None, output_file: Optional[str] = "hotbot/views/src/enums.ts"):
     if enums is None:
         enums = load_django_enums()
 
-    definitions = TYPING_DEFINITIONS + [enum_to_interface(name, enum) for name, enum in enums.items()]
+    definitions = TYPING_DEFINITIONS + [
+        enum_to_interface(name, enum) for name, enum in enums.items()
+    ]
 
     with open(output_file, "w") as f:
         f.write("\n\n".join(definitions))
