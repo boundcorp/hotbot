@@ -12,6 +12,7 @@ class HomeRender(RenderBase):
 
 class PageController(SyncControllerBase):
     def __init__(self, url: str | None = None, page_path="src/pages"):
+        super().__init__()
         self.url = url or self.get_page_path(page_path)
         self.view_path = f"{self.get_controller_path()}/page.tsx"
 

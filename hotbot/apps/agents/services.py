@@ -29,7 +29,6 @@ USER_PROMPT_TYPE = Union[
     Iterable[ChatCompletionContentPartTextParam | ChatCompletionContentPartImageParam],
 ]
 
-client = openai.OpenAI()
 
 
 class GenerativeModel(BaseModel):
@@ -59,6 +58,7 @@ def prompt_to_type(
     model: str = DEFAULT_MODEL,
     workflow: str | None = None,
 ):
+    client = openai.OpenAI()
     from .models import Message
 
     system_prompt = (
