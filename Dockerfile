@@ -58,7 +58,8 @@ RUN apk add --no-cache \
     libxslt-dev \
     libffi-dev \
     openssl \
-    freetype-dev
+    freetype-dev \
+    git
 
 COPY requirements.freeze.txt /app/
 

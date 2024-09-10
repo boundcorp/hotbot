@@ -32,7 +32,7 @@ venv:
 	uv pip install -e .
 
 freeze:
-	uv pip freeze > requirements.freeze.txt
+	uv pip freeze | grep -v hotbot > requirements.freeze.txt
 
 precommit:
 	make format

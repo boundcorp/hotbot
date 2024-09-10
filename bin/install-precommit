@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+if [[ ! -f .git/hooks/pre-commit ]]; then
+    echo "Installing pre-commit hook"
+    ln -s ../../bin/pre-commit .git/hooks/pre-commit
+fi
