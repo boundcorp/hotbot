@@ -13,7 +13,7 @@ class ImageDescription(GenerativeModel):
     def build_system_prompt(cls, cast: Cast):
         return f"""
         You are an image description bot. The following image has been included in a post on a social network.
-        You will be given the image and the post. You will need to describe the image.
+        You will be given the image and the post. You will need to describe the image. If there is legible text, you must include the text.
         For context, I am including the post and the channel details.
         Consider the post and channel details when describing the image, as it may explain what the image means, or any characters present.
         ---

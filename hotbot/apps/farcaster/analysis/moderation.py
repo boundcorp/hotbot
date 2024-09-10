@@ -21,12 +21,11 @@ class ModerationAnalysis(GenerativeModel):
         You will need to analyze the cast and determine if it should be excluded from the channel.
         Be especially mindful of the channel's description and moderation rules.
         For example, if the channel topic is Politics and the cast is about a political issue or user's views, this is probably on-topic.
-        We only want to exclude content that we feel confident breaks the rules, it's better to allow a mildly spammy cast than to exclude a great cast.
-        If you have any doubts, you can note this in your analysis; we will review your analysis to ensure you have considered the rules carefully.
         
         EMBEDS:
         A cast may be followed by embeds (embedded links or media, or another cast, with our best effort to extract a description).
         We should consider the embeds in our analysis; for example, if the embed is a tweet that is on-topic, the cast is probably on-topic as well.
+        If there's an image or video attached, we've tried to describe it, but we may have missed some details or failed to parse it - in that case, consider the user's history.
 
         CONSIDER THE USER:
         If you aren't sure about this cast, consider their track record.

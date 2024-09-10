@@ -1,0 +1,28 @@
+name: Deploy to Staging
+
+on:
+  pull_request:
+    branches: [ main ]
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
+
+jobs:
+  deploy_staging:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up kubectl
+      uses: azure/setup-kubectl@v3
+    - name: Configure kubectl
+      run: |
+        echo "${{ secrets.KUBE_CONFIG }}" > kubeconfig
+        chmod 600 kubeconfig
+    - name: Deploy to staging
+      env:
+        KUBECONFIG: ./kubeconfig
+        CI_REGISTRY_IMAGE: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+        CI_COMMIT_SHA: ${{ github.sha }}
+      run: |
+        ./bin/helm-deploy ${{ github.sha }} staging ${{ github.ref_name }}

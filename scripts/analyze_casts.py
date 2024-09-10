@@ -7,5 +7,5 @@ def run(fid, limit=3):
 
     latest_casts_in_channel = Cast.objects.filter(channel__fid=fid).is_not_reply().order_by('-timestamp')
 
-    for cast in latest_casts_in_channel.filter(moderation_status=None)[:int(limit)]:
+    for cast in latest_casts_in_channel[:int(limit)]:
         cast.automod_classify(verbose=True)

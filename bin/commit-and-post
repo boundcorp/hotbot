@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+set -e
+
+
+git commit -m "$*"
+git push
+
+read -p "Do you want to post the message? \n$*\n(y/n): " confirm
+if [[ $confirm != "y" ]]; then
+  echo "Message not posted."
+  exit 0
+else
+  djmanage runscript cast_from_bot --script-args "I committed to hotbot! $1"
+fi
+

@@ -89,7 +89,7 @@ class Cast(TimestampMixin, UUIDMixin, models.Model):
                 'embeds': data['embeds'],
                 'reactions': data['reactions'],
                 'replies': data['replies'],
-                'original_json': data,
+                #'original_json': data,
         }
  
         if data['author'] and data['author']['object'] == 'user':

@@ -53,7 +53,7 @@ class CastAdmin(admin.ModelAdmin):
         return format_html('<div style="max-width: 400px;">{}<br />{}</div>', summary, obj.embed_descriptions and 'Embeds: '+', '.join(obj.embed_descriptions.values()) or '')
 
     def tags(self, obj):
-        return format_html(', '.join([tag.tag for tag in obj.cast_tags.all()]))
+        return format_html(', '.join([tag.tag for tag in obj.cast_tags.all()]) + "<br />" + (obj.moderation_analysis or {}).get('analysis', ''))
 
     def link(self, obj):
         if not obj.author:

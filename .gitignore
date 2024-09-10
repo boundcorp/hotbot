@@ -183,3 +183,4 @@ cython_debug/
 # Django local staticfiles cache
 staticfiles/
 fixtures/casts/
+backups/*
