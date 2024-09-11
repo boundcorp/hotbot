@@ -1,4 +1,4 @@
 .git
 static/
 
-frontend/node_modules
+hotbot/views/node_modules
