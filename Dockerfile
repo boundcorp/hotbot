@@ -140,14 +140,18 @@ RUN npm install --global yarn
 RUN ln -sf /root/.nvm/versions/node/${NODE_VERSION}/bin /usr/yarn
 
 COPY pyproject.toml README.md /app/
+RUN mkdir -p /frontend
 RUN . /venv/bin/activate
 # install the dependencies
 RUN uv pip install -r /app/pyproject.toml
+COPY hotbot/views/package.json hotbot/views/yarn.lock /frontend/
+RUN cd /frontend && yarn install
 RUN chmod -R 777 /venv/lib/python3.10/site-packages/mountaineer/views/
 
 # now install the package
 COPY hotbot/ /app/hotbot
 COPY infra /app/infra
+RUN mv /frontend/node_modules /app/hotbot/views/node_modules
 RUN uv pip install -e .
 
 #
