@@ -80,14 +80,13 @@ RUN mkdir -p /app/static/uploads && chmod 777 /app/static/uploads
 RUN chmod -R 777 /app/.venv/lib/python3.10/site-packages/mountaineer/views/
 ENV PATH=/app/.venv/bin:$PATH
 RUN /app/.venv/bin/python manage.py collectstatic --noinput
-ENV PYTHONPATH=/app:$PYTHONPATH
 ENV PYTHONSTARTUP=/app/.pythonrc
 
 
 #
 #
 # Developer image stage - ubuntu based instead of alpine
-FROM ${image_version} as dev
+FROM ${image_version} AS dev
 
 ENV LANG C.UTF-8
 ENV PYTHONUNBUFFERED 1
