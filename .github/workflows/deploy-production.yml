@@ -2,7 +2,7 @@ name: Deploy to Production
 
 on:
   workflow_run:
-    workflows: [build, test]
+    workflows: [build]
     types:
       - completed
     branches: [main]
@@ -23,6 +23,8 @@ jobs:
       run: |
         echo "${{ secrets.KUBE_CONFIG }}" > kubeconfig
         chmod 600 kubeconfig
+    - name: Authenticate to GitHub Container Registry
+      run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
     - name: Deploy to production
       env:
         KUBECONFIG: ./kubeconfig
