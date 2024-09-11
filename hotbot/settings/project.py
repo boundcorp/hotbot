@@ -26,6 +26,15 @@ INGRESS_PORT = int(os.environ.get("DEVELOP_INGRESS_PORT", 8888))
 DEBUG = os.environ.get("DEBUG", "") == "true"
 ROOT_URLCONF = "hotbot.settings.urls"
 
+if ENVIRONMENT == Environments.PRODUCTION:
+    CSRF_COOKIE_SECURE = True
+    CSRF_COOKIE_HTTPONLY = True
+    CSRF_COOKIE_SAMESITE = 'Strict'
+    CSRF_USE_SESSIONS = False
+    CSRF_COOKIE_NAME = "csrftoken"
+    CSRF_HEADER_NAME = "HTTP_X_CSRFTOKEN"
+    CSRF_TRUSTED_ORIGINS = ["https://hotbot.wtf"]
+
 DATABASE_HOST = os.environ.get("DATABASE_HOST", "psql")
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "hotbot")
 DATABASE_USER = os.environ.get("DATABASE_USER", "hotbot")
@@ -257,7 +266,7 @@ TEMPLATES = [
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
-ALLOWED_HOSTS = ["127.0.0.1", "localhost", "*"]
+ALLOWED_HOSTS = ["127.0.0.1", "localhost", "hotbot.wtf"]
 
 # minio storage
 MINIO_STORAGE_ENDPOINT = os.environ.get("MINIO_STORAGE_ENDPOINT", "minio:9000")

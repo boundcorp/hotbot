@@ -43,7 +43,7 @@ RUN apt update -yq && apt install -yq \
     libcurl4-openssl-dev libssl-dev libffi-dev curl
 
 # Copy only requirements file first to leverage Docker cache
-COPY requirements.freeze.txt /app/
+COPY requirements.freeze.txt pyproject.toml README.md /app/
 
 WORKDIR /app
 RUN uv venv /app/.venv
@@ -51,14 +51,11 @@ ENV PATH=/app/.venv/bin:$PATH
 RUN . /app/.venv/bin/activate
 
 # Copy the rest of the application
-COPY pyproject.toml README.md /app/
+# Install the application
+RUN uv pip install -r requirements.freeze.txt
+
 COPY hotbot/ /app/hotbot
 COPY infra /app/infra
-
-# Install the application
-RUN uv pip install -e .
-
-
 
 #
 #
@@ -82,6 +79,7 @@ ENV PATH=/app/.venv/bin:$PATH
 RUN /app/.venv/bin/python manage.py collectstatic --noinput
 ENV PYTHONSTARTUP=/app/.pythonrc
 
+RUN uv pip install -e .
 
 #
 #
