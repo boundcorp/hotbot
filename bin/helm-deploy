@@ -21,8 +21,10 @@ for TAG_IMAGE in "release"; do
   echo
 
   [[ "$BUILD_AND_PUSH" == "true" ]] && bin/push "$VERSION" "$TAG_IMAGE" || docker pull $SOURCE_IMAGE
-  docker tag "$SOURCE_IMAGE" "$TAG"
-  docker push "$TAG"
+  if [[ "$TAG" != "$SOURCE_IMAGE" ]]; then
+    docker tag "$SOURCE_IMAGE" "$TAG"
+    docker push "$TAG"
+  fi
 done
 
 NAMESPACE="hotbot-${CHANNEL}"
