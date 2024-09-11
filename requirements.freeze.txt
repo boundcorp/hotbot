@@ -22,7 +22,7 @@ django-environ==0.11.2
 django-extensions==3.2.3
 django-filter==24.3
 django-minio-storage==0.5.7
-django-mountaineer @ git+https://github.com/boundcorp/django-mountaineer.git@a592d330d04e31b6807f1ec7a8ea8d0f6e3c7243
+django-mountaineer @ git+https://github.com/boundcorp/django-mountaineer.git@f7a859693370269f175b0f1c928a901065a23f9e
 django-rest-framework==0.1.0
 django-stubs==5.0.4
 django-stubs-ext==5.0.4

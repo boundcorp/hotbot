@@ -17,9 +17,11 @@ class FormError(APIException):
 class LoginRender(RenderBase):
     user: UserProfileOutput | None = None
 
+
 class LoginForm(BaseModel):
     username: str
     password: str
+
 
 class LoginController(ControllerBase):
     url = "/login"
@@ -41,7 +43,9 @@ class LoginController(ControllerBase):
 
         from django.contrib.auth import authenticate
 
-        user = await sync_to_async(authenticate)(username=form.username, password=form.password)
+        user = await sync_to_async(authenticate)(
+            username=form.username, password=form.password
+        )
         if not user:
             raise FormError(status_code=400, detail="Invalid username or password")
         await alogin(request.state.django_request, user)

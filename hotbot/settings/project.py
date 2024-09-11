@@ -29,7 +29,7 @@ ROOT_URLCONF = "hotbot.settings.urls"
 if ENVIRONMENT == Environments.PRODUCTION:
     CSRF_COOKIE_SECURE = True
     CSRF_COOKIE_HTTPONLY = True
-    CSRF_COOKIE_SAMESITE = 'Strict'
+    CSRF_COOKIE_SAMESITE = "Strict"
     CSRF_USE_SESSIONS = False
     CSRF_COOKIE_NAME = "csrftoken"
     CSRF_HEADER_NAME = "HTTP_X_CSRFTOKEN"
