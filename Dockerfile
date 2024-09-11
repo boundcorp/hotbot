@@ -54,8 +54,13 @@ RUN . /app/.venv/bin/activate
 # Install the application
 RUN uv pip install -r requirements.freeze.txt
 
+RUN mkdir -p /build-frontend
+COPY hotbot/views/package.json hotbot/views/yarn.lock /build-frontend/
+RUN cd /build-frontend && yarn install
+
 COPY hotbot/ /app/hotbot
 COPY infra /app/infra
+RUN mv /build-frontend/node_modules /app/hotbot/views/
 
 #
 #
@@ -83,14 +88,12 @@ COPY hotbot/ /app/hotbot
 COPY scripts/ /app/scripts
 COPY infra /app/infra
 COPY manage.py /app/
-RUN mkdir -p /app/frontend
 
 WORKDIR /app
 RUN mkdir -p /app/static/uploads && chmod 777 /app/static/uploads
 RUN chmod -R 777 /app/.venv/lib/python3.10/site-packages/mountaineer/views/
 ENV PATH=/app/.venv/bin:$PATH
 
-# New steps from Mountaineer guide
 RUN uv pip install -e .
 RUN python manage.py collectstatic --noinput
 RUN python hotbot/cli.py build
@@ -140,18 +143,14 @@ RUN npm install --global yarn
 RUN ln -sf /root/.nvm/versions/node/${NODE_VERSION}/bin /usr/yarn
 
 COPY pyproject.toml README.md /app/
-RUN mkdir -p /frontend
 RUN . /venv/bin/activate
 # install the dependencies
 RUN uv pip install -r /app/pyproject.toml
-COPY hotbot/views/package.json hotbot/views/yarn.lock /frontend/
-RUN cd /frontend && yarn install
 RUN chmod -R 777 /venv/lib/python3.10/site-packages/mountaineer/views/
 
 # now install the package
 COPY hotbot/ /app/hotbot
 COPY infra /app/infra
-RUN mv /frontend/node_modules /app/hotbot/views/node_modules
 RUN uv pip install -e .
 
 #
