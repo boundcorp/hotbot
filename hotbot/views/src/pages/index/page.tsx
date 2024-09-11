@@ -13,11 +13,15 @@ const Home = () => {
       <section className="hero min-h-screen">
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">Welcome to HotBot</h1>
-            <p className="mb-5">
-              The next-gen AI content analysis tool for topical conversations
-            </p>
-            <Button className="btn btn-primary" onClick={() => window.location.href = "/login"}>Get Started</Button>
+            <div className="card bg-base-200 shadow-xl mb-4 bg-opacity-20">
+              <div className="card-body">
+                <h1 className="mb-5 text-5xl font-bold">welcome to hotbot</h1>
+                <p className="mb-5">
+                  the next-gen ai content analysis tool for topical conversations
+                </p>
+              </div>
+            </div>
+            <Button className="btn btn-primary" onClick={() => window.location.href = "/login"}>get started</Button>
           </div>
         </div>
       </section>
@@ -25,19 +29,19 @@ const Home = () => {
       {/* Features Section */}
       <section className="py-20 bg-base-100">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Features</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">features</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <FeatureCard
-              title="Farcaster Channel Support"
-              description="Analyze conversations in Farcaster channels with ease"
+              title="farcaster channel support"
+              description="analyze conversations in farcaster channels with ease"
             />
             <FeatureCard
-              title="Advanced Content Tagging"
-              description="Automatically tag content types including spam, promotional, and original content"
+              title="advanced content tagging"
+              description="automatically tag content types including spam, promotional, and original content"
             />
             <FeatureCard
-              title="User Quality Rating"
-              description="Identify low-quality users to maintain high-quality discussions"
+              title="user quality rating"
+              description="identify low-quality users to maintain high-quality discussions"
             />
           </div>
         </div>

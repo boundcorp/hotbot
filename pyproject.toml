@@ -39,6 +39,7 @@ autoflake = "*"
 mypy = "*"
 django-stubs = "*"
 types-requests = "*"
+python-multipart = "*"
 
 [build-system]
 requires = ["poetry-core"]
