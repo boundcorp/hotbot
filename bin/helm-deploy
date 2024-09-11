@@ -12,7 +12,7 @@ VALUES=$(test -z "$3" && echo "helm-values.$CHANNEL.secrets.yaml" || echo "$3")
 for TAG_IMAGE in "release"; do
   export SUFFIX="$CHANNEL/$TAG_IMAGE"
   export SOURCE_IMAGE="$CI_REGISTRY_IMAGE/$TAG_IMAGE:$VERSION"
-  export TAG="$CI_REGISTRY_IMAGE/$CHANNEL/$TAG_IMAGE:$VERSION"
+  export TAG="$CI_REGISTRY_IMAGE/$TAG_IMAGE:$VERSION"
 
   echo
   echo "********************************"
