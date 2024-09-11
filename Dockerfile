@@ -64,6 +64,19 @@ FROM base AS release
 
 RUN apt update -yq && apt install -yq libfreetype6-dev libjpeg62-turbo-dev libpng-dev
 
+ENV NODE_VERSION=v18.17.1
+RUN apt install -y curl socat
+ENV NVM_DIR=/nvm
+RUN mkdir -p $NVM_DIR
+RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+RUN . "$NVM_DIR/nvm.sh" && nvm install ${NODE_VERSION}
+RUN . "$NVM_DIR/nvm.sh" && nvm use ${NODE_VERSION}
+RUN . "$NVM_DIR/nvm.sh" && nvm alias default ${NODE_VERSION}
+ENV PATH="${NVM_DIR}/versions/node/${NODE_VERSION}/bin/:/venv/bin/:${PATH}"
+RUN node --version
+RUN npm --version
+RUN npm install --global yarn
+
 COPY --from=builder /app /app
 COPY --from=builder /app/.venv /app/.venv
 COPY hotbot/ /app/hotbot
@@ -76,10 +89,12 @@ WORKDIR /app
 RUN mkdir -p /app/static/uploads && chmod 777 /app/static/uploads
 RUN chmod -R 777 /app/.venv/lib/python3.10/site-packages/mountaineer/views/
 ENV PATH=/app/.venv/bin:$PATH
-RUN /app/.venv/bin/python manage.py collectstatic --noinput
-ENV PYTHONSTARTUP=/app/.pythonrc
 
+# New steps from Mountaineer guide
 RUN uv pip install -e .
+RUN python manage.py collectstatic --noinput
+RUN python hotbot/cli.py build
+
 
 #
 #
