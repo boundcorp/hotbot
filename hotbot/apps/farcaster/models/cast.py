@@ -1,3 +1,4 @@
+from datetime import timedelta
 import json
 import time
 import traceback
@@ -15,13 +16,13 @@ X_DOT_COM = "https://x.com/"
 
 class CastQuerySet(models.QuerySet):
     def active(self):
-        return self.filter(active_status="active")
+        return self.filter(is_deleted=False)
 
     def is_reply(self):
-        return self.filter(parent_hash__isnull=False)
+        return self.filter(parent_hash__isnull=False).active()
 
     def is_not_reply(self):
-        return self.filter(parent_hash__isnull=True)
+        return self.filter(parent_hash__isnull=True).active()
 
 
 class CastManager(models.Manager):
@@ -56,6 +57,10 @@ class Cast(TimestampMixin, UUIDMixin, models.Model):
     original_json = models.JSONField(null=True, blank=True)
     conversation = models.JSONField(null=True, blank=True)
     embed_descriptions = models.JSONField(default=dict, blank=True)
+
+    last_refetched_at = models.DateTimeField(null=True, blank=True)
+    is_deleted = models.BooleanField(default=False)
+    action_log = models.JSONField(default=list, blank=True)
 
     moderation_analysis = models.JSONField(null=True, blank=True)
     moderation_duration = models.FloatField(null=True, blank=True)
@@ -134,6 +139,24 @@ class Cast(TimestampMixin, UUIDMixin, models.Model):
         self.save()
         return conversation
 
+    def refetch_cast(self, force=False, refetch_interval: timedelta = timedelta(days=1)):
+        if not force and self.last_refetched_at and timezone.now() - self.last_refetched_at < refetch_interval:
+            return self
+        self.log_action(f"Re-fetching cast {self.hash} (last fetched {self.last_refetched_at})")
+        try:
+            Cast.fetch_by_hash(self.hash)
+            self.last_refetched_at = timezone.now()
+            self.save()
+        except Cast.ApiCastNotFound:
+            self.log_action(f"Cast {self.hash} not found")
+            self.is_deleted = True
+            self.save()
+        except Exception as e:
+            self.log_action(f"Error fetching cast {self.hash}: {e}")
+            traceback.print_exc()
+        self.refresh_from_db()
+        return self
+
     def add_tags(self, tags):
         for tag in tags:
             CastTag.objects.update_or_create(cast=self, tag=tag)
@@ -144,11 +167,20 @@ class Cast(TimestampMixin, UUIDMixin, models.Model):
             {"message": message, "timestamp": timezone.now().isoformat()}
         )
         self.save()
+    
+    def log_action(self, message):
+        logger.info("Cast Action: %s", message)
+        self.action_log.append(
+            {"message": message, "timestamp": timezone.now().isoformat()}
+        )
+        self.save()
 
-    def short_summary(self, max_length=300, include_embeds=False):
+    def short_summary(self, max_length=300, include_embeds=False, include_engagement=False):
         summary = f"=> Cast {self.hash} by {self.author.username} (ID {self.author.fid}, AKA {self.author.display_name}) on {self.timestamp}: {self.short_text_summary(max_length)}"
         if include_embeds and self.embed_descriptions:
             summary += f"\n\nEmbeds: {json.dumps(self.embed_descriptions, indent=2)}"
+        if include_engagement:
+            summary += f"\n\nEngagement: {self.reactions.get('likes_count', 0)} likes, {self.replies.get('count', 0)} replies"
         return summary
 
     def short_text_summary(self, max_length=300):
@@ -165,7 +197,7 @@ class Cast(TimestampMixin, UUIDMixin, models.Model):
         try:
             tweet = TwitterClient().get_tweet_by_url(embed["url"])
             self.embed_descriptions[embed["url"]] = (
-                f"Tweet by {tweet['data']['username']}: {tweet['data']['text']}"
+                f"TWEET by {tweet['data']['username']}: {tweet['data']['text']}"
             )
             self.save()
             return True
@@ -214,7 +246,7 @@ class Cast(TimestampMixin, UUIDMixin, models.Model):
         self.log_moderation(f"Parsing embed image {embed['url']}")
         try:
             result = ImageDescription.describe_image(self, embed["url"])
-            self.embed_descriptions[embed["url"]] = result.description
+            self.embed_descriptions[embed["url"]] = "IMAGE: " + result.description
         except Exception as e:
             self.log_moderation(f"Error parsing embed image {embed['url']}: {e}")
             traceback.print_exc()
@@ -266,21 +298,12 @@ class Cast(TimestampMixin, UUIDMixin, models.Model):
                 self.embed_descriptions[embed["url"]] = "ERROR: Unknown embed type"
                 self.save()
         if needs_retry and allow_refetch:
-            self.log_moderation("Needs retry...")
+            self.log_moderation("Refetch cast to update PENDING url embeds...")
             time.sleep(1)
             self.refresh_from_db()
             self.fetch_embed_descriptions(allow_refetch=False)
 
-    def refetch_cast(self):
-        self.log_moderation("Re-fetching cast to update PENDING url embed")
-        try:
-            Cast.fetch_by_hash(self.hash)
-        except Exception as e:
-            self.log_moderation(f"Error fetching cast {self.hash}: {e}")
-            traceback.print_exc()
-        self.refresh_from_db()
-
-    def automod_classify(self, verbose=False):
+    def moderation_classify(self, verbose=False):
         import time
 
         start_time = time.time()
@@ -291,6 +314,7 @@ class Cast(TimestampMixin, UUIDMixin, models.Model):
         self.save()
         if verbose:
             print(f"Classified in {self.moderation_duration:.2f} seconds")
+        self.log_action(f"Classified in {self.moderation_duration:.2f} seconds")
         return analysis
 
     def perform_moderation_analysis(self, verbose=False):

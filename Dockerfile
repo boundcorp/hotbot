@@ -144,7 +144,7 @@ COPY pyproject.toml README.md /app/
 RUN . /venv/bin/activate
 # install the dependencies
 RUN uv pip install -r /app/pyproject.toml
-RUN chmod -R 777 /venv/lib/python3.10/site-packages/mountaineer/views/
+RUN chmod -R 777 /venv/lib/python3.10/site-packages/mountaineer/
 
 # now install the package
 COPY hotbot/ /app/hotbot

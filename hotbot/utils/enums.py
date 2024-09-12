@@ -16,16 +16,13 @@ def load_django_enums():
 
     for app_config in apps.get_app_configs():
         for model in app_config.get_models():
-            model_file = model.__module__.replace(".", "/") + ".py"
-            if os.path.exists(model_file):
-                spec = importlib.util.spec_from_file_location(
-                    model.__module__, model_file
-                )
-                module = importlib.util.module_from_spec(spec)
-                spec.loader.exec_module(module)
-                for name, obj in vars(module).items():
-                    if isinstance(obj, type) and issubclass(obj, models.TextChoices):
-                        enums[name] = obj
+            for field in model._meta.fields:
+                if (
+                    isinstance(field, models.Field)
+                    and field.choices
+                    and isinstance(field.choices, models.TextChoices)
+                ):
+                    enums[field.name] = field.choices
     return enums
 
 

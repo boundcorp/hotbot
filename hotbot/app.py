@@ -11,9 +11,10 @@ from django_mountaineer.middleware import FastAPIDjangoMiddleware
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "hotbot.settings")
 django.setup()
+from django.conf import settings
 
 app_controller = AppController(
-    config=ConfigBase(PACKAGE="hotbot"),  # type: ignore
+    config=ConfigBase(PACKAGE="hotbot", ENVIRONMENT=settings.ENVIRONMENT),  # type: ignore
     global_metadata=Metadata(
         links=[LinkAttribute(rel="stylesheet", href="/static/src_main.css")]
     ),

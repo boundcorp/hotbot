@@ -33,7 +33,7 @@ USER_PROMPT_TYPE = Union[
 class GenerativeModel(BaseModel):
     @classmethod
     def system_prompt(cls):
-        pass
+        return getattr(cls, "__doc__", None)
 
     @classmethod
     def parse_content(
@@ -62,8 +62,7 @@ def prompt_to_type(
 
     system_prompt = (
         system_prompt
-        or getattr(output_type, "PROMPT", getattr(output_type, "__doc__", None))
-        or ""
+        or "You are a helpful assistant."
     )
 
     messages: Iterable[ChatCompletionMessageParam] = [
@@ -113,11 +112,12 @@ def prompt_to_type(
         response = None
         prompt_tokens = None
         completion_tokens = None
+        completion = None
 
     end_time = time.time()
     duration = end_time - start_time
 
-    if completion.id:
+    if completion and completion.id:
         Message.objects.create(
             openai_id=completion.id,
             model=model,

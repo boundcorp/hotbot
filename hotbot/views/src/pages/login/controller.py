@@ -1,10 +1,10 @@
 from django.contrib.auth import alogin
 from fastapi import Depends
-from mountaineer import Metadata, RenderBase, ControllerBase, sideeffect, APIException
+from mountaineer import Metadata, RenderBase, sideeffect, APIException
 from pydantic import BaseModel
 from starlette.requests import Request
 from asgiref.sync import sync_to_async
-
+from django_mountaineer.controllers import PageController
 from hotbot.utils.auth import AuthDependencies, UserProfileOutput
 
 
@@ -23,10 +23,7 @@ class LoginForm(BaseModel):
     password: str
 
 
-class LoginController(ControllerBase):
-    url = "/login"
-    view_path = "src/pages/login/page.tsx"
-
+class LoginController(PageController):
     def render(
         self,
         user: UserProfileOutput | None = Depends(AuthDependencies.get_user),
@@ -37,7 +34,7 @@ class LoginController(ControllerBase):
         )
 
     @sideeffect
-    async def login(self, form: LoginForm, request: Request):
+    async def login(self, form: LoginForm, request: Request) -> None:
         if not form.username or not form.password:
             raise FormError(status_code=400, detail="Invalid username or password")
 

@@ -8,6 +8,10 @@ class LayoutRender(RenderBase):
     pass
 
 
+class RedirectRender(RenderBase):
+    pass
+
+
 class LayoutController(LayoutControllerBase):
     view_path = "src/pages/layout.tsx"
 
@@ -17,6 +21,8 @@ class LayoutController(LayoutControllerBase):
         )
 
     @sideeffect
-    async def logout(self, request: Request):
+    async def logout(self, request: Request) -> RedirectRender:
         await alogout(request.state.django_request)
-        return RedirectResponse(url="/login")
+        return RedirectRender(
+            metadata=Metadata(explicit_response=RedirectResponse(url="/login"))
+        )

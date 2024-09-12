@@ -37,7 +37,7 @@ def neynar_webhook_receiver(request):
 
                 cast = Cast.create_from_json(body_data["data"])
                 if channel in ["politics", "cryptoleft"] and not cast.parent_hash:
-                    cast.automod_classify(verbose=True)
+                    cast.moderation_classify(verbose=True)
             except Exception as e:
                 traceback.print_exc()
                 logger.error(f"error creating cast in {channel}: {e}")
@@ -49,7 +49,7 @@ def neynar_webhook_receiver(request):
 def automod_classify(data: dict, channel: Channel) -> ModerationAnalysis | None:
     try:
         cast = Cast.create_from_json(data["cast"], channel=channel)
-        return cast.automod_classify()
+        return cast.moderation_classify()
     except Exception as e:
         traceback.print_exc()
         logger.error(f"error automod_classify: {e}")
